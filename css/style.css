@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 
 
 .navigation-bar {
-    padding: 0.6rem 4rem;
+    padding: 1rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
 .left-side-bar {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .logo-change {
@@ -70,8 +70,8 @@ body::-webkit-scrollbar {
 }
 
 .changemaker-text {
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .right-side-bar {
@@ -83,7 +83,7 @@ body::-webkit-scrollbar {
 
 .navigation-text-style {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     color: black;
     text-decoration: none;
 }
@@ -332,6 +332,7 @@ body::-webkit-scrollbar {
     font-weight: 500;
     font-size: 28px;
     color: #111111;
+    margin-bottom: 1.5rem;
 }
 
 .benifit-cards-box {
