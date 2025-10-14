@@ -56,8 +56,8 @@ body::-webkit-scrollbar {
 }
 
 .logo-change {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,7 @@ body::-webkit-scrollbar {
 
 .index-features-container {
     border: 2px solid #FFD666;
-    padding: 4rem 4rem;
+    padding: 3rem 4rem;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -176,7 +176,223 @@ body::-webkit-scrollbar {
     color: #111111;
 }
 
-.image-features-section {
+.icon-features-section-container {
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6rem;
+}
+
+.four-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.box-card-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.icon-card {
+    width: 40px;
+    height: 40px;
+}
+
+.title-of-card {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.description-features-bottom {
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #111111;
+}
+
+.changes-maker-section-index {
+    padding: 1rem 6rem;
+    background: linear-gradient(180deg, #FFE6A1 30.29%, #FFFFFF 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-text-reallives {
+    font-weight: 600;
+    font-size: 28px;
+    color: #111111;
+    text-align: center;
+}
+
+.width-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.rcmi-embed-cdn {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.impact-section-container {
+    padding: 10px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFE7A4 100%);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.inforamtion-card-container {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 1rem;
+}
+
+.card-info-container {
+    padding: 10px 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+
+}
+
+.card-info-box {
+    display: grid;
+    grid-template-rows: 1fr 30%;
+    gap: 3rem;
+}
+
+.btn-larne-more {
+    padding-left: 6rem;
+}
+
+.university-image-box {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.content-data-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title-university-name {
+    font-weight: 500;
+    font-size: 21px;
+    color: #111111;
+}
+
+.description-university-text {
+    font-weight: 400;
+    font-size: 17px;
+    color: #4D4D4D;
+}
+
+.inner-btn {
+    padding: 13px 15px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    color: #111111;
+    border-radius: 6px;
+    border: 1px solid #A3A3A3;
+    background-color: white;
+}
+
+.container-benifit-school {
+    padding: 2rem 6rem;
+    background-color: #FFF0DA;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+
+}
+
+.benifit-box-school-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.benifit-title-text {
+    font-weight: 500;
+    font-size: 28px;
+    color: #111111;
+}
+
+.benifit-cards-box {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.top-benfit-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottom-data-benifit {
+    padding: 10px;
+}
+
+.header-title-side-text {
+    font-weight: 400;
+    font-size: 22px;
+    color: #111111;
+}
+
+.bottom-data-benifit-description {
+    font-weight: 400;
+    font-size: 19px;
+    color: #4D4D4D;
+
+}
+
+.footer-container {
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem 6rem;
+}
+
+.footer-section-1 {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-section-2 {
+    border: 1px solid black;
+    padding: 10px
+}
+
+.footer-descritpion-text {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.footer-descritpion-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #4D4D4D;
+
+
 }
