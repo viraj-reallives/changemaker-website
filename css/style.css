@@ -600,7 +600,7 @@ body::-webkit-scrollbar {
 .container-event-main {
     display: grid;
     grid-template-columns: 40% 1fr;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem 1rem;
 }
 
@@ -655,6 +655,54 @@ body::-webkit-scrollbar {
     font-size: 20px;
     line-height: 26px;
     color: #262626;
+}
+
+.backgroudn-none-color {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.changemaker-journey-container {
+    width: 100%;
+    height: 80vh;
+    background-color: #FFE5C5;
+}
+
+.child-changemaker-container {
+    background-color: lightblue;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.top-child-changemaker {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text-changemaker-journey {
+    font-weight: 600;
+    font-size: 28px;
+    color: #111111;
+    text-align: center;
+}
+
+.changemaker-devlopement-text {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #111111;
+}
+
+.changemaker-devlopment-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+
 }
 
 /* tab css  */
