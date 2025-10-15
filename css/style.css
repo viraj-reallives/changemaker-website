@@ -525,7 +525,6 @@ body::-webkit-scrollbar {
 
 .data-container-rcmi-main {
     padding: 10px;
-    height: 90vh;
     background-color: #FFF7EC;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -553,6 +552,7 @@ body::-webkit-scrollbar {
     box-shadow: 0px 0px 8px 0px #00000040;
     background-color: white;
     border-radius: 6px;
+    padding: 1rem 1rem;
 }
 
 .flex-colume-what-rcmi {
@@ -563,9 +563,81 @@ body::-webkit-scrollbar {
 
 .rcmi-info-data-text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     color: #262626;
     line-height: 26px;
 }
+
+.title-description-mid {
+    font-weight: 600;
+    font-size: 18px;
+    color: #262626;
+}
+
+.how-to-works-rcmi-container {
+    /* border: 1px solid black; */
+    padding: 1rem 6rem;
+}
+
+.how-to-works-rcmi-container-inner {
+    padding: 1rem;
+    height: 100%;
+    box-shadow: 0px 0px 8px 0px #00000040;
+    background-color: #DAE5EA;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.first-title-how-to-work {
+    font-weight: 600;
+    font-size: 28px;
+    color: #111111;
+    text-align: center;
+}
+
+.container-event-main {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.container-inner-child-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title-game-event {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+
+.description-game-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #262626;
+}
+
+.container-inner-child-right {
+    padding: 10px;
+    box-shadow: 0px 0px 8px 0px #00000040;
+    background: linear-gradient(90deg, #355A6A 0%, #1A2C33 100%);
+    border-radius: 6px;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.event-right-game-container {
+    background: linear-gradient(90deg, #355A6A 0%, #1A2C33 100%);
+    box-shadow: 0px 0px 8px 0px #00000040;
+    border-radius: 6px;
+}
+
 
 /* tab css  */
