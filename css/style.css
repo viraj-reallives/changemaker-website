@@ -638,5 +638,23 @@ body::-webkit-scrollbar {
     border-radius: 6px;
 }
 
+.padding-0 {
+    padding: 0px !important;
+}
+
+.background-white {
+    background: white !important;
+}
+
+.border-game-color {
+    border: 2px solid #1A2C33;
+}
+
+.title-tag-rcmi {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #262626;
+}
 
 /* tab css  */
