@@ -169,7 +169,8 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 5px rgb(194, 194, 194);;
+    box-shadow: 0 0 5px rgb(194, 194, 194);
+    ;
 }
 
 .reallives-change-text {
@@ -226,7 +227,7 @@ body::-webkit-scrollbar {
 }
 
 .experience-text-reallives {
-    font-weight: 4  00;
+    font-weight: 4 00;
     font-size: 28px;
     color: #111111;
     text-align: center;
@@ -370,33 +371,54 @@ body::-webkit-scrollbar {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 8rem;
     padding: 2rem 6rem;
 }
 
 .footer-section-1 {
-    border: 1px solid black;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
 .footer-section-2 {
-    border: 1px solid black;
-    padding: 10px;
+    /* border: 1px solid black;
+    padding: 10px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
-.footer-descritpion-text {
-    border: 1px solid black;
-    padding: 10px;
-}
+.footer-descritpion-text {}
 
 .footer-descritpion-text {
     font-weight: 400;
     font-size: 18px;
     color: #4D4D4D;
+}
+
+.label-footer-button-box {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.text-footer-label {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.footer-ankar-style {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer-child-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
