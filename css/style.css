@@ -53,6 +53,7 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    cursor: pointer;
 }
 
 .logo-change {
