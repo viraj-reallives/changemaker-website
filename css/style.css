@@ -8,7 +8,7 @@
 }
 
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     font-family: 'Material Symbols Outlined' !important;
 }
 
@@ -248,8 +248,8 @@ body::-webkit-scrollbar {
 }
 
 .impact-section-container {
-    padding: 10px;
-    background: linear-gradient(180deg, #FFFFFF 0%, #FFE7A4 100%);
+    /* padding: 10px; */
+    /* background: linear-gradient(180deg, #FFFFFF 0%, #FFE7A4 100%); */
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 1rem;
@@ -408,24 +408,24 @@ body::-webkit-scrollbar {
 
 /* TAB CODE */
 .nav-link {
-	text-decoration: none;
-	color: var(--neutral-700);
-	/* font-weight: 500; */
-	transition: color 0.2s ease;
-	position: relative;
+    text-decoration: none;
+    color: var(--neutral-700);
+    /* font-weight: 500; */
+    transition: color 0.2s ease;
+    position: relative;
 }
 
 .nav-link.active {
-	/* color: var(--primary-blue); */
-	color: #30a5b7 !important;
+    /* color: var(--primary-blue); */
+    color: #30a5b7 !important;
 }
 
 .tab-panel {
-	display: none;
+    display: none;
 }
 
 .tab-panel.active {
-	display: block;
+    display: block;
 }
 
 
@@ -1313,7 +1313,14 @@ body::-webkit-scrollbar {
     color: black !important;
 }
 
+/* .contact page  */
+
+
+
+/* .contact page  */
+
 /* RESPONSIVE STYLES */
+
 @media (max-width: 1280px) {
     .sdg-container-imapct-tab {
         padding: 10px 4rem;
