@@ -8,6 +8,10 @@
 }
 
 
+.material-symbols-outlined{
+    font-family: 'Material Symbols Outlined' !important;
+}
+
 body::-webkit-scrollbar {
     width: 0px;
 }
@@ -859,3 +863,821 @@ body::-webkit-scrollbar {
 }
 
 /* tab css  */
+
+/* impact section  css */
+/* impact section   css */
+
+/* IMPACT SECTION SPECIFIC STYLES */
+
+#impact {
+    background-color: transparent;
+    padding: 0px !important;
+}
+
+/* Impact Section Container */
+
+/* .impact-section-container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.tab-impact {
+    display: none;
+}
+
+.active-impact {
+    display: block;
+}
+
+/* Impact Image Box with Slider */
+.impact-image-box {
+    height: 90vh;
+    position: relative;
+}
+
+.imapct-text-meddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.impact-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.impact-img-containe {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 2rem;
+}
+
+/* Impact Slider */
+#impact-slider .impact-slider {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.impact-slider>img {
+    width: 100%;
+    height: 100%;
+}
+
+#impact-slider .impact-slider.active-slider {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* Our Global Impact Section */
+.our-global-impact-wrapper {
+    padding: 1rem;
+    height: 80vh;
+}
+
+.global-image-section {
+    height: 70%;
+}
+
+.global-title-description-container {
+    padding: 10px 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.first-title-global {
+    font-weight: 400;
+    font-size: 28px;
+    color: #0AAEC6;
+}
+
+.global-second-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    text-align: justify;
+}
+
+/* Card Section */
+.our-card-section-wrapper {
+    padding: 3rem 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-box-impact {
+    padding: 2rem 3rem;
+    box-shadow: 0px 0px 6px 0px #00000040;
+    border-radius: 6px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.workshop-text {
+    color: #333333;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: start;
+}
+
+.bottom-card-imapct-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.cards-title-imapct-text {
+    font-weight: 400;
+    font-size: 28px;
+    color: #0AAEC6;
+    text-align: start;
+}
+
+.impact-image-card>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.impact-card-data {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 1.5rem;
+}
+
+.university-text-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    text-align: start;
+}
+
+.date-of-start-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    text-align: start;
+}
+
+.span-imapct-colume {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.participants-title-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #444444;
+    text-align: start;
+}
+
+.wapper-show-btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.color-btn-font {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    background-color: #F9C1A5;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+}
+
+.empathy-btn-color {
+    background-color: #CAECF1 !important;
+}
+
+.larne-more-btn {
+    width: max-content;
+    padding: 0.5rem 0.6rem;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #C0BBBB;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+/* Campus Card */
+.card-reallives-campus-box {
+    height: 170px;
+    background-color: #FFC41F;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.global-student-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+/* Button Colors */
+.btn-3-21-Century-color {
+    background-color: #D4E8EB !important;
+}
+
+.business-acumen-color {
+    background-color: #DFF6C2 !important;
+}
+
+.color-btn-same {
+    background-color: #F7B4B4 !important;
+}
+
+.changemaking-color {
+    background-color: #ffef9f !important;
+}
+
+.social-color {
+    background-color: #c4c1ff;
+}
+
+.background-color-white {
+    background-color: white !important;
+    border: none;
+}
+
+/* Tab Sections */
+.section-two-container {
+    padding: 3rem 3rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: none;
+}
+
+.section-flex-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-arrwo-left {
+    color: black;
+    font-size: 18px;
+}
+
+.btn-top-slider {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.active-by-default {
+    color: #0AAEC5 !important;
+}
+
+/* Slider Container */
+.wrapper-silder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.slider-box-container {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slider-box-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.arrow-round-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Content Sections */
+.content-tab-container-imapct {
+    padding: 1rem 10rem;
+}
+
+.container-logo-box-impact {
+    padding: 1rem;
+}
+
+.sdg-container-imapct-tab {
+    height: 200px;
+    padding: 10px 10rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.grid-sdg-card-imapct {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1rem;
+}
+
+.sdg-imapct img {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.student-testimonials-title {
+    font-weight: 400;
+    font-size: 28px;
+    color: #0AAEC6;
+    text-align: start;
+}
+
+.first-tab-style {
+    padding: 10px 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.impact-left-data-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-data-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: black;
+    text-align: start;
+}
+
+.text-data-content-1>p {
+    width: 100%;
+    text-align: justify;
+}
+
+.container-student-impact-data {
+    padding: 10px 9rem;
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    gap: 2rem;
+}
+
+.wrapper-footer-tab-padding {
+    padding: 0rem 9rem;
+}
+
+.first-tab-margin {
+    margin-top: 1.3rem;
+}
+
+/* Slide Transitions */
+.slide-impact,
+.slide-impact2,
+.slide-impact3,
+.slide-impact10 {
+    display: none;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.slide-impact.active,
+.slide-impact2.active,
+.slide-impact3.active,
+.slide-impact10.active {
+    display: block;
+}
+
+/* Utility Classes */
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.flex-align-start {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.color-black {
+    color: black !important;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1280px) {
+    .sdg-container-imapct-tab {
+        padding: 10px 4rem;
+    }
+
+    .first-tab-style {
+        padding: 0rem 4rem;
+    }
+
+    .our-card-section-wrapper {
+        padding: 3rem 4rem;
+    }
+
+    .global-title-description-container {
+        padding: 10px 4rem;
+    }
+
+    .content-tab-container-imapct {
+        padding: 1rem 5rem;
+    }
+
+    .container-student-impact-data {
+        padding: 1rem 5rem;
+    }
+}
+
+@media (max-width: 1180px) {
+    .sdg-container-imapct-tab {
+        padding: 10px 1rem;
+    }
+
+    .student-testimonials-title {
+        font-size: 26px;
+    }
+
+    .first-tab-style {
+        padding: 0rem 1rem;
+    }
+
+    .content-tab-container-imapct {
+        padding: 1rem 0rem;
+    }
+
+    .container-student-impact-data {
+        padding: 10px 0rem;
+    }
+
+    .wrapper-footer-tab-padding {
+        padding: 0rem 0rem;
+    }
+
+    .our-card-section-wrapper {
+        padding: 3rem 2rem;
+    }
+
+    .global-title-description-container {
+        padding: 10px 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .sdg-container-imapct-tab {
+        padding: 10px 1rem;
+    }
+
+    .student-testimonials-title {
+        font-size: 25px;
+    }
+
+    .first-tab-style {
+        padding: 0rem 1rem;
+    }
+
+    .content-tab-container-imapct {
+        padding: 1rem 0rem;
+    }
+
+    .container-student-impact-data {
+        grid-template-columns: 1fr;
+        padding: 10px 0rem;
+    }
+
+    .wrapper-footer-tab-padding {
+        padding: 0rem 0rem;
+    }
+
+    .global-title-description-container {
+        padding: 10px 1rem;
+    }
+
+    .our-global-impact-wrapper {
+        height: max-content;
+    }
+
+    .our-card-section-wrapper {
+        padding: 2rem 1rem;
+    }
+
+    .bottom-card-imapct-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-box-impact {
+        padding: 1rem 1rem;
+    }
+
+    .imapct-text-meddle {
+        font-size: 50px;
+    }
+
+    .university-text-title {
+        font-size: 17px;
+    }
+
+    .cards-title-imapct-text {
+        font-size: 17px;
+    }
+
+    .participants-title-text {
+        font-size: 19px;
+    }
+
+    .color-btn-font {
+        font-size: 14px;
+    }
+
+    .global-student-title {
+        font-size: 24px;
+    }
+
+    .first-title-global {
+        font-size: 22px;
+    }
+
+    .global-second-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sdg-container-imapct-tab {
+        padding: 10px 1rem;
+    }
+
+    .student-testimonials-title {
+        font-size: 24px;
+    }
+
+    .first-tab-style {
+        padding: 0rem 1rem;
+    }
+
+    .content-tab-container-imapct {
+        padding: 1rem 0rem;
+    }
+
+    .container-student-impact-data {
+        grid-template-columns: 1fr;
+        padding: 10px 0rem;
+    }
+
+    .wrapper-footer-tab-padding {
+        padding: 0rem 0rem;
+    }
+
+    .global-title-description-container {
+        padding: 10px 1rem;
+    }
+
+    .our-global-impact-wrapper {
+        height: max-content;
+    }
+
+    .our-card-section-wrapper {
+        padding: 2rem 1rem;
+    }
+
+    .bottom-card-imapct-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-box-impact {
+        padding: 1rem 1rem;
+    }
+
+    .imapct-text-meddle {
+        font-size: 50px;
+    }
+
+    .university-text-title {
+        font-size: 17px;
+    }
+
+    .cards-title-imapct-text {
+        font-size: 17px;
+    }
+
+    .participants-title-text {
+        font-size: 19px;
+    }
+
+    .color-btn-font {
+        font-size: 14px;
+    }
+
+    .global-student-title {
+        font-size: 16px;
+    }
+
+    .first-title-global {
+        font-size: 22px;
+    }
+
+    .global-second-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .text-data-content-1>p {
+        width: 100%;
+    }
+
+    .container-logo-box-impact>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-data-content-impact {
+        text-align: justify;
+    }
+
+    .wrapper-footer-tab-padding {
+        padding: 0rem 1rem;
+    }
+
+    .impact-left-data-box {
+        padding: 0px;
+    }
+
+    .wrapper-silder-container {
+        flex-direction: column;
+    }
+
+    .section-two-container {
+        padding: 4rem 1rem;
+    }
+
+    .btn-top-slider {
+        font-size: 16px;
+    }
+
+    .container-student-impact-data {
+        padding: 10px 1rem;
+    }
+
+    .container-student-impact-data {
+        grid-template-columns: 1fr;
+    }
+
+    .content-tab-container-imapct {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .sdg-imapct>img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .sdg-container-imapct-tab {
+        padding: 0px 0rem;
+    }
+
+    .grid-sdg-card-imapct {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .student-testimonials-title {
+        font-size: 22px;
+    }
+
+    .first-tab-style {
+        padding: 0rem 1rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .sdg-imapct>img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .sdg-container-imapct-tab {
+        padding: 0px 0rem;
+    }
+
+    .grid-sdg-card-imapct {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .student-testimonials-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .sdg-imapct>img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sdg-imapct>img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sdg-imapct>img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 440px) {
+    .sdg-imapct>img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sdg-imapct>img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    .sdg-imapct>img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+    .sdg-imapct>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text-data-content-1>p {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+
+/* impact section css   */
