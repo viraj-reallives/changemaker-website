@@ -102,11 +102,7 @@ body::-webkit-scrollbar {
     gap: 1.7rem;
 }
 
-.inner-section-image {
-    /* border: 1px solid black;
-    padding: 10px; */
-
-}
+.inner-section-image {}
 
 .title-section-container {}
 
@@ -362,6 +358,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     font-size: 19px;
     color: #4D4D4D;
+    line-height: 27px;
 
 }
 
@@ -510,13 +507,29 @@ body::-webkit-scrollbar {
 .home-container {
     display: flex;
     flex-direction: column;
-    display: none;
+    display: block;
 }
 
 .about-container {
     width: 100vw;
-    /* display: none; */
+    display: none;
 }
+
+.impact-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: none;
+}
+
+.contact-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: none;
+}
+
+
 
 .competencies-backgroudn-image {
     padding-top: 1rem;
