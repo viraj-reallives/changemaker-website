@@ -37,47 +37,32 @@
 
             </div>
 
-            <div class="right-side-bar">
+            <div class="right-side-bar nav-links">
 
-                <div class="dropdown">
-                    <button class="dropbtn navigation-text-style ">
-                        Best Suited For
-                        <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
-                    </button>
+               <div class="dropdown">
+    <button id="dropdownButton" class="dropbtn navigation-text-style nav-link active" data-target="best-suited">
+      Best Suited For
+      <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+    </button>
 
-                    <div class="dropdown-content">
-
-                        <span class="span-flex-style">
-
-
-                            <a class="navigation-text-style dropdown-border " href="">
-                                For Institutions
-                            </a>
-
-                            <a class="navigation-text-style dropdown-border " href="">For Employers</a>
-
-                            <a class="navigation-text-style " href="">For Parents</a>
-
-
-                        </span>
-
-                    </div>
-
-                </div>
-
-                <!-- <a class="navigation-text-style " href="">Best Suited For</a> -->
-
-                <a class="navigation-text-style " href="">About RCMI</a>
-                <a class="navigation-text-style " href="">Our Impact</a>
-                <a class="navigation-text-style  " href="">Contact Us</a>
+    <div class="dropdown-content">
+      <span class="span-flex-style">
+        <a class="navigation-text-style dropdown-border dropdown-item" data-target="institutions" href="#">For Institutions</a>
+        <a class="navigation-text-style dropdown-border dropdown-item" data-target="employers" href="#">For Employers</a>
+        <a class="navigation-text-style dropdown-item" data-target="parents" href="#">For Parents</a>
+      </span>
+    </div>
+  </div>
+  <a href="#" class="nav-link navigation-text-style" data-target="about">About RCMI</a>
+  <a href="#" class="navigation-text-style nav-link" data-target="impact">Our Impact</a>
+  <a href="#" class="navigation-text-style nav-link" data-target="contact">Contact Us</a>
 
             </div>
 
         </nav>
-
-
-
-        <div class="home-container ">
+    <div id="tab-content">
+  <div class="tab-pane" id="best-suited">
+      <div class="home-container  tab-panel active ">
 
             <div class="section-first-container">
 
@@ -427,13 +412,16 @@
 
         </div>
 
+  </div>
+  <div class="tab-pane section-first-container" id="institutions" style="display: none;">Institutions content...</div>
+  <div class="tab-pane section-first-container" id="employers" style="display: none;">Employers content...</div>
+  <div class="tab-pane section-first-container" id="parents" style="display: none;">Parents content...</div>
+  
 
-        <div class="about-container ">
-
+  <div class="tab-pane about-container " id="about" style="display: none;">
             <div class="competencies-backgroudn-image">
                 <img class="image-fit-content " src="image/competencies-background-image.svg" alt="">
             </div>
-
             <div class="data-container-rcmi-main">
 
                 <div class="rcmi-data-left-bar">
@@ -586,7 +574,6 @@
                 </div>
 
             </div>
-
             <div class="how-to-works-rcmi-container">
 
                 <div class="how-to-works-rcmi-container-inner">
@@ -775,8 +762,6 @@
                 </div>
 
             </div>
-
-
             <div class="changemaker-journey-container">
 
                 <div class="child-changemaker-container">
@@ -884,8 +869,6 @@
                 </div>
 
             </div>
-
-
             <div class="begin-your-changemaker-container">
 
                 <p class="make-decision-skill-text">Make decisions, grow skills, and see your impact come to life.</p>
@@ -895,17 +878,13 @@
                 </a>
 
             </div>
+  </div>
+  <div class="tab-pane section-first-container" id="impact" style="display: none;">Impact content...</div>
+  <div class="tab-pane section-first-container" id="contact" style="display: none;">Contact Us content...</div>
+</div>
 
 
-        </div>
-
-
-        <div class="impact-container"> </div>
-
-
-        <div class="contact-container"></div>
-
-
+      
         <footer class="footer-container">
 
             <div class="footer-section-1">

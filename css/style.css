@@ -400,6 +400,31 @@ body::-webkit-scrollbar {
     text-align: start;
 }
 
+
+/* TAB CODE */
+.nav-link {
+	text-decoration: none;
+	color: var(--neutral-700);
+	/* font-weight: 500; */
+	transition: color 0.2s ease;
+	position: relative;
+}
+
+.nav-link.active {
+	/* color: var(--primary-blue); */
+	color: #30a5b7 !important;
+}
+
+.tab-panel {
+	display: none;
+}
+
+.tab-panel.active {
+	display: block;
+}
+
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;
