@@ -94,6 +94,8 @@ body::-webkit-scrollbar {
 }
 
 .section-first-container {
+    font-size: 24px;
+    height: 53vh;
     width: 100%;
     padding: 6rem 6rem 2rem 6rem;
     display: grid;
@@ -484,6 +486,7 @@ body::-webkit-scrollbar {
     grid-template-columns: repeat(2, 1fr);
     gap: 8rem;
     padding: 2rem 6rem;
+    border: 1px solid #e6e6e6;
 }
 
 .footer-section-1 {
@@ -620,6 +623,7 @@ body::-webkit-scrollbar {
 .how-to-works-rcmi-container {
     /* border: 1px solid black; */
     padding: 1rem 6rem;
+    margin-bottom: 4rem;
 }
 
 .how-to-works-rcmi-container-inner {
