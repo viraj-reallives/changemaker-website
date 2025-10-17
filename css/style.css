@@ -530,6 +530,10 @@ body::-webkit-scrollbar {
     color: #333333;
 }
 
+.footer-ankar-style:hover {
+    color: #de8200;
+}
+
 .footer-child-container {
     display: flex;
     flex-direction: column;
