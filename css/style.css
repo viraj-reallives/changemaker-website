@@ -426,6 +426,7 @@ body::-webkit-scrollbar {
     /* color: var(--primary-blue); */
     color: #222222!important;
     text-decoration: underline;
+    text-underline-offset: 7px;
 }
 
 .tab-panel {
