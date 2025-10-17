@@ -12,6 +12,10 @@
     font-family: 'Material Symbols Outlined' !important;
 }
 
+.image-height {
+    height: 25rem;
+}
+
 body::-webkit-scrollbar {
     width: 0px;
 }
