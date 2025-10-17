@@ -163,6 +163,7 @@ body::-webkit-scrollbar {
     grid-template-rows: auto 1fr;
     gap: 2rem;
     padding: 0.5rem 6rem 6rem 6rem;
+    margin-top: 4rem;
 }
 
 .index-features-container {
