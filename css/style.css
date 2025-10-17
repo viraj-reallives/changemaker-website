@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
 .become-change-btn {
     background-color: #FFC067;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     color: #111111;
     padding: 10px 10px;
     border-radius: 6px;
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
     border: 2px solid #FF9503;
     padding: 10px 10px;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     color: #111111;
     background-color: transparent;
     border-radius: 6px;
