@@ -13,13 +13,17 @@
 }
 
 .image-height {
-    height: 25rem;
+    height: 25rem !important;
 }
 
 body::-webkit-scrollbar {
     width: 0px;
 }
 
+
+.text-style-descoration {
+    text-decoration: none;
+}
 
 .image-fit-content {
     width: 100%;
@@ -1362,6 +1366,7 @@ body::-webkit-scrollbar {
 /* RESPONSIVE STYLES */
 
 @media (max-width: 1280px) {
+
     .sdg-container-imapct-tab {
         padding: 10px 4rem;
     }
@@ -1716,9 +1721,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 375px) {
 
-    .right-side-bar {
-        display: none;
-    }
+
 
     .sdg-imapct>img {
         width: 100px;
