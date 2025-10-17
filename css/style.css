@@ -416,6 +416,12 @@ body::-webkit-scrollbar {
     text-align: start;
 }
 
+.image-cover-class {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 
 /* TAB CODE */
 .nav-link {
