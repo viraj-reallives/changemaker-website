@@ -145,7 +145,7 @@ body::-webkit-scrollbar {
 .become-change-btn {
     background-color: #FFC067;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: #111111;
     padding: 10px 10px;
     border-radius: 6px;
@@ -157,7 +157,7 @@ body::-webkit-scrollbar {
     border: 2px solid #FF9503;
     padding: 10px 10px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: #111111;
     background-color: transparent;
     border-radius: 6px;
@@ -883,7 +883,7 @@ body::-webkit-scrollbar {
     background-color: #ffc067;
     border-radius: 6px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     color: #111111;
 }
 
@@ -1099,7 +1099,7 @@ body::-webkit-scrollbar {
     width: max-content;
     padding: 0.5rem 0.6rem;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: #444444;
     display: flex;
     align-items: center;
@@ -1295,6 +1295,7 @@ body::-webkit-scrollbar {
     display: grid;
     grid-template-columns: 1fr 30%;
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .wrapper-footer-tab-padding {
