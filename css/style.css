@@ -117,15 +117,10 @@ body::-webkit-scrollbar {
     gap: 1.7rem;
 }
 
-.inner-section-image {}
-
-.title-section-container {}
-
 .description-smoll-words-title {
     font-weight: 300;
     font-size: 28px;
     color: #444444;
-
 }
 
 .button-changes-container {
@@ -517,8 +512,6 @@ body::-webkit-scrollbar {
     gap: 1rem;
 }
 
-.footer-descritpion-text {}
-
 .footer-descritpion-text {
     font-weight: 400;
     font-size: 18px;
@@ -768,11 +761,6 @@ body::-webkit-scrollbar {
     font-size: 20px;
     color: #333333;
     text-align: center;
-}
-
-.changemaker-journey-background-image {
-    /* border: 1px solid black;
-    padding: 10px; */
 }
 
 .point-cards-container {
