@@ -412,9 +412,9 @@ body::-webkit-scrollbar {
 }
 
 .image-cover-class {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -1358,6 +1358,7 @@ body::-webkit-scrollbar {
 
 /* .contact page  */
 
+
 /* RESPONSIVE STYLES */
 
 @media (max-width: 1280px) {
@@ -1580,6 +1581,164 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 700px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 23px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
     .text-data-content-1>p {
         width: 100%;
     }
@@ -1627,6 +1786,163 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 650px) {
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 23px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
     .sdg-imapct>img {
         width: 150px;
         height: 130px;
@@ -1652,6 +1968,164 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 570px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 23px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
     .sdg-imapct>img {
         width: 140px;
         height: 140px;
@@ -1673,6 +2147,166 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 530px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 23px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
+
+
     .sdg-imapct>img {
         width: 130px;
         height: 130px;
@@ -1680,6 +2314,165 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 480px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 23px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
+
     .sdg-imapct>img {
         width: 120px;
         height: 120px;
@@ -1687,6 +2480,166 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 450px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 19px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
+
+
     .sdg-imapct>img {
         width: 120px;
         height: 120px;
@@ -1694,6 +2647,166 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 440px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 19px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
+
+
     .sdg-imapct>img {
         width: 100px;
         height: 100px;
@@ -1701,6 +2814,166 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 400px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 19px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
+
+
     .sdg-imapct>img {
         width: 100px;
         height: 100px;
@@ -1708,6 +2981,166 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 390px) {
+
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 19px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
+
+
+
     .sdg-imapct>img {
         width: 100px;
         height: 100px;
@@ -1716,6 +3149,162 @@ body::-webkit-scrollbar {
 
 @media (max-width: 375px) {
 
+
+    /* mobile screen  */
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .section-first-container {
+        height: max-content;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .card-info-container {
+        grid-template-columns: 1fr;
+        padding: 10px 1rem;
+        gap: 1rem;
+    }
+
+    .section-second-container {
+        padding: 0.5rem 1rem 1rem 1rem;
+        margin-top: 0rem;
+    }
+
+    .benifit-box-school-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        height: max-content;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .four-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-benifit-school {
+        padding: 1rem 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .changes-maker-section-index {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .rcmi-embed-cdn {
+        height: max-content;
+    }
+
+    .card-info-box {
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation-bar {
+        padding: 1rem 1rem;
+    }
+
+    .title-section-1 {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .become-change-btn {
+        font-size: 14px;
+    }
+
+    .how-this-works-btn {
+        font-size: 14px;
+    }
+
+    .inner-section-container {
+        gap: 0rem;
+    }
+
+    .button-changes-container {
+        margin-top: 1rem;
+    }
+
+    .reallives-change-text {
+        font-size: 19px;
+    }
+
+
+    .image-height {
+        height: max-content !important;
+    }
+
+    .index-features-container {
+        padding: 1rem 1rem;
+    }
+
+    .icon-features-section-container {
+        gap: 1rem;
+    }
+
+    .description-features-bottom {
+        font-size: 15px;
+    }
+
+    .box-card-data {
+        gap: 2rem;
+    }
+
+    .title-of-card {
+        font-size: 17px;
+    }
+
+
+    .icon-card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title-side-text {
+        font-size: 15px;
+    }
+
+    .bottom-data-benifit-description {
+        font-size: 15px;
+    }
+
+    .benifit-box-school-container {
+        gap: 1rem;
+    }
+
+    .benifit-title-text {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .footer-descritpion-text {
+        font-size: 15px;
+    }
+
+    .benifit-cards-box {
+        gap: 0rem;
+    }
+
+    .footer-section-2 {
+        gap: 0rem;
+    }
+
+
+    .text-footer-label {
+        font-size: 15px;
+    }
+
+    .experience-text-reallives {
+        font-size: 20px;
+    }
+
+    /* mobile screen  */
 
 
     .sdg-imapct>img {
