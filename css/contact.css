@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-family: "Inter", system-ui, -apple-system, sans-serif; */
+
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif !important;
+
+    /* scroll-behavior: smooth;
+	scrollbar-width: thin;
+	scrollbar-color: #cfd9df #f9f9f9; */
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast;
+    /* Safari */
+    image-rendering: crisp-edges;
+    /* Other browsers */
+    -webkit-transform: translateZ(0);
+}
+
+body {
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
+/* 
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f9f9f9;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg, #cfd9df, #e2ebf0);
+	border-radius: 8px;
+	border: 2px solid #f9f9f9;
+} */
+
+
+/* CSS Custom Properties */
+:root {
+    --primary-blue: #2563eb;
+    --primary-green: #059669;
+    --primary-earth: #92400e;
+    --secondary-teal: #0d9488;
+    --accent-orange: #ea580c;
+    --success: #16a34a;
+    --warning: #ca8a04;
+    --error: #dc2626;
+    --neutral-50: #f9fafb;
+    --neutral-100: #f3f4f6;
+    --neutral-200: #e5e7eb;
+    --neutral-300: #d1d5db;
+    --neutral-400: #9ca3af;
+    --neutral-500: #6b7280;
+    --neutral-600: #4b5563;
+    --neutral-700: #374151;
+    --neutral-800: #1f2937;
+    --neutral-900: #111827;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    --border-radius: 0.5rem;
+    --border-radius-lg: 1rem;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+        0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+
+
+/* Contact Form */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-3xl);
+    margin-top: var(--spacing-3xl);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--neutral-700);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: var(--spacing-md);
+    border: 2px solid var(--neutral-200);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+}
+
+.contact-info {
+    background: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-2xl);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.contact-icon {
+    width: 48px;
+    height: 48px;
+    background: #FF9504;
+    color: white;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contact-item h4 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--neutral-900);
+}
+
+.contact-item p {
+    color: var(--neutral-600);
+}
+
+.office-hours,
+.quick-links {
+    background: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-2xl);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.hours-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.hours-item {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--neutral-200);
+}
+
+.hours-item:last-child {
+    border-bottom: none;
+}
+
+.quick-links ul {
+    list-style: none;
+}
+
+.quick-links li {
+    margin-bottom: var(--spacing-sm);
+}
+
+.quick-links a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.quick-links a:hover {
+    color: var(--primary-green);
+}
+
+/* FAQ Section */
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-2xl);
+    margin-top: var(--spacing-3xl);
+}
+
+.faq-item {
+    background: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-2xl);
+    box-shadow: var(--shadow-md);
+}
+
+.faq-item h3 {
+    margin-bottom: var(--spacing-md);
+    color: var(--neutral-900);
+}
+
+.faq-item p {
+    color: var(--neutral-600);
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.bg-gradient {
+    background: linear-gradient(135deg,
+            var(--primary-blue),
+            var(--primary-green));
+}
+
+.text-white {
+    color: white;
+}
+
+.cta-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-actions {
+    display: flex;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bg-neutral {
+    background: var(--neutral-50);
+}
+
+.btn-lg {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem !important;
+    line-height: 1.5;
+    border-radius: 6px;
+    background-color: #FFBF6780;
+    gap: 10px;
+    font-weight: 500;
+    color: #00000080 !important;
+}
+
+.send-color {
+    color: #00000080 !important;
+}
