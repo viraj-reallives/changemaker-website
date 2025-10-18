@@ -1389,6 +1389,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1180px) {
+
     .sdg-container-imapct-tab {
         padding: 10px 1rem;
     }
@@ -2982,7 +2983,6 @@ body::-webkit-scrollbar {
 
 @media (max-width: 390px) {
 
-
     /* mobile screen  */
 
     .right-side-bar {
@@ -3317,6 +3317,5 @@ body::-webkit-scrollbar {
         font-size: 15px;
     }
 }
-
 
 /* impact section css   */

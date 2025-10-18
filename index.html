@@ -90,15 +90,15 @@
 
 							<div class="button-changes-container">
 
-								<a href="https://reallivesworld.com/reallives-website-main/license.html" target="_blank">
+								<a href="https://reallivesworld.com/reallives-website-main/license.html"
+									target="_blank">
 
 									<button class="become-change-btn" t>Become a ChangeMaker</button>
 								</a>
 
 
-								<a href="  .how-to-works-rcmi-container">
+								<a href="javascript:void(0)" onclick="setActiveTab('about')">
 									<button class="how-this-works-btn">How this works?</button>
-
 								</a>
 
 							</div>
@@ -1538,13 +1538,10 @@
 						</div>
 					</div>
 
-
-
 				</div>
 
 
 				<div class="section-two-container  tab-impact" id="tab2impact">
-
 
 					<span class="section-flex-button">
 
@@ -1770,8 +1767,9 @@
 
 							<!-- <img class="impact-img-containe " src="images/university-boy-image.svg" alt=""> -->
 
-							<video class=" image-cover-class " src="https://reallivesfrontend.s3.us-east-1.amazonaws.com/Student-video-workshop.mp4" loop="" controls
-								playsinline="">
+							<video class=" image-cover-class "
+								src="https://reallivesfrontend.s3.us-east-1.amazonaws.com/Student-video-workshop.mp4"
+								loop="" controls playsinline="">
 							</video>
 
 						</div>
@@ -2385,9 +2383,12 @@
 					<p class="text-footer-label">Who we cater</p>
 
 					<span class="footer-child-container">
-						<a class="footer-ankar-style" href="">For Institutions</a>
-						<a class="footer-ankar-style" href="">For Employers</a>
-						<a class="footer-ankar-style" href="">For Parents</a>
+						<a class="footer-ankar-style" href="javascript:void(0)"
+							onclick="setActiveTab('institutions')">For Institutions</a>
+						<a class="footer-ankar-style" href="javascript:void(0)" onclick="setActiveTab('parents')">For
+							Parents</a>
+						<a class="footer-ankar-style" href="javascript:void(0)" onclick="setActiveTab('employers')">For
+							Employers</a>
 
 					</span>
 
@@ -2399,7 +2400,8 @@
 					<p class="text-footer-label">Get to Know</p>
 
 					<span class="footer-child-container">
-						<a class="footer-ankar-style" href="">About RCMI</a>
+						<a class="footer-ankar-style" href="javascript:void(0)" onclick="setActiveTab('about')">About
+							RCMI</a>
 					</span>
 
 				</div>
@@ -2410,7 +2412,8 @@
 					<p class="text-footer-label">Support</p>
 
 					<span class="footer-child-container">
-						<a class="footer-ankar-style" href="#">Contact Us</a>
+						<a class="footer-ankar-style" href="javascript:void(0)"
+							onclick="setActiveTab('contact')">Contact Us</a>
 					</span>
 
 				</div>
@@ -2426,6 +2429,23 @@
 	</div>
 
 	<script src="js/script.js"></script>
+
+	<script>
+		function setActiveTab(target) {
+			document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+			const aboutTab = document.querySelector(`.nav-link[data-target="${target}"]`);
+			if (aboutTab) aboutTab.classList.add('active');
+			document.querySelectorAll('.tab-pane').forEach(pane => {
+				pane.style.display = 'none';
+			});
+			const targetContent = document.getElementById(target);
+			if (targetContent) targetContent.style.display = 'block';
+			targetContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+		}
+
+
+	</script>
 
 </body>
 
