@@ -1405,6 +1405,81 @@ body::-webkit-scrollbar {
 
 @media (max-width: 1180px) {
 
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 40% 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0rem 7rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 26px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 23px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
+
+
     .sdg-container-imapct-tab {
         padding: 10px 1rem;
     }
@@ -1439,6 +1514,80 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 991px) {
+
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0rem 7rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 26px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 23px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
 
     /* mobile screen  */
 
@@ -1679,6 +1828,80 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 800px) {
+
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
 
     /* menu mobile  */
 
@@ -1951,6 +2174,80 @@ body::-webkit-scrollbar {
 
 @media (max-width: 700px) {
 
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
+
     /* menu mobile  */
 
     .icon-menu-mobile {
@@ -2190,6 +2487,80 @@ body::-webkit-scrollbar {
 
 @media (max-width: 650px) {
 
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
+
     /* menu mobile  */
 
     .icon-menu-mobile {
@@ -2408,6 +2779,80 @@ body::-webkit-scrollbar {
 
 @media (max-width: 570px) {
 
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
+
     /* menu mobile  */
 
     .icon-menu-mobile {
@@ -2621,6 +3066,80 @@ body::-webkit-scrollbar {
 
 @media (max-width: 530px) {
 
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
+
     /* menu mobile  */
 
     .icon-menu-mobile {
@@ -2821,6 +3340,80 @@ body::-webkit-scrollbar {
 
 @media (max-width: 480px) {
 
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
+
     /* menu mobile  */
 
     .icon-menu-mobile {
@@ -3020,8 +3613,81 @@ body::-webkit-scrollbar {
 
 @media (max-width: 450px) {
 
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
 
     /* menu mobile  */
+
 
     .icon-menu-mobile {
         display: block;
@@ -3030,7 +3696,6 @@ body::-webkit-scrollbar {
     .dropdown-content {
         right: -8%;
     }
-
 
     .right-side-bar.nav-links a,
     .right-side-bar.nav-links .dropdown {
@@ -3221,6 +3886,79 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 440px) {
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
 
     /* menu mobile  */
 
@@ -3422,6 +4160,79 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 400px) {
+
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
 
     /* menu mobile  */
 
@@ -3625,6 +4436,80 @@ body::-webkit-scrollbar {
 @media (max-width: 390px) {
 
 
+    .child-changemaker-container {
+        gap: 1rem;
+    }
+
+
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
+
     /* menu mobile  */
 
     .icon-menu-mobile {
@@ -3816,7 +4701,6 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
 
-
     .sdg-imapct>img {
         width: 100px;
         height: 100px;
@@ -3825,6 +4709,74 @@ body::-webkit-scrollbar {
 
 @media (max-width: 375px) {
 
+    .becomechanage-maker {
+        font-size: 16px;
+    }
+
+    .data-container-rcmi-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+
+    .how-to-works-rcmi-container {
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .container-event-main {
+        grid-template-columns: 1fr;
+        padding: 1rem 0rem;
+
+    }
+
+    .point-cards-container {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .point-cards-container-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+
+    .top-child-changemaker {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .make-decision-skill-text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .first-title-how-to-work {
+        font-size: 20px;
+    }
+
+
+    .how-to-works-rcmi-container-inner {
+        gap: 1rem;
+    }
+
+    .title-game-event {
+        font-size: 17px;
+    }
+
+    .title-tag-rcmi {
+        font-size: 17px;
+    }
+
+    .changemaker-devlopement-text {
+        font-size: 16px;
+    }
+
+    .changemaker-devlopment-text {
+        font-size: 17px;
+    }
+
+    .text-changemaker-journey {
+        font-size: 22px;
+    }
 
     /* menu mobile  */
 
