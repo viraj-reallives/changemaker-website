@@ -1,50 +1,50 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
-  const tabPanes = document.querySelectorAll(".tab-pane");
-  const dropdownButton = document.getElementById("dropdownButton");
-  const logo = document.getElementById("logo");
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
+    const tabPanes = document.querySelectorAll(".tab-pane");
+    const dropdownButton = document.getElementById("dropdownButton");
+    const logo = document.getElementById("logo");
 
-  function showTab(targetId) {
-    tabPanes.forEach(pane => {
-      pane.style.display = pane.id === targetId ? "block" : "none";
-    });
-  }
+    function showTab(targetId) {
+        tabPanes.forEach(pane => {
+            pane.style.display = pane.id === targetId ? "block" : "none";
+        });
+    }
 
-  function resetDefault() {
-    showTab("best-suited");
-    dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
-    dropdownButton.classList.add("active");
-    document.querySelectorAll(".nav-link").forEach(l => {
-      if (l !== dropdownButton) l.classList.remove("active");
-    });
-  }
-
-  resetDefault(); 
-
-  navLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-      e.preventDefault();
-
-      const targetId = this.getAttribute("data-target");
-      showTab(targetId);
-
-      if (this.classList.contains("dropdown-item")) {
-        dropdownButton.innerHTML = `${this.textContent.trim()} <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+    function resetDefault() {
+        showTab("best-suited");
+        dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
         dropdownButton.classList.add("active");
         document.querySelectorAll(".nav-link").forEach(l => {
-          if (l !== dropdownButton) l.classList.remove("active");
+            if (l !== dropdownButton) l.classList.remove("active");
         });
-      } else {
-        dropdownButton.classList.remove("active");
-        navLinks.forEach(l => l.classList.remove("active"));
-        this.classList.add("active");
-      }
-    });
-  });
+    }
 
-  logo.addEventListener("click", function() {
     resetDefault();
-  });
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("data-target");
+            showTab(targetId);
+
+            if (this.classList.contains("dropdown-item")) {
+                dropdownButton.innerHTML = `${this.textContent.trim()} <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+                dropdownButton.classList.add("active");
+                document.querySelectorAll(".nav-link").forEach(l => {
+                    if (l !== dropdownButton) l.classList.remove("active");
+                });
+            } else {
+                dropdownButton.classList.remove("active");
+                navLinks.forEach(l => l.classList.remove("active"));
+                this.classList.add("active");
+            }
+        });
+    });
+
+    logo.addEventListener("click", function () {
+        resetDefault();
+    });
 });
 
 
@@ -64,10 +64,10 @@ let impactSliderInterval;
 function initImpactSection() {
     // Start the main impact slider
     startImpactSlider();
-    
+
     // Initialize tab functionality
     initImpactTabs();
-    
+
     // Initialize individual tab sliders
     initTabSliders();
 }
@@ -76,19 +76,19 @@ function initImpactSection() {
 function startImpactSlider() {
     const impactSliders = document.querySelectorAll('#impact-slider .impact-slider');
     if (impactSliders.length === 0) return;
-    
+
     let currentImpactIndex = 0;
-    
+
     // Show first image
     impactSliders[0].classList.add('active-slider');
-    
+
     impactSliderInterval = setInterval(() => {
         // Remove active class from current image
         impactSliders[currentImpactIndex].classList.remove('active-slider');
-        
+
         // Move to next image
         currentImpactIndex = (currentImpactIndex + 1) % impactSliders.length;
-        
+
         // Add active class to new image
         impactSliders[currentImpactIndex].classList.add('active-slider');
     }, 3000); // Change image every 3 seconds
@@ -107,19 +107,19 @@ function initImpactTabs() {
     const learnMoreButtons = document.querySelectorAll('.larne-more-btn');
     learnMoreButtons.forEach(button => {
         if (button.getAttribute('onclick') && button.getAttribute('onclick').includes('showTab')) {
-            button.addEventListener('click', function(e) {
+            button.addEventListener('click', function (e) {
                 e.preventDefault();
                 const tabId = this.getAttribute('onclick').match(/'([^']+)'/)[1];
                 showTab(tabId);
             });
         }
     });
-    
+
     // Add click event to "Impact Home" buttons
     const impactHomeButtons = document.querySelectorAll('.btn-top-slider');
     impactHomeButtons.forEach(button => {
         if (button.getAttribute('onclick') && button.getAttribute('onclick').includes('showTab')) {
-            button.addEventListener('click', function(e) {
+            button.addEventListener('click', function (e) {
                 e.preventDefault();
                 const tabId = this.getAttribute('onclick').match(/'([^']+)'/)[1];
                 showTab(tabId);
@@ -136,24 +136,24 @@ function showTab(tabId) {
     } else {
         startImpactSlider();
     }
-    
+
     // Hide all tab contents
     const allTabs = document.querySelectorAll('.tab-impact');
     allTabs.forEach(tab => {
         tab.style.display = 'none';
     });
-    
+
     // Show the selected tab
     const selectedTab = document.getElementById(tabId);
     if (selectedTab) {
         selectedTab.style.display = 'block';
-        
+
         // Scroll to top of the section
         window.scrollTo({
             top: document.getElementById('impact').offsetTop,
             behavior: 'smooth'
         });
-        
+
         // Reset sliders for the active tab
         resetTabSliders(tabId);
     }
@@ -167,21 +167,21 @@ function initTabSliders() {
         slides1[0].classList.add('active');
         currentImageIndex = 0;
     }
-    
+
     // Tab 2 slider
     const slides2 = document.querySelectorAll('.slide-impact2');
     if (slides2.length > 0) {
         slides2[0].classList.add('active');
         currentImageIndex2 = 0;
     }
-    
+
     // Tab 3 slider
     const slides3 = document.querySelectorAll('.slide-impact3');
     if (slides3.length > 0) {
         slides3[0].classList.add('active');
         currentImageIndex3 = 0;
     }
-    
+
     // Tab 4 slider
     const slides10 = document.querySelectorAll('.slide-impact10');
     if (slides10.length > 0) {
@@ -192,7 +192,7 @@ function initTabSliders() {
 
 // Reset sliders when tab changes
 function resetTabSliders(tabId) {
-    switch(tabId) {
+    switch (tabId) {
         case 'tabfirstimpact':
             currentImageIndex = 0;
             const slides1 = document.querySelectorAll('.slide-impact');
@@ -228,7 +228,7 @@ function resetTabSliders(tabId) {
 function nextImage() {
     const slides = document.querySelectorAll('.slide-impact');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex].classList.remove('active');
     currentImageIndex = (currentImageIndex + 1) % slides.length;
     slides[currentImageIndex].classList.add('active');
@@ -237,7 +237,7 @@ function nextImage() {
 function prevImage() {
     const slides = document.querySelectorAll('.slide-impact');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex].classList.remove('active');
     currentImageIndex = (currentImageIndex - 1 + slides.length) % slides.length;
     slides[currentImageIndex].classList.add('active');
@@ -247,7 +247,7 @@ function prevImage() {
 function nextImage2() {
     const slides = document.querySelectorAll('.slide-impact2');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex2].classList.remove('active');
     currentImageIndex2 = (currentImageIndex2 + 1) % slides.length;
     slides[currentImageIndex2].classList.add('active');
@@ -256,7 +256,7 @@ function nextImage2() {
 function prevImage2() {
     const slides = document.querySelectorAll('.slide-impact2');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex2].classList.remove('active');
     currentImageIndex2 = (currentImageIndex2 - 1 + slides.length) % slides.length;
     slides[currentImageIndex2].classList.add('active');
@@ -266,7 +266,7 @@ function prevImage2() {
 function nextImage3() {
     const slides = document.querySelectorAll('.slide-impact3');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex3].classList.remove('active');
     currentImageIndex3 = (currentImageIndex3 + 1) % slides.length;
     slides[currentImageIndex3].classList.add('active');
@@ -275,7 +275,7 @@ function nextImage3() {
 function prevImage3() {
     const slides = document.querySelectorAll('.slide-impact3');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex3].classList.remove('active');
     currentImageIndex3 = (currentImageIndex3 - 1 + slides.length) % slides.length;
     slides[currentImageIndex3].classList.add('active');
@@ -285,7 +285,7 @@ function prevImage3() {
 function nextImage10() {
     const slides = document.querySelectorAll('.slide-impact10');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex10].classList.remove('active');
     currentImageIndex10 = (currentImageIndex10 + 1) % slides.length;
     slides[currentImageIndex10].classList.add('active');
@@ -294,7 +294,7 @@ function nextImage10() {
 function prevImage10() {
     const slides = document.querySelectorAll('.slide-impact10');
     if (slides.length === 0) return;
-    
+
     slides[currentImageIndex10].classList.remove('active');
     currentImageIndex10 = (currentImageIndex10 - 1 + slides.length) % slides.length;
     slides[currentImageIndex10].classList.add('active');
@@ -304,10 +304,10 @@ function prevImage10() {
 function handleKeyPress(event) {
     const activeTab = document.querySelector('.tab-impact[style*="display: block"]');
     if (!activeTab) return;
-    
+
     const tabId = activeTab.id;
-    
-    switch(event.key) {
+
+    switch (event.key) {
         case 'ArrowLeft':
             if (tabId === 'tabfirstimpact') prevImage();
             else if (tabId === 'tab2impact') prevImage2();
@@ -326,15 +326,15 @@ function handleKeyPress(event) {
 // Touch/swipe support for mobile
 function initTouchSupport() {
     const sliders = document.querySelectorAll('.slider-box-container');
-    
+
     sliders.forEach(slider => {
         let startX = 0;
         let endX = 0;
-        
+
         slider.addEventListener('touchstart', (e) => {
             startX = e.touches[0].clientX;
         });
-        
+
         slider.addEventListener('touchend', (e) => {
             endX = e.changedTouches[0].clientX;
             handleSwipe(startX, endX, slider);
@@ -345,13 +345,13 @@ function initTouchSupport() {
 function handleSwipe(startX, endX, slider) {
     const swipeThreshold = 50;
     const diff = startX - endX;
-    
+
     if (Math.abs(diff) > swipeThreshold) {
         const activeTab = document.querySelector('.tab-impact[style*="display: block"]');
         if (!activeTab) return;
-        
+
         const tabId = activeTab.id;
-        
+
         if (diff > 0) {
             // Swipe left - next image
             if (tabId === 'tabfirstimpact') nextImage();
@@ -372,7 +372,7 @@ function handleSwipe(startX, endX, slider) {
 function initVideoControls() {
     const videos = document.querySelectorAll('video');
     videos.forEach(video => {
-        video.addEventListener('click', function() {
+        video.addEventListener('click', function () {
             if (this.paused) {
                 this.play();
             } else {
@@ -386,7 +386,7 @@ function initVideoControls() {
 function initSmoothScroll() {
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
+        link.addEventListener('click', function (e) {
             const href = this.getAttribute('href');
             if (href && href.startsWith('#')) {
                 e.preventDefault();
@@ -403,17 +403,17 @@ function initSmoothScroll() {
 }
 
 // Initialize everything when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     initImpactSection();
     initTouchSupport();
     initVideoControls();
     initSmoothScroll();
-    
+
     // Add keyboard event listener
     document.addEventListener('keydown', handleKeyPress);
-    
+
     // Cleanup on page unload
-    window.addEventListener('beforeunload', function() {
+    window.addEventListener('beforeunload', function () {
         stopImpactSlider();
     });
 });
@@ -432,7 +432,7 @@ function isElementInViewport(el) {
 // Lazy loading for images
 function initLazyLoading() {
     const lazyImages = document.querySelectorAll('.impact-slider, .slide-impact, .slide-impact2, .slide-impact3, .slide-impact10');
-    
+
     const imageObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -443,7 +443,7 @@ function initLazyLoading() {
             }
         });
     });
-    
+
     lazyImages.forEach(img => {
         imageObserver.observe(img);
     });
@@ -464,3 +464,7 @@ if (typeof module !== 'undefined' && module.exports) {
         prevImage10
     };
 }
+
+// toogle js
+
+// toogle humburger js 

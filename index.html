@@ -12,8 +12,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 
-
-
 <body>
 
 
@@ -36,10 +34,26 @@
 
 			</div>
 
+
+			<!-- <div class="icon-menu-mobile">
+				<span class="material-symbols-outlined">
+					menu
+				</span>
+
+			</div> -->
+
+			<div class="icon-menu-mobile" id="mobileMenuBtn">
+				<span class="material-symbols-outlined" id="menuIcon">
+					menu
+				</span>
+			</div>
+
+
 			<div class="right-side-bar nav-links">
 
-				
-				<a href="#" class="nav-link navigation-text-style" data-target="about">About RCMI</a>
+
+
+
 				<div class="dropdown">
 					<button id="dropdownButton" class="dropbtn navigation-text-style " data-target="best-suited">
 						Best Suited For
@@ -57,10 +71,13 @@
 						</span>
 					</div>
 				</div>
+
+				<a href="#" class="nav-link navigation-text-style" data-target="about">About RCMI</a>
 				<a href="#" class="navigation-text-style nav-link" data-target="impact">Our Impact</a>
 				<a href="#" class="navigation-text-style nav-link" data-target="contact">Contact Us</a>
 
 			</div>
+
 
 		</nav>
 
@@ -2444,6 +2461,21 @@
 			targetContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
 		}
+
+		const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+		const menuIcon = document.getElementById("menuIcon");
+		const navLinks = document.querySelector(".right-side-bar");
+
+		mobileMenuBtn.addEventListener("click", () => {
+			navLinks.classList.toggle("active");
+
+			if (navLinks.classList.contains("active")) {
+				menuIcon.textContent = "close";   // Change to cancel icon
+			} else {
+				menuIcon.textContent = "menu";    // Change back to menu icon
+			}
+		});
+
 
 
 	</script>
