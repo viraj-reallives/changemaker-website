@@ -1103,7 +1103,7 @@ body::-webkit-scrollbar {
 
 /* Campus Card */
 .card-reallives-campus-box {
-    height: 170px;
+    /* height: 170px; */
     background-color: #FFC41F;
     padding: 1rem 1rem;
     display: flex;
@@ -2174,6 +2174,15 @@ body::-webkit-scrollbar {
 
 @media (max-width: 700px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -2487,6 +2496,15 @@ body::-webkit-scrollbar {
 
 @media (max-width: 650px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -2779,6 +2797,15 @@ body::-webkit-scrollbar {
 
 @media (max-width: 570px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -3066,6 +3093,15 @@ body::-webkit-scrollbar {
 
 @media (max-width: 530px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -3340,6 +3376,15 @@ body::-webkit-scrollbar {
 
 @media (max-width: 480px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -3612,6 +3657,16 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 450px) {
+
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -3887,6 +3942,16 @@ body::-webkit-scrollbar {
 
 @media (max-width: 440px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
+
     .child-changemaker-container {
         gap: 1rem;
     }
@@ -4160,6 +4225,16 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 400px) {
+
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -4435,6 +4510,15 @@ body::-webkit-scrollbar {
 
 @media (max-width: 390px) {
 
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+
+    }
 
     .child-changemaker-container {
         gap: 1rem;
@@ -4708,6 +4792,21 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 375px) {
+
+    .larne-more-btn {
+        font-size: 15px;
+    }
+
+
+    .contact-info {
+        padding: 1rem !important;
+    }
+
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0rem !important;
+    }
 
     .becomechanage-maker {
         font-size: 16px;
