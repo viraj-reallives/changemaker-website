@@ -11,12 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function resetDefault() {
+
         showTab("best-suited");
         dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
         dropdownButton.classList.add("active");
         document.querySelectorAll(".nav-link").forEach(l => {
             if (l !== dropdownButton) l.classList.remove("active");
         });
+
     }
 
     resetDefault();
@@ -52,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Impact Section JavaScript
 
 // Global variables for sliders
+
 let currentImageIndex = 0;
 let currentImageIndex2 = 0;
 let currentImageIndex3 = 0;
@@ -61,7 +64,9 @@ let currentImageIndex10 = 0;
 let impactSliderInterval;
 
 // Initialize impact section
+
 function initImpactSection() {
+
     // Start the main impact slider
     startImpactSlider();
 
@@ -74,6 +79,7 @@ function initImpactSection() {
 
 // Main impact slider functionality
 function startImpactSlider() {
+
     const impactSliders = document.querySelectorAll('#impact-slider .impact-slider');
     if (impactSliders.length === 0) return;
 
@@ -129,8 +135,11 @@ function initImpactTabs() {
 }
 
 // Show specific tab
+
 function showTab(tabId) {
+
     // Stop the main impact slider when navigating to detail tabs
+
     if (tabId !== 'tab1impact') {
         stopImpactSlider();
     } else {
@@ -138,14 +147,18 @@ function showTab(tabId) {
     }
 
     // Hide all tab contents
+
     const allTabs = document.querySelectorAll('.tab-impact');
     allTabs.forEach(tab => {
         tab.style.display = 'none';
     });
 
     // Show the selected tab
+
     const selectedTab = document.getElementById(tabId);
+
     if (selectedTab) {
+
         selectedTab.style.display = 'block';
 
         // Scroll to top of the section
@@ -155,13 +168,17 @@ function showTab(tabId) {
         });
 
         // Reset sliders for the active tab
+
         resetTabSliders(tabId);
     }
 }
 
 // Initialize individual tab sliders
+
 function initTabSliders() {
+
     // Tab 1 slider
+
     const slides1 = document.querySelectorAll('.slide-impact');
     if (slides1.length > 0) {
         slides1[0].classList.add('active');
@@ -191,7 +208,9 @@ function initTabSliders() {
 }
 
 // Reset sliders when tab changes
+
 function resetTabSliders(tabId) {
+
     switch (tabId) {
         case 'tabfirstimpact':
             currentImageIndex = 0;

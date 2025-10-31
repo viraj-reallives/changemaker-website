@@ -2337,6 +2337,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -2660,6 +2661,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -2960,6 +2962,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -3255,6 +3258,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -3538,6 +3542,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -3821,6 +3826,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -4105,6 +4111,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -4389,6 +4396,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -4673,6 +4681,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
@@ -4797,11 +4806,9 @@ body::-webkit-scrollbar {
         font-size: 15px;
     }
 
-
     .contact-info {
         padding: 1rem !important;
     }
-
 
     .contact-grid {
         grid-template-columns: 1fr !important;
@@ -4957,6 +4964,7 @@ body::-webkit-scrollbar {
 
     .changes-maker-section-index {
         padding: 1rem 1rem 1rem 1rem;
+        display: none;
     }
 
     .rcmi-embed-cdn {
