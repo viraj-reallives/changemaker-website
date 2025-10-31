@@ -1378,6 +1378,10 @@ body::-webkit-scrollbar {
 
 @media (max-width: 1280px) {
 
+    .rcmi-embed-cdn {
+        height: 55vh;
+    }
+
     .sdg-container-imapct-tab {
         padding: 10px 4rem;
     }
@@ -1511,6 +1515,10 @@ body::-webkit-scrollbar {
     .global-title-description-container {
         padding: 10px 1rem;
     }
+
+    .rcmi-embed-cdn {
+        height: 50vh;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1641,7 +1649,7 @@ body::-webkit-scrollbar {
     }
 
     .rcmi-embed-cdn {
-        /* height: max-content; */
+        height: 50vh;
     }
 
     .card-info-box {
@@ -1986,7 +1994,7 @@ body::-webkit-scrollbar {
     }
 
     .rcmi-embed-cdn {
-        /* height: max-content; */
+        height: 50vh;
     }
 
     .card-info-box {
