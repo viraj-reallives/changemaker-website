@@ -1,24 +1,238 @@
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     const navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
+//     const tabPanes = document.querySelectorAll(".tab-pane");
+//     const dropdownButton = document.getElementById("dropdownButton");
+//     const logo = document.getElementById("logo");
+
+//     function showTab(targetId) {
+//         tabPanes.forEach(pane => {
+//             pane.style.display = pane.id === targetId ? "block" : "none";
+//         });
+//     }
+
+//     function resetDefault() {
+
+//         showTab("best-suited");
+//         dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+//         dropdownButton.classList.add("active");
+//         document.querySelectorAll(".nav-link").forEach(l => {
+//             if (l !== dropdownButton) l.classList.remove("active");
+//         });
+
+//     }
+
+//     resetDefault();
+
+//     navLinks.forEach(link => {
+//         link.addEventListener("click", function (e) {
+//             e.preventDefault();
+
+//             const targetId = this.getAttribute("data-target");
+//             showTab(targetId);
+
+//             if (this.classList.contains("dropdown-item")) {
+//                 dropdownButton.innerHTML = `${this.textContent.trim()} <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+//                 dropdownButton.classList.add("active");
+//                 document.querySelectorAll(".nav-link").forEach(l => {
+//                     if (l !== dropdownButton) l.classList.remove("active");
+//                 });
+//             } else {
+//                 dropdownButton.classList.remove("active");
+//                 navLinks.forEach(l => l.classList.remove("active"));
+//                 this.classList.add("active");
+//             }
+//         });
+//     });
+
+//     logo.addEventListener("click", function () {
+//         resetDefault();
+//     });
+// });
+
+// addition code 
+
+// additional code 
+
+// dropdown code 
+
 document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
     const tabPanes = document.querySelectorAll(".tab-pane");
     const dropdownButton = document.getElementById("dropdownButton");
     const logo = document.getElementById("logo");
+    const tabButtons = document.querySelectorAll('.tab-btn');
+
+    // Map dropdown items to specific tabs
+    const dropdownToTabMap = {
+        'institutions': 'tab11', // For Institutions -> Who Can Use? tab
+        'employers': 'tab11',    // For Employers -> Who Can Use? tab  
+        'parents': 'tab11'       // For Parents -> Who Can Use? tab
+    };
+
+    // Function to show/hide tab panes
+    function showTab(targetId) {
+        // Hide all tab panes
+        tabPanes.forEach(pane => {
+            pane.style.display = "none";
+        });
+
+        // Show the target tab pane
+        const targetPane = document.getElementById(targetId);
+        if (targetPane) {
+            targetPane.style.display = "block";
+        }
+    }
+
+    // Function to activate a specific tab
+    function activateTab(tabId, color) {
+        // Remove active class from all tabs
+        tabButtons.forEach(btn => {
+            btn.classList.remove('active');
+        });
+
+        // Add active class to target tab
+        const targetTab = document.querySelector(`[data-tab="${tabId}"]`);
+        if (targetTab) {
+            targetTab.classList.add('active');
+        }
+
+        // Apply color
+        applyTabColor(color);
+    }
+
+    // Function to apply tab color
+    function applyTabColor(color) {
+        if (color) {
+            const tabsContainer = document.querySelector('.tabs');
+            if (tabsContainer) {
+                const cleanColor = color.replace('!important', '').trim();
+                tabsContainer.style.backgroundColor = cleanColor;
+            }
+        }
+    }
+
+    // Function to reset to default state (home page)
+    function resetDefault() {
+        showTab("best-suited");
+        dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+
+        // Reset all active states
+        document.querySelectorAll(".nav-link").forEach(l => {
+            l.classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-item").forEach(item => {
+            item.classList.remove("active");
+        });
+
+        dropdownButton.classList.add("active");
+
+        // Reset tabs to first tab active
+        const firstTab = tabButtons[0];
+        if (firstTab) {
+            const firstTabId = firstTab.getAttribute('data-tab');
+            const firstTabColor = firstTab.getAttribute('data-color');
+            activateTab(firstTabId, firstTabColor);
+        }
+    }
+
+    // Tab functionality
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const tabId = this.getAttribute('data-tab');
+            const color = this.getAttribute('data-color');
+            activateTab(tabId, color);
+        });
+    });
+
+    // Navigation functionality
+    navLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("data-target");
+            showTab(targetId);
+
+            // Remove active class from all navigation links
+            navLinks.forEach(l => l.classList.remove("active"));
+
+            if (this.classList.contains("dropdown-item")) {
+                // Handle dropdown items
+                dropdownButton.innerHTML = `${this.textContent.trim()} <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+                dropdownButton.classList.add("active");
+                this.classList.add("active");
+
+                // Activate corresponding tab for dropdown items
+                const correspondingTabId = dropdownToTabMap[targetId];
+                if (correspondingTabId) {
+                    const correspondingTab = document.querySelector(`[data-tab="${correspondingTabId}"]`);
+                    if (correspondingTab) {
+                        const tabColor = correspondingTab.getAttribute('data-color');
+                        activateTab(correspondingTabId, tabColor);
+                    }
+                }
+            } else {
+                // Handle regular nav links
+                this.classList.add("active");
+                dropdownButton.classList.remove("active");
+                dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+
+                // Reset tabs for home page
+                if (targetId === "best-suited") {
+                    const firstTab = tabButtons[0];
+                    if (firstTab) {
+                        const firstTabId = firstTab.getAttribute('data-tab');
+                        const firstTabColor = firstTab.getAttribute('data-color');
+                        activateTab(firstTabId, firstTabColor);
+                    }
+                }
+            }
+        });
+    });
+
+    logo.addEventListener("click", function () {
+        resetDefault();
+    });
+
+    // Initialize
+    resetDefault();
+});
+
+// dropdown code 
+
+// Impact Section JavaScript
+
+// Global variables for sliders
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
+    const tabPanes = document.querySelectorAll(".tab-pane");
+    const dropdownButton = document.getElementById("dropdownButton");
+    const logo = document.getElementById("logo");
+    let currentDropdownItem = null;
 
     function showTab(targetId) {
+        // Hide all tab panes
         tabPanes.forEach(pane => {
             pane.style.display = pane.id === targetId ? "block" : "none";
         });
     }
 
     function resetDefault() {
-
         showTab("best-suited");
         dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
-        dropdownButton.classList.add("active");
+
+        // Reset all active states
         document.querySelectorAll(".nav-link").forEach(l => {
-            if (l !== dropdownButton) l.classList.remove("active");
+            l.classList.remove("active");
+        });
+        document.querySelectorAll(".dropdown-item").forEach(item => {
+            item.classList.remove("active");
         });
 
+        dropdownButton.classList.add("active");
+        currentDropdownItem = null;
     }
 
     resetDefault();
@@ -30,16 +244,26 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetId = this.getAttribute("data-target");
             showTab(targetId);
 
+            // Remove active class from all navigation links
+            navLinks.forEach(l => l.classList.remove("active"));
+
             if (this.classList.contains("dropdown-item")) {
+                // Handle dropdown items
                 dropdownButton.innerHTML = `${this.textContent.trim()} <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
                 dropdownButton.classList.add("active");
-                document.querySelectorAll(".nav-link").forEach(l => {
-                    if (l !== dropdownButton) l.classList.remove("active");
-                });
+                this.classList.add("active"); // Add active class to the dropdown item itself
+                currentDropdownItem = this;
             } else {
-                dropdownButton.classList.remove("active");
-                navLinks.forEach(l => l.classList.remove("active"));
+                // Handle regular nav links
                 this.classList.add("active");
+                dropdownButton.classList.remove("active");
+                dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
+
+                // Remove active class from any previously active dropdown item
+                if (currentDropdownItem) {
+                    currentDropdownItem.classList.remove("active");
+                    currentDropdownItem = null;
+                }
             }
         });
     });
@@ -48,12 +272,6 @@ document.addEventListener("DOMContentLoaded", function () {
         resetDefault();
     });
 });
-
-
-
-// Impact Section JavaScript
-
-// Global variables for sliders
 
 let currentImageIndex = 0;
 let currentImageIndex2 = 0;
@@ -486,4 +704,10 @@ if (typeof module !== 'undefined' && module.exports) {
 
 // toogle js
 
-// toogle humburger js 
+// toogle humburger js
+
+
+// tabs js
+
+
+// tabs js 

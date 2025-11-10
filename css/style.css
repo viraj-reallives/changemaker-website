@@ -376,6 +376,30 @@ body::-webkit-scrollbar {
 
 /* dropdown css  */
 
+/* additional css  */
+
+
+.dropdown-item.active {
+    color: #222222 !important;
+    font-weight: 500;
+    /* background-color: #f0f0f0; */
+    border-radius: 4px;
+}
+
+.nav-link.active {
+    color: #222222 !important;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-weight: 500;
+}
+
+.dropbtn.active {
+    color: #222222 !important;
+    font-weight: 500;
+}
+
+/* additional css  */
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -1375,6 +1399,10 @@ body::-webkit-scrollbar {
 }
 
 /* menu js  */
+
+
+
+/* tabs container  */
 
 @media (max-width: 1280px) {
 
