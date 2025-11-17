@@ -109,6 +109,7 @@ body::-webkit-scrollbar {
     padding: 6rem 6rem 2rem 6rem;
     display: grid;
     grid-template-columns: 1fr 40%;
+
     gap: 1rem;
 }
 
@@ -1404,6 +1405,12 @@ body::-webkit-scrollbar {
 
 /* tabs container  */
 
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .icon-menu-mobile {
+        display: none;
+    }
+}
+
 @media (max-width: 1280px) {
 
     .rcmi-embed-cdn {
@@ -1509,8 +1516,6 @@ body::-webkit-scrollbar {
     .text-changemaker-journey {
         font-size: 22px;
     }
-
-
 
     .sdg-container-imapct-tab {
         padding: 10px 1rem;
@@ -1643,7 +1648,7 @@ body::-webkit-scrollbar {
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
@@ -2728,6 +2733,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -2835,6 +2841,51 @@ body::-webkit-scrollbar {
 
 @media (max-width: 570px) {
 
+
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 16px;
+    }
+
+    .title-university-name {
+        font-size: 18px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
+
     .contact-info {
         padding: 1rem !important;
     }
@@ -2945,7 +2996,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 1rem;
     }
 
 
@@ -2967,7 +3018,7 @@ body::-webkit-scrollbar {
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
@@ -3029,6 +3080,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -3057,7 +3109,7 @@ body::-webkit-scrollbar {
     }
 
     .box-card-data {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .title-of-card {
@@ -3132,6 +3184,50 @@ body::-webkit-scrollbar {
 
 @media (max-width: 530px) {
 
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 16px;
+    }
+
+    .title-university-name {
+        font-size: 18px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
+
     .contact-info {
         padding: 1rem !important;
     }
@@ -3242,7 +3338,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 0rem;
     }
 
     .right-side-bar {
@@ -3259,11 +3355,12 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
@@ -3288,7 +3385,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         gap: 1rem;
     }
 
@@ -3325,6 +3422,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -3337,7 +3435,7 @@ body::-webkit-scrollbar {
 
 
     .image-height {
-        height: max-content !important;
+        height: 20rem !important;
     }
 
     .index-features-container {
@@ -3353,7 +3451,7 @@ body::-webkit-scrollbar {
     }
 
     .box-card-data {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .title-of-card {
@@ -3416,6 +3514,50 @@ body::-webkit-scrollbar {
 
 @media (max-width: 480px) {
 
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 16px;
+    }
+
+    .title-university-name {
+        font-size: 18px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
+
     .contact-info {
         padding: 1rem !important;
     }
@@ -3526,7 +3668,11 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
     }
 
     .right-side-bar {
@@ -3543,11 +3689,12 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
@@ -3572,7 +3719,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         gap: 1rem;
     }
 
@@ -3609,6 +3756,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -3621,7 +3769,7 @@ body::-webkit-scrollbar {
 
 
     .image-height {
-        height: max-content !important;
+        height: 18rem !important;
     }
 
     .index-features-container {
@@ -3681,7 +3829,7 @@ body::-webkit-scrollbar {
 
 
     .text-footer-label {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .experience-text-reallives {
@@ -3698,6 +3846,50 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 450px) {
+
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 16px;
+    }
+
+    .title-university-name {
+        font-size: 18px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
 
     .contact-info {
         padding: 1rem !important;
@@ -3781,7 +3973,6 @@ body::-webkit-scrollbar {
         font-size: 22px;
     }
 
-
     /* menu mobile  */
 
 
@@ -3809,7 +4000,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 0rem;
     }
 
 
@@ -3827,17 +4018,19 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
     .section-second-container {
         padding: 0.5rem 1rem 1rem 1rem;
         margin-top: 0rem;
+        gap: 1rem;
     }
 
     .benifit-box-school-container {
@@ -3856,7 +4049,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         gap: 1rem;
     }
 
@@ -3905,7 +4098,7 @@ body::-webkit-scrollbar {
 
 
     .image-height {
-        height: max-content !important;
+        height: 18rem !important;
     }
 
     .index-features-container {
@@ -3984,6 +4177,50 @@ body::-webkit-scrollbar {
 
 @media (max-width: 440px) {
 
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 16px;
+    }
+
+    .title-university-name {
+        font-size: 18px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
+
     .contact-info {
         padding: 1rem !important;
     }
@@ -4095,7 +4332,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 0rem;
     }
 
     .right-side-bar {
@@ -4112,17 +4349,19 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
     .section-second-container {
         padding: 0.5rem 1rem 1rem 1rem;
         margin-top: 0rem;
+        gap: 1rem;
     }
 
     .benifit-box-school-container {
@@ -4141,7 +4380,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         gap: 1rem;
     }
 
@@ -4178,6 +4417,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -4190,7 +4430,7 @@ body::-webkit-scrollbar {
 
 
     .image-height {
-        height: max-content !important;
+        height: 18rem !important;
     }
 
     .index-features-container {
@@ -4206,7 +4446,7 @@ body::-webkit-scrollbar {
     }
 
     .box-card-data {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .title-of-card {
@@ -4269,6 +4509,50 @@ body::-webkit-scrollbar {
 
 @media (max-width: 400px) {
 
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 16px;
+    }
+
+    .title-university-name {
+        font-size: 18px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
+
     .contact-info {
         padding: 1rem !important;
     }
@@ -4379,7 +4663,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 0rem;
     }
 
     .right-side-bar {
@@ -4397,17 +4681,19 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
     .section-second-container {
         padding: 0.5rem 1rem 1rem 1rem;
         margin-top: 0rem;
+        gap: 1rem;
     }
 
     .benifit-box-school-container {
@@ -4426,7 +4712,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         gap: 1rem;
     }
 
@@ -4463,6 +4749,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -4475,7 +4762,7 @@ body::-webkit-scrollbar {
 
 
     .image-height {
-        height: max-content !important;
+        height: 17rem !important;
     }
 
     .index-features-container {
@@ -4491,7 +4778,7 @@ body::-webkit-scrollbar {
     }
 
     .box-card-data {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .title-of-card {
@@ -4554,6 +4841,51 @@ body::-webkit-scrollbar {
 
 @media (max-width: 390px) {
 
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 14px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 15px;
+    }
+
+    .title-university-name {
+        font-size: 16px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+    /* new media  */
+
+
     .contact-info {
         padding: 1rem !important;
     }
@@ -4665,7 +4997,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 6rem 1rem 0rem;
     }
 
     .right-side-bar {
@@ -4682,11 +5014,12 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
@@ -4702,7 +5035,7 @@ body::-webkit-scrollbar {
     .footer-container {
         grid-template-columns: 1fr;
         height: max-content;
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
         gap: 1rem;
     }
 
@@ -4711,7 +5044,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 0rem 1rem;
         gap: 1rem;
     }
 
@@ -4748,6 +5081,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -4760,7 +5094,7 @@ body::-webkit-scrollbar {
 
 
     .image-height {
-        height: max-content !important;
+        height: 17rem !important;
     }
 
     .index-features-container {
@@ -4776,7 +5110,7 @@ body::-webkit-scrollbar {
     }
 
     .box-card-data {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .title-of-card {
@@ -4837,6 +5171,52 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 375px) {
+
+    /* new media  */
+
+    .inner-btn {
+        font-size: 14px;
+    }
+
+    .description-smoll-words-title {
+        font-size: 20px;
+    }
+
+    .label-footer-button-box {
+        padding: 0px;
+    }
+
+    .footer-ankar-style {
+        font-size: 13px;
+    }
+
+    .footer-section-1 {
+        gap: 1rem;
+    }
+
+    .description-university-text {
+        font-size: 15px;
+    }
+
+    .title-university-name {
+        font-size: 16px;
+    }
+
+    .content-data-text-box {
+        gap: 6px;
+    }
+
+    .impact-section-container {
+        gap: 0rem;
+    }
+
+    .inforamtion-card-container {
+        gap: 0rem;
+    }
+
+
+    /* new media  */
+
 
     .larne-more-btn {
         font-size: 15px;
@@ -4947,7 +5327,7 @@ body::-webkit-scrollbar {
     /* mobile screen  */
 
     .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
+        padding: 1rem 4rem 1rem 0rem;
     }
 
     .right-side-bar {
@@ -4965,11 +5345,12 @@ body::-webkit-scrollbar {
         height: max-content;
         grid-template-columns: 1fr;
         padding: 2rem 1rem 1rem 1rem;
+        gap: 0rem;
     }
 
     .card-info-container {
         grid-template-columns: 1fr;
-        padding: 10px 1rem;
+        padding: 10px 0rem;
         gap: 1rem;
     }
 
@@ -4985,7 +5366,7 @@ body::-webkit-scrollbar {
     .footer-container {
         grid-template-columns: 1fr;
         height: max-content;
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
         gap: 1rem;
     }
 
@@ -4994,7 +5375,7 @@ body::-webkit-scrollbar {
     }
 
     .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         gap: 1rem;
     }
 
@@ -5017,8 +5398,8 @@ body::-webkit-scrollbar {
     }
 
     .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
+        font-size: 20px;
+        line-height: 35px;
     }
 
     .become-change-btn {
@@ -5031,6 +5412,7 @@ body::-webkit-scrollbar {
 
     .inner-section-container {
         gap: 0rem;
+        order: 2;
     }
 
     .button-changes-container {
@@ -5038,12 +5420,12 @@ body::-webkit-scrollbar {
     }
 
     .reallives-change-text {
-        font-size: 19px;
+        font-size: 16px;
     }
 
 
     .image-height {
-        height: max-content !important;
+        height: 18rem !important;
     }
 
     .index-features-container {
@@ -5059,11 +5441,11 @@ body::-webkit-scrollbar {
     }
 
     .box-card-data {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .title-of-card {
-        font-size: 17px;
+        font-size: 14px;
     }
 
 
@@ -5090,7 +5472,7 @@ body::-webkit-scrollbar {
     }
 
     .footer-descritpion-text {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .benifit-cards-box {
@@ -5098,12 +5480,12 @@ body::-webkit-scrollbar {
     }
 
     .footer-section-2 {
-        gap: 0rem;
+        gap: 10px;
     }
 
 
     .text-footer-label {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .experience-text-reallives {

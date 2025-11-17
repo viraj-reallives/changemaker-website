@@ -57,13 +57,19 @@
 // dropdown code 
 
 document.addEventListener("DOMContentLoaded", function () {
+
     const navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
+
     const tabPanes = document.querySelectorAll(".tab-pane");
+
     const dropdownButton = document.getElementById("dropdownButton");
+
     const logo = document.getElementById("logo");
+
     const tabButtons = document.querySelectorAll('.tab-btn');
 
     // Map dropdown items to specific tabs
+
     const dropdownToTabMap = {
         'institutions': 'tab11', // For Institutions -> Who Can Use? tab
         'employers': 'tab11',    // For Employers -> Who Can Use? tab  
@@ -71,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Function to show/hide tab panes
+
     function showTab(targetId) {
         // Hide all tab panes
         tabPanes.forEach(pane => {
@@ -78,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         // Show the target tab pane
+
         const targetPane = document.getElementById(targetId);
         if (targetPane) {
             targetPane.style.display = "block";
@@ -85,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Function to activate a specific tab
+
     function activateTab(tabId, color) {
         // Remove active class from all tabs
         tabButtons.forEach(btn => {
@@ -113,14 +122,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Function to reset to default state (home page)
+
     function resetDefault() {
+
         showTab("best-suited");
+
         dropdownButton.innerHTML = `Best Suited For <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>`;
 
         // Reset all active states
+
         document.querySelectorAll(".nav-link").forEach(l => {
             l.classList.remove("active");
         });
+
         document.querySelectorAll(".dropdown-item").forEach(item => {
             item.classList.remove("active");
         });
@@ -128,6 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdownButton.classList.add("active");
 
         // Reset tabs to first tab active
+
         const firstTab = tabButtons[0];
         if (firstTab) {
             const firstTabId = firstTab.getAttribute('data-tab');
@@ -137,6 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Tab functionality
+
     tabButtons.forEach(button => {
         button.addEventListener('click', function () {
             const tabId = this.getAttribute('data-tab');
@@ -146,6 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Navigation functionality
+
     navLinks.forEach(link => {
         link.addEventListener("click", function (e) {
             e.preventDefault();
