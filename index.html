@@ -2467,6 +2467,28 @@
 
 	</div>
 
+
+	<script>
+
+		let submitted = false;
+
+		function showMessage() {
+
+			if (submitted) {
+
+				document.getElementById("status").innerText = ("✅ Response submitted successfully!");
+				document.getElementById("gform").reset();
+				setTimeout(() => {
+					document.getElementById("status").innerText = "";
+				}, 3000);
+				submitted = false;
+			}
+		}
+
+		document.getElementById("hidden_iframe").onload = showMessage;
+
+	</script>
+
 	<script src="js/script.js"></script>
 
 	<script>
