@@ -2301,7 +2301,9 @@
 
 							<form
 								action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc0HVNTsV6padFmp5fIwED8RmLv8PDks4j6WikAh1qovMt5FQ/formResponse"
-								method="POST" target="hidden_iframe" id="gform" onsubmit="submitted=true;">
+								method="POST" target="hidden_iframe" id="gform"
+								onsubmit="if(validateCaptcha()) { submitted=true; return true; } else { return false; }">
+
 								<div class="form-group" style="margin-top: 1rem">
 									<label for="firstName">First Name</label>
 									<input type="text" id="firstName" name="entry.1545251936" required />
@@ -2319,8 +2321,11 @@
 									<textarea id="message" name="entry.1297400486" rows="5"
 										placeholder="Tell us how we can help you..."></textarea>
 								</div>
+
 								<div class="g-recaptcha" style="margin-top: 1rem"
-									data-sitekey="6LdJkdUrAAAAAIWNpjX-42xvyfzJupQ1dbw1z2Xt"></div>
+									data-sitekey="6LfzvhQsAAAAAP__ohUkmKgkCjVGIdlFR4xpuIQ8"></div>
+
+
 								<span class="span-gamer-flex">
 									<button type="submit" class="btn btn-primary btn-lg btn-padding-primary"
 										style="margin-top: 1rem">
@@ -2522,6 +2527,24 @@
 		});
 
 		// menu toogle btn 
+
+	</script>
+
+	<!-- captcha code js  -->
+
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	<script>
+
+		function validateCaptcha() {
+			const response = grecaptcha.getResponse();
+			if (!response) {
+				document.getElementById("status").innerText = "⚠️ Please verify that you are not a robot.";
+				return false; // stop form submission
+			}
+			document.getElementById("status").innerText = "✅ Submitting...";
+			return true; // allow form to submit
+		}
 
 	</script>
 

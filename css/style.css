@@ -1399,6 +1399,10 @@ body::-webkit-scrollbar {
     background: white;
 }
 
+.padding-bottom-1 {
+    padding-bottom: 1rem;
+}
+
 /* menu js  */
 
 
