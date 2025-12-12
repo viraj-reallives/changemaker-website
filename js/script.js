@@ -189,6 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }
             } else {
+
                 // Handle regular nav links
                 this.classList.add("active");
                 dropdownButton.classList.remove("active");
