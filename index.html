@@ -2290,6 +2290,7 @@
 				<div class="container padding-contact-right-left ">
 
 					<div class="contact-grid">
+
 						<div class="contact-form-section">
 							<h2 class="section-title text-start">Get in Touch</h2>
 
@@ -2304,14 +2305,17 @@
 									<label for="firstName">First Name</label>
 									<input type="text" id="firstName" name="entry.1545251936" required />
 								</div>
+
 								<div class="form-group" style="margin-top: 1rem">
-									<label for="firstName">Last Name</label>
-									<input type="text" id="firstName" name="entry.1795900201" required />
+									<label for="lastName">Last Name</label>
+									<input type="text" id="lastName" name="entry.1795900201" required />
 								</div>
+
 								<div class="form-group" style="margin-top: 1rem">
 									<label for="email">Email Address</label>
 									<input type="email" id="email" name="entry.1643563046" required />
 								</div>
+
 								<div class="form-group" style="margin-top: 1rem">
 									<label for="message">Message</label>
 									<textarea id="message" name="entry.1297400486" rows="5"
@@ -2321,15 +2325,13 @@
 								<div class="g-recaptcha" style="margin-top: 1rem"
 									data-sitekey="6LfzvhQsAAAAAP__ohUkmKgkCjVGIdlFR4xpuIQ8"></div>
 
-
 								<span class="span-gamer-flex">
-									<button type="submit" class="btn btn-primary btn-lg btn-padding-primary"
-										style="margin-top: 1rem">
-										Send <span class="material-symbols-outlined send-color">
-											send
-										</span>
+									<button type="submit" class="btn btn-primary btn-lg btn-padding-primary">
+										Send <span class="material-symbols-outlined send-color">send</span>
 									</button>
+									<p style="margin-top: 2rem; padding-bottom: 1rem" id="status"></p>
 								</span>
+
 							</form>
 						</div>
 
@@ -2364,18 +2366,10 @@
 									</div>
 								</div>
 							</div>
-
-							<!-- <div class="quick-links">
-							<h3>Quick Links</h3>
-							<ul>
-								<li><a href="trial.html">Start Free Trial</a></li>
-								<li><a href="support.html">Technical Support</a></li>
-								<li><a href="resources.html">Resources & Guides</a></li>
-								<li><a href="academic-license.html">Academic Licensing</a></li>
-							</ul>
-						</div> -->
 						</div>
 					</div>
+
+
 				</div>
 
 			</div>
@@ -2462,6 +2456,46 @@
 
 	</div>
 
+	<!-- js  -->
+
+
+	<!-- JS: Enable/Disable Send Button -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const firstName = document.getElementById("firstName");
+			const lastName = document.getElementById("lastName");
+			const email = document.getElementById("email");
+			const message = document.getElementById("message");
+			const sendBtn = document.querySelector("button[type='submit']");
+
+			// Default state
+			sendBtn.disabled = true;
+			sendBtn.style.backgroundColor = "#ffc06785";
+
+			function checkFormFields() {
+				if (
+					firstName.value.trim() !== "" &&
+					lastName.value.trim() !== "" &&
+					email.value.trim() !== "" &&
+					message.value.trim() !== ""
+				) {
+					sendBtn.disabled = false;
+					sendBtn.style.backgroundColor = "rgb(255 192 103)";
+				} else {
+					sendBtn.disabled = true;
+					sendBtn.style.backgroundColor = "#ffc06785";
+				}
+			}
+
+			firstName.addEventListener("input", checkFormFields);
+			lastName.addEventListener("input", checkFormFields);
+			email.addEventListener("input", checkFormFields);
+			message.addEventListener("input", checkFormFields);
+		});
+	</script>
+
+
+	<!-- js  -->
 
 	<script>
 

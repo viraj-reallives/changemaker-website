@@ -1414,6 +1414,13 @@ body::-webkit-scrollbar {
 
 /* instiution css  */
 
+.span-gamer-flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 @media (min-width: 1200px) and (max-width: 1600px) {
     .icon-menu-mobile {
