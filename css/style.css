@@ -1,250 +1,241 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: "Noto Sans", sans-serif; */
-    font-family: "Lato", "Helvetica Neue", "Helvetica", "sans-serif" !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "sans-serif" !important;
 }
 
-
 .material-symbols-outlined {
-    font-family: 'Material Symbols Outlined' !important;
+  font-family: "Material Symbols Outlined" !important;
 }
 
 .image-height {
-    height: 25rem !important;
+  height: 25rem !important;
 }
 
 body::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
 
-
 .text-style-descoration {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .image-fit-content {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-
 .image-fit-cover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .change-maker-container {
-    width: 100vw;
-    height: 100vh;
-    padding-top: 4rem;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 4rem;
 }
 
-
 .navigation-bar {
-    padding: 0.5rem 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background: linear-gradient(270deg, #FFAA33 5.77%, #FEEED7 100%); */
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 5px 2px #EDD0AC;
+  padding: 0.5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: linear-gradient(270deg, #FFAA33 5.77%, #FEEED7 100%); */
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px 2px #edd0ac;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-    transition: all 0.3s ease;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  transition: all 0.3s ease;
 }
 
 .left-side-bar {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
 }
 
 .logo-change {
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .border-right-index {
-    padding-left: 1rem !important;
-    padding: 10px;
-    border-left: 2px solid #FFB44D;
+  padding-left: 1rem !important;
+  padding: 10px;
+  border-left: 2px solid #ffb44d;
 }
 
 .changemaker-text {
-    font-weight: 500;
-    font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .right-side-bar {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .navigation-text-style {
-    font-weight: 400;
-    font-size: 17px;
-    color: black;
-    text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
 }
 
-
 .section-first-container {
-    font-size: 24px;
-    height: 53vh;
-    width: 100%;
-    padding: 6rem 6rem 2rem 6rem;
-    display: grid;
-    grid-template-columns: 1fr 40%;
+  font-size: 24px;
+  height: 53vh;
+  width: 100%;
+  padding: 6rem 6rem 2rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 40%;
 
-    gap: 1rem;
+  gap: 1rem;
 }
 
 .inner-section-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
 }
 
 .description-smoll-words-title {
-    font-weight: 400;
-    font-size: 28px;
-    color: #444444;
-    position: relative;
-    display: flex;
-    align-items: center;
+  font-weight: 400;
+  font-size: 28px;
+  color: #444444;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .description-water-background {
-    position: absolute;
-    left: 1.1%;
+  position: absolute;
+  left: 1.1%;
 }
 
 .button-changes-container {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .title-section-1 {
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 52px;
-    line-height: 3.4rem;
-    color: #111111;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 52px;
+  line-height: 3.4rem;
+  color: #111111;
 }
 
 .become-change-btn {
-    background-color: #FFC067;
-    font-weight: 400;
-    font-size: 18px;
-    color: #111111;
-    padding: 10px 10px;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
+  background-color: #ffc067;
+  font-weight: 400;
+  font-size: 18px;
+  color: #111111;
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
 
 .how-this-works-btn {
-    border: 2px solid #FF9503;
-    padding: 10px 10px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #111111;
-    background-color: transparent;
-    border-radius: 6px;
-    cursor: pointer;
+  border: 2px solid #ff9503;
+  padding: 10px 10px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #111111;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .section-second-container {
-    width: 100%;
-    /* background: linear-gradient(180deg, #FFFFFF 30.29%, #FFE6A1 100%); */
-    background-color: #FFF8F0;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 2rem;
-    padding: 2rem 6rem 3rem 6rem;
-    margin-top: 4rem;
+  width: 100%;
+  /* background: linear-gradient(180deg, #FFFFFF 30.29%, #FFE6A1 100%); */
+  background-color: #fff8f0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2rem;
+  padding: 2rem 6rem 3rem 6rem;
+  margin-top: 4rem;
 }
 
-
 .reallives-change-text {
-    font-weight: 500;
-    font-size: 28px;
-    color: #111111;
+  font-weight: 500;
+  font-size: 28px;
+  color: #111111;
 }
 
 .icon-features-section-container {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 6rem;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 6rem;
 }
 
 .four-grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
-
-
 .icon-card {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .title-of-card {
-    font-weight: 400;
-    font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .description-features-bottom {
-    font-weight: 400;
-    font-size: 19px;
-    text-align: center;
-    color: #111111;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #111111;
 }
 
 .changes-maker-section-index {
-    padding: 1rem 0rem 0rem 0rem;
-    /* background: linear-gradient(180deg, #FFE6A1 30.29%, #FFFFFF 100%); */
-    display: flex;
-    flex-direction: column;
-    /* height: 100vh; */
-    position: relative;
+  padding: 1rem 0rem 0rem 0rem;
+  /* background: linear-gradient(180deg, #FFE6A1 30.29%, #FFFFFF 100%); */
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  position: relative;
 }
 
 .experience-text-reallives {
-    font-weight: 4 00;
-    font-size: 28px;
-    color: #111111;
-    text-align: center;
-    margin-top: 2%;
+  font-weight: 4 00;
+  font-size: 28px;
+  color: #111111;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .width-100 {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* 
@@ -257,678 +248,662 @@ body::-webkit-scrollbar {
 } */
 
 .impact-section-container {
-    /* padding: 10px; */
-    /* background: linear-gradient(180deg, #FFFFFF 0%, #FFE7A4 100%); */
-    background-color: #FFF7EB;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
+  /* padding: 10px; */
+  /* background: linear-gradient(180deg, #FFFFFF 0%, #FFE7A4 100%); */
+  background-color: #fff7eb;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
 }
 
 .inforamtion-card-container {
-    padding: 10px;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    gap: 1rem;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 1rem;
 }
 
 .card-info-container {
-    padding: 10px 6rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4rem;
-
+  padding: 10px 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
 }
 
 .card-info-box {
-    display: grid;
-    grid-template-rows: 1fr 35%;
-    gap: 1rem;
-    background-color: #FFFFFF;
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0px 0px 12px 0px #00000040;
+  display: grid;
+  grid-template-rows: 1fr 35%;
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px 0px #00000040;
 }
 
-
 .btn-larne-more {
-    padding: 1rem 1rem 1rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .university-image-box {
-    border-radius: 6px;
-    overflow: hidden;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .content-data-text-box {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .title-university-name {
-    font-weight: 500;
-    font-size: 21px;
-    color: #111111;
+  font-weight: 500;
+  font-size: 21px;
+  color: #111111;
 }
 
 .description-university-text {
-    font-weight: 400;
-    font-size: 17px;
-    color: #4D4D4D;
+  font-weight: 400;
+  font-size: 17px;
+  color: #4d4d4d;
 }
 
 .inner-btn {
-    padding: 13px 15px;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 18px;
-    color: #111111;
-    border-radius: 6px;
-    border: 1px solid #c1c1c1;
-    background-color: white;
+  padding: 13px 15px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  color: #111111;
+  border-radius: 6px;
+  border: 1px solid #c1c1c1;
+  background-color: white;
 }
 
 .container-benifit-school {
-    position: relative;
-
+  position: relative;
 }
 
 .benifits-container-inner {
-    padding: 1rem 7rem;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
-    position: absolute;
-    top: 0;
+  padding: 1rem 7rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  position: absolute;
+  top: 0;
 }
 
 .benifit-box-school-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 2rem;
-    margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2%;
 }
 
 .benifit-title-text {
-    font-weight: 500;
-    font-size: 28px;
-    color: #111111;
-    text-align: center;
-    background-color: white;
-    padding: 5px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #111111;
+  text-align: center;
+  background-color: white;
+  padding: 5px;
 }
 
 .benifit-cards-box {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
-    border: 2px solid #FFB754;
-    box-shadow: 0px 0px 4px 0px #00000040;
-    border-radius: 6px;
-    overflow: hidden;
-    background-color: white;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  border: 2px solid #ffb754;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
 }
 
 .top-benfit-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: #FFE9CC;
-    border-bottom: 2px solid #FFB754;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: start;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #ffe9cc;
+  border-bottom: 2px solid #ffb754;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .bottom-data-benifit {
-    padding: 10px;
+  padding: 10px;
 }
 
 .header-title-side-text {
-    font-weight: 400;
-    font-size: 20px;
-    color: #111111;
+  font-weight: 400;
+  font-size: 20px;
+  color: #111111;
 }
 
 .bottom-data-benifit-description {
-    font-weight: 400;
-    font-size: 17px;
-    color: #4D4D4D;
-    line-height: 27px;
-
+  font-weight: 400;
+  font-size: 17px;
+  color: #4d4d4d;
+  line-height: 27px;
 }
 
 /* dropdown css  */
 
 /* additional css  */
 
-
 .dropdown-item.active {
-    color: #222222 !important;
-    font-weight: 500;
-    /* background-color: #f0f0f0; */
-    border-radius: 4px;
+  color: #222222 !important;
+  font-weight: 500;
+  /* background-color: #f0f0f0; */
+  border-radius: 4px;
 }
 
 .nav-link.active {
-    color: #222222 !important;
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    font-weight: 500;
+  color: #222222 !important;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  font-weight: 500;
 }
 
 .dropbtn.active {
-    color: #222222 !important;
-    font-weight: 500;
+  color: #222222 !important;
+  font-weight: 500;
 }
 
 /* additional css  */
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropbtn {
-    background-color: transparent;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    transition: background-color 0.3s ease;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s ease;
 }
 
 .arrow {
-    display: inline-block;
-    transition: transform 0.3s ease;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 1.4rem;
-    background-color: white;
-    min-width: max-content;
-    box-shadow: 0px 0px 2px 0px #00000040;
-    border: 1px solid #D5D5D5;
-    border-radius: 8px;
-    padding: 15px 1.5rem;
-    z-index: 10;
-    animation: fadeIn 0.3s ease;
-    text-align: start;
+  display: none;
+  position: absolute;
+  top: 1.4rem;
+  background-color: white;
+  min-width: max-content;
+  box-shadow: 0px 0px 2px 0px #00000040;
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+  padding: 15px 1.5rem;
+  z-index: 10;
+  animation: fadeIn 0.3s ease;
+  text-align: start;
 }
 
 .image-cover-class {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 /* TAB CODE */
 .nav-link {
-    text-decoration: none;
-    color: #222222;
-    /* font-weight: 500; */
-    transition: color 0.2s ease;
-    position: relative;
+  text-decoration: none;
+  color: #222222;
+  /* font-weight: 500; */
+  transition: color 0.2s ease;
+  position: relative;
 }
 
 .nav-link.active {
-    /* color: var(--primary-blue); */
-    color: #222222 !important;
-    text-decoration: underline;
-    text-underline-offset: 7px;
+  /* color: var(--primary-blue); */
+  color: #222222 !important;
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }
 
 .tab-panel {
-    display: none;
+  display: none;
 }
 
 .tab-panel.active {
-    display: block;
+  display: block;
 }
 
-
-
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-5px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .arrow {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .dropdown-content a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    font-size: 17px;
-    margin: 8px 0;
-    padding: 8px 0;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 17px;
+  margin: 8px 0;
+  padding: 8px 0;
 }
 
 .dropdown-content a:hover {
-    color: #222222;
+  color: #222222;
 }
 
 .span-flex-style {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-border {
-    border-bottom: 1px solid #D5D5D5;
-    padding-bottom: 10px;
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 10px;
 }
 
 /* dropdown css  */
 
 .footer-container {
-    width: 100%;
-    height: 40vh;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8rem;
-    padding: 2rem 6rem;
-    border: 1px solid #e6e6e6;
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  padding: 2rem 6rem;
+  border: 1px solid #e6e6e6;
 }
 
 .footer-section-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .footer-section-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .footer-descritpion-text {
-    font-weight: 400;
-    font-size: 18px;
-    color: #4D4D4D;
-    line-height: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4d4d4d;
+  line-height: 25px;
 }
 
 .label-footer-button-box {
-    padding: 10px;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
 }
 
 .text-footer-label {
-    font-weight: 500;
-    font-size: 18px;
-    color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
 }
 
 .footer-ankar-style {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    color: #333333;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
 }
 
 .footer-ankar-style:hover {
-    color: #de8200;
+  color: #de8200;
 }
 
 .footer-child-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* tab css  */
 
 .home-container {
-    display: flex;
-    flex-direction: column;
-    display: block;
+  display: flex;
+  flex-direction: column;
+  display: block;
 }
 
 .about-container {
-    width: 100vw;
-    display: none;
+  width: 100vw;
+  display: none;
 }
 
 .impact-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: blueviolet;
-    display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+  display: none;
 }
 
 .contact-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: yellow;
-    display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  display: none;
 }
 
-
-
 .competencies-backgroudn-image {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .data-container-rcmi-main {
-    padding: 10px;
-    background-color: #FFF7EC;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding: 2rem 6rem;
+  padding: 10px;
+  background-color: #fff7ec;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 2rem 6rem;
 }
 
 .rcmi-data-left-bar {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .tow-box-rcmi {
-    background-color: white;
-    box-shadow: 0px 0px 8px 0px #00000040;
-    border-radius: 6px;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
-    padding: 1rem 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 8px 0px #00000040;
+  border-radius: 6px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  padding: 1rem 1rem;
 }
 
 .rcmi-data-right-bar {
-    box-shadow: 0px 0px 8px 0px #00000040;
-    background-color: white;
-    border-radius: 6px;
-    padding: 1rem 1rem;
+  box-shadow: 0px 0px 8px 0px #00000040;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem 1rem;
 }
 
 .flex-colume-what-rcmi {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .rcmi-info-data-text {
-    font-weight: 400;
-    font-size: 17px;
-    color: #262626;
-    line-height: 26px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #262626;
+  line-height: 26px;
 }
 
 .title-description-mid {
-    font-weight: 600;
-    font-size: 18px;
-    color: #262626;
+  font-weight: 600;
+  font-size: 18px;
+  color: #262626;
 }
 
 .how-to-works-rcmi-container {
-    /* border: 1px solid black; */
-    padding: 1rem 6rem;
-    margin-bottom: 4rem;
+  /* border: 1px solid black; */
+  padding: 1rem 6rem;
+  margin-bottom: 4rem;
 }
 
 .how-to-works-rcmi-container-inner {
-    padding: 1.5rem;
-    height: 100%;
-    box-shadow: 0px 0px 8px 0px #00000040;
-    background-color: #DAE5EA;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  padding: 1.5rem;
+  height: 100%;
+  box-shadow: 0px 0px 8px 0px #00000040;
+  background-color: #dae5ea;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .first-title-how-to-work {
-    font-weight: 600;
-    font-size: 28px;
-    color: #111111;
-    text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: #111111;
+  text-align: center;
 }
 
 .container-event-main {
-    display: grid;
-    grid-template-columns: 40% 1fr;
-    gap: 2rem;
-    padding: 1rem 1rem;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 2rem;
+  padding: 1rem 1rem;
 }
 
 .container-inner-child-left {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .title-game-event {
-    font-weight: 500;
-    font-size: 24px;
-    color: #000000;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
 }
 
 .description-game-title {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
-    color: #262626;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #262626;
 }
 
 .container-inner-child-right {
-    box-shadow: 0px 0px 8px 0px #00000040;
-    background: linear-gradient(90deg, #355A6A 0%, #1A2C33 100%);
-    border-radius: 6px;
-    display: grid;
-    grid-template-rows: 1fr;
-    gap: 1rem;
+  box-shadow: 0px 0px 8px 0px #00000040;
+  background: linear-gradient(90deg, #355a6a 0%, #1a2c33 100%);
+  border-radius: 6px;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1rem;
 }
 
 .event-right-game-container {
-    background: linear-gradient(90deg, #355A6A 0%, #1A2C33 100%);
-    box-shadow: 0px 0px 8px 0px #00000040;
-    border-radius: 6px;
+  background: linear-gradient(90deg, #355a6a 0%, #1a2c33 100%);
+  box-shadow: 0px 0px 8px 0px #00000040;
+  border-radius: 6px;
 }
 
 .padding-0 {
-    padding: 0px !important;
+  padding: 0px !important;
 }
 
 .background-white {
-    background: white !important;
+  background: white !important;
 }
 
 .border-game-color {
-    border: 2px solid #1A2C33;
+  border: 2px solid #1a2c33;
 }
 
 .title-tag-rcmi {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 26px;
-    color: #262626;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #262626;
 }
 
 .backgroudn-none-color {
-    background: none !important;
-    box-shadow: none !important;
+  background: none !important;
+  box-shadow: none !important;
 }
 
 .changemaker-journey-container {
-    width: 100%;
-    background-color: #FFE5C5;
+  width: 100%;
+  background-color: #ffe5c5;
 }
 
 .child-changemaker-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem 1rem;
-    gap: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 3rem;
 }
 
 .top-child-changemaker {
-    width: 55vw;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .text-changemaker-journey {
-    font-weight: 600;
-    font-size: 28px;
-    color: #111111;
-    text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: #111111;
+  text-align: center;
 }
 
 .changemaker-devlopement-text {
-    font-weight: 600;
-    font-size: 24px;
-    text-align: center;
-    color: #111111;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #111111;
 }
 
 .changemaker-devlopment-text {
-    font-weight: 500;
-    font-size: 20px;
-    color: #333333;
-    text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
 }
 
 .point-cards-container {
-    width: 100%;
-    padding: 0rem 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+  width: 100%;
+  padding: 0rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .point-cards-inner {
-    padding: 2rem;
-    text-align: center;
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-    gap: 1.4rem;
+  padding: 2rem;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 1.4rem;
 }
 
 .first-box-point {
-    box-shadow: 0px 0px 4px 0px #00000040;
-    background-color: #E6F1DA;
-    border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #e6f1da;
+  border-radius: 6px;
 }
-
 
 .second-box-point {
-    box-shadow: 0px 0px 4px 0px #00000040;
-    background-color: #DAEAC8;
-    border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #daeac8;
+  border-radius: 6px;
 }
-
 
 .therd-box-point {
-    box-shadow: 0px 0px 4px 0px #00000040;
-    background-color: #CDE2B6;
-    border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #cde2b6;
+  border-radius: 6px;
 }
-
 
 .four-box-point {
-    box-shadow: 0px 0px 4px 0px #00000040;
-    background-color: #C1DBA3;
-    border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #c1dba3;
+  border-radius: 6px;
 }
 
-
 .five-box-point {
-    box-shadow: 0px 0px 4px 0px #00000040;
-    background-color: #A8CD7F;
-    border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #a8cd7f;
+  border-radius: 6px;
 }
 
 .point-cards-container-2 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 0rem 18rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 0rem 18rem;
 }
 
 .stage-title-text {
-    font-weight: 600;
-    font-size: 20px;
-    color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
 }
 
 .stage-title-2 {
-    font-weight: 300;
-    font-style: Italic;
-    font-size: 18px;
-    color: #000000;
+  font-weight: 300;
+  font-style: Italic;
+  font-size: 18px;
+  color: #000000;
 }
 
 .stage-description-text {
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    color: #333333;
-    line-height: 26px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+  line-height: 26px;
 }
 
 .begin-your-changemaker-container {
-    background-color: #F0F0F0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem 1rem;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
 }
-
 
 .make-decision-skill-text {
-    font-weight: 600;
-    font-size: 28px;
-    color: #111111;
+  font-weight: 600;
+  font-size: 28px;
+  color: #111111;
 }
 
-
 .becomechanage-maker-style {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .becomechanage-maker {
-    padding: 10px;
-    width: max-content;
-    margin-top: 3%;
-    background-color: #ffc067;
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 18px;
-    color: #111111;
+  padding: 10px;
+  width: max-content;
+  margin-top: 3%;
+  background-color: #ffc067;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #111111;
 }
 
 /* tab css  */
@@ -939,8 +914,8 @@ body::-webkit-scrollbar {
 /* IMPACT SECTION SPECIFIC STYLES */
 
 #impact {
-    background-color: transparent;
-    padding: 0px !important;
+  background-color: transparent;
+  padding: 0px !important;
 }
 
 /* Impact Section Container */
@@ -951,403 +926,406 @@ body::-webkit-scrollbar {
 } */
 
 .tab-impact {
-    display: none;
+  display: none;
 }
 
 .active-impact {
-    display: block;
+  display: block;
 }
 
 /* Impact Image Box with Slider */
 .impact-image-box {
-    height: 90vh;
-    position: relative;
+  height: 90vh;
+  position: relative;
 }
 
 .imapct-text-meddle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: 400;
-    font-size: 64px;
-    color: #FFFFFF;
-    z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffffff;
+  z-index: 2;
 }
 
 .impact-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .impact-img-containe {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-top: 2rem;
 }
 
 /* Impact Slider */
 #impact-slider .impact-slider {
-    position: absolute;
-    width: 100%;
-    height: 90vh;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    pointer-events: none;
-    z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  pointer-events: none;
+  z-index: 0;
 }
 
-.impact-slider>img {
-    width: 100%;
-    height: 100%;
+.impact-slider > img {
+  width: 100%;
+  height: 100%;
 }
 
 #impact-slider .impact-slider.active-slider {
-    opacity: 1;
-    z-index: 1;
+  opacity: 1;
+  z-index: 1;
 }
 
 /* Our Global Impact Section */
 .our-global-impact-wrapper {
-    padding: 1rem;
-    height: 80vh;
+  padding: 1rem;
+  height: 100vh;
+  background-color: #eefdff;
 }
 
 .global-image-section {
-    height: 70%;
+  height: 70%;
 }
 
 .global-title-description-container {
-    padding: 10px 10rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  padding: 10px 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .first-title-global {
-    font-weight: 400;
-    font-size: 28px;
-    color: #0AAEC6;
+  font-weight: 400;
+  font-size: 28px;
+  color: #0aaec6;
+  text-align: center;
 }
 
 .global-second-description {
-    font-weight: 400;
-    font-size: 18px;
-    color: #222222;
-    text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  color: #222222;
+  text-align: justify;
 }
 
 /* Card Section */
 .our-card-section-wrapper {
-    padding: 3rem 13rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  padding: 3rem 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .card-box-impact {
-    padding: 2rem 3rem;
-    box-shadow: 0px 0px 6px 0px #00000040;
-    border-radius: 6px;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
+  padding: 2rem 3rem;
+  box-shadow: 0px 0px 6px 0px #00000040;
+  border-radius: 6px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
 }
 
 .workshop-text {
-    color: #333333;
-    font-weight: 400;
-    font-size: 22px;
-    text-align: start;
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: start;
 }
 
 .bottom-card-imapct-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
 }
 
 .cards-title-imapct-text {
-    font-weight: 400;
-    font-size: 28px;
-    color: #0AAEC6;
-    text-align: start;
+  font-weight: 400;
+  font-size: 28px;
+  color: #0aaec6;
+  text-align: start;
 }
 
-.impact-image-card>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.impact-image-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .impact-card-data {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    gap: 1.5rem;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 1.5rem;
 }
 
 .university-text-title {
-    font-weight: 400;
-    font-size: 24px;
-    color: black;
-    text-align: start;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  text-align: start;
 }
 
 .date-of-start-title {
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
-    text-align: start;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  text-align: start;
 }
 
 .span-imapct-colume {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .participants-title-text {
-    font-weight: 400;
-    font-size: 20px;
-    color: #444444;
-    text-align: start;
+  font-weight: 400;
+  font-size: 20px;
+  color: #444444;
+  text-align: start;
 }
 
 .wapper-show-btn {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .color-btn-font {
-    font-weight: 400;
-    font-size: 18px;
-    color: #000000;
-    background-color: #F9C1A5;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    padding: 0.6rem 1rem;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  background-color: #f9c1a5;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
 }
 
 .empathy-btn-color {
-    background-color: #CAECF1 !important;
+  background-color: #caecf1 !important;
 }
 
 .larne-more-btn {
-    width: max-content;
-    padding: 0.5rem 0.6rem;
-    font-weight: 400;
-    font-size: 18px;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
-    outline: none;
-    border: 1px solid #C0BBBB;
-    border-radius: 6px;
-    background-color: transparent;
+  width: max-content;
+  padding: 0.5rem 0.6rem;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #c0bbbb;
+  border-radius: 6px;
+  background-color: transparent;
 }
 
 /* Campus Card */
 .card-reallives-campus-box {
-    /* height: 170px; */
-    background-color: #FFC41F;
-    padding: 1rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  /* height: 170px; */
+  background-color: #feecba;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .global-student-title {
-    font-weight: 400;
-    font-size: 24px;
-    color: black;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  text-align: center;
 }
 
 /* Button Colors */
 .btn-3-21-Century-color {
-    background-color: #D4E8EB !important;
+  background-color: #d4e8eb !important;
 }
 
 .business-acumen-color {
-    background-color: #DFF6C2 !important;
+  background-color: #dff6c2 !important;
 }
 
 .color-btn-same {
-    background-color: #F7B4B4 !important;
+  background-color: #f7b4b4 !important;
 }
 
 .changemaking-color {
-    background-color: #ffef9f !important;
+  background-color: #ffef9f !important;
 }
 
 .social-color {
-    background-color: #c4c1ff;
+  background-color: #c4c1ff;
 }
 
 .background-color-white {
-    background-color: white !important;
-    border: none;
+  background-color: white !important;
+  border: none;
 }
 
 /* Tab Sections */
 .section-two-container {
-    padding: 3rem 3rem;
-    padding-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    display: none;
+  padding: 3rem 3rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  display: none;
 }
 
 .section-flex-button {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .icon-arrwo-left {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
 
 .btn-top-slider {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .active-by-default {
-    color: #0AAEC5 !important;
+  color: #0aaec5 !important;
 }
 
 /* Slider Container */
 .wrapper-silder-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
 }
 
 .slider-box-container {
-    width: 100vw;
-    height: 80vh;
-    overflow: hidden;
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .slider-box-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .arrow-round-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: absolute;
-    right: 1rem;
-    background-color: lightgoldenrodyellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  background-color: lightgoldenrodyellow;
 }
 
 /* Content Sections */
 .content-tab-container-imapct {
-    padding: 1rem 10rem;
+  padding: 1rem 10rem;
 }
 
 .container-logo-box-impact {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .sdg-container-imapct-tab {
-    height: 200px;
-    padding: 10px 10rem;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 1rem;
+  height: 200px;
+  padding: 10px 10rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
 }
 
 .grid-sdg-card-imapct {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
 }
 
 .sdg-imapct img {
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .student-testimonials-title {
-    font-weight: 400;
-    font-size: 28px;
-    color: #0AAEC6;
-    text-align: start;
+  font-weight: 400;
+  font-size: 28px;
+  color: #0aaec6;
+  text-align: start;
 }
 
 .first-tab-style {
-    padding: 10px 9rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  padding: 10px 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .impact-left-data-box {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .text-data-content-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    color: black;
-    text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: black;
+  text-align: start;
 }
 
-.text-data-content-1>p {
-    width: 100%;
-    text-align: justify;
+.text-data-content-1 > p {
+  width: 100%;
+  text-align: justify;
 }
 
 .container-student-impact-data {
-    padding: 10px 9rem;
-    display: grid;
-    grid-template-columns: 1fr 30%;
-    gap: 2rem;
-    margin-bottom: 3rem;
+  padding: 10px 9rem;
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .wrapper-footer-tab-padding {
-    padding: 0rem 9rem;
+  padding: 0rem 9rem;
 }
 
 .first-tab-margin {
-    margin-top: 1.3rem;
+  margin-top: 1.3rem;
 }
 
 /* Slide Transitions */
@@ -1355,4205 +1333,4505 @@ body::-webkit-scrollbar {
 .slide-impact2,
 .slide-impact3,
 .slide-impact10 {
-    display: none;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  display: none;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .slide-impact.active,
 .slide-impact2.active,
 .slide-impact3.active,
 .slide-impact10.active {
-    display: block;
+  display: block;
 }
 
 /* Utility Classes */
 .margin-top-5 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .flex-align-start {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .color-black {
-    color: black !important;
+  color: black !important;
 }
 
 /* .contact page  */
 
 .contact-flex-colume {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 2rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
 }
 
 .contact-iteam-override {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .text-start {
-    text-align: start !important;
+  text-align: start !important;
 }
 
 .section-title {
-    font-size: 1.5rem !important;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: var(--spacing-lg);
-    color: var(--neutral-900);
-    line-height: 1.2;
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  color: var(--neutral-900);
+  line-height: 1.2;
 }
 
 .btn-padding-primary {
-    padding: 0.8rem 1rem !important;
+  padding: 0.8rem 1rem !important;
 }
 
 /* .contact page  */
-
 
 /* RESPONSIVE STYLES */
 
 /* menu js  */
 /* Hide mobile menu icon on desktop */
 .icon-menu-mobile {
-    display: none;
-    cursor: pointer;
-    z-index: 20000;
+  display: none;
+  cursor: pointer;
+  z-index: 20000;
 }
 
 .right-side-bar.active {
-    background: white;
+  background: white;
 }
 
 .padding-bottom-1 {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* menu js  */
 
-
-
 /* tabs container  */
-
 
 /* institution css  */
 
 /* instiution css  */
 
 .span-gamer-flex {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Update website css  */
 
 .second-description-label {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .card-index-features-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 2rem;
-    padding: 0rem 7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0rem 7rem;
 }
 
 .cards-detail-box {
-    background-color: #FFFFFF;
-    border: 2px solid #FFD191;
-    border-radius: 6px;
-    padding: 1rem;
-    display: grid;
-    grid-template-rows: 38% 1fr;
-    gap: 1rem;
+  background-color: #ffffff;
+  border: 2px solid #ffd191;
+  border-radius: 6px;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 38% 1fr;
+  gap: 1rem;
 }
 
 .features-text-card {
-    font-weight: 500;
-    font-size: 24px;
-    color: #D47A00;
+  font-weight: 500;
+  font-size: 24px;
+  color: #d47a00;
 }
 
 .features-description-text {
-    font-weight: 400;
-    font-size: 18px;
-    color: #444444;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444444;
 }
 
 .features-index-absolute {
-    width: 100%;
-    position: absolute;
-    top: 5%;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .outer-rcmi-wrapper {
-    width: 100%;
-    height: 100%;
-    /* background-color: lightblue; */
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 20rem;
+  width: 100%;
+  height: 100%;
+  /* background-color: lightblue; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 20rem;
 }
 
 .rcmi-embed-cdn {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
 .border-radius-4 {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .layer-parent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.container-main-individual {
+  width: 100vw;
+  padding: 1rem 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+}
+
+.top-slider-imapct-container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  /* padding: 10px; */
+}
+
+.individual-slide-inner {
+  /* border: 1px solid green; */
+  /* padding: 1rem; */
+  /* background-color: white; */
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bottom-impact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0rem 0rem;
+  height: 60vh;
+}
+
+.impact-text-slide {
+  font-weight: 500;
+  font-size: 80px;
+}
+
+.impact-description-slide {
+  font-weight: 400;
+  font-size: 30px;
+  color: #222222;
+}
+
+.padding-style {
+  padding: 1rem;
+}
+
+/* slider our impact */
+.multi-slides-sync {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.multi-slides-sync img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.multi-slides-sync img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* slider our impact  */
 
 /* Update website css  */
 
-
-
 @media (min-width: 1200px) and (max-width: 1600px) {
-    .icon-menu-mobile {
-        display: none;
-    }
+  .icon-menu-mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 1280px) {
-
-    /* .rcmi-embed-cdn {
+  /* .rcmi-embed-cdn {
         height: 55vh;
     } */
 
-    .sdg-container-imapct-tab {
-        padding: 10px 4rem;
-    }
+  .sdg-container-imapct-tab {
+    padding: 10px 4rem;
+  }
 
-    .first-tab-style {
-        padding: 0rem 4rem;
-    }
+  .first-tab-style {
+    padding: 0rem 4rem;
+  }
 
-    .our-card-section-wrapper {
-        padding: 3rem 4rem;
-    }
+  .our-card-section-wrapper {
+    padding: 3rem 4rem;
+  }
 
-    .global-title-description-container {
-        padding: 10px 4rem;
-    }
+  .global-title-description-container {
+    padding: 10px 4rem;
+  }
 
-    .content-tab-container-imapct {
-        padding: 1rem 5rem;
-    }
+  .content-tab-container-imapct {
+    padding: 1rem 5rem;
+  }
 
-    .container-student-impact-data {
-        padding: 1rem 5rem;
-    }
+  .container-student-impact-data {
+    padding: 1rem 5rem;
+  }
 }
 
 @media (max-width: 1180px) {
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 1rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 1rem 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 40% 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .point-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0rem 0rem;
+  }
 
-    .container-event-main {
-        grid-template-columns: 40% 1fr;
-        padding: 1rem 0rem;
+  .point-cards-container-2 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0rem 7rem;
+  }
 
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 0rem 0rem;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 0rem 7rem;
-    }
+  .first-title-how-to-work {
+    font-size: 26px;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .title-game-event {
+    font-size: 23px;
+  }
 
-    .first-title-how-to-work {
-        font-size: 26px;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .title-game-event {
-        font-size: 23px;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .sdg-container-imapct-tab {
+    padding: 10px 1rem;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .student-testimonials-title {
+    font-size: 26px;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .first-tab-style {
+    padding: 0rem 1rem;
+  }
 
-    .sdg-container-imapct-tab {
-        padding: 10px 1rem;
-    }
+  .content-tab-container-imapct {
+    padding: 1rem 0rem;
+  }
 
-    .student-testimonials-title {
-        font-size: 26px;
-    }
+  .container-student-impact-data {
+    padding: 10px 0rem;
+  }
 
-    .first-tab-style {
-        padding: 0rem 1rem;
-    }
+  .wrapper-footer-tab-padding {
+    padding: 0rem 0rem;
+  }
 
-    .content-tab-container-imapct {
-        padding: 1rem 0rem;
-    }
+  .our-card-section-wrapper {
+    padding: 3rem 2rem;
+  }
 
-    .container-student-impact-data {
-        padding: 10px 0rem;
-    }
+  .global-title-description-container {
+    padding: 10px 1rem;
+  }
 
-    .wrapper-footer-tab-padding {
-        padding: 0rem 0rem;
-    }
-
-    .our-card-section-wrapper {
-        padding: 3rem 2rem;
-    }
-
-    .global-title-description-container {
-        padding: 10px 1rem;
-    }
-
-    /* .rcmi-embed-cdn {
+  /* .rcmi-embed-cdn {
         height: 50vh;
     } */
 }
 
 @media (max-width: 991px) {
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 1rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 1rem 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .point-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0rem 0rem;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .point-cards-container-2 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0rem 7rem;
+  }
 
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 0rem 0rem;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 0rem 7rem;
-    }
+  .first-title-how-to-work {
+    font-size: 26px;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .title-game-event {
+    font-size: 23px;
+  }
 
-    .first-title-how-to-work {
-        font-size: 26px;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .title-game-event {
-        font-size: 23px;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  /* mobile screen  */
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .btn-larne-more {
+    padding: 1rem 6rem 2rem 1rem;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
-
-
-    /* mobile screen  */
-
-    .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
-    }
-
-    /* .right-side-bar {
+  /* .right-side-bar {
         display: none;
     } */
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .four-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
-        gap: 1rem;
-    }
+  .container-benifit-school {
+    padding: 1rem 1rem 4rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-    }
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+  }
 
-    /* .rcmi-embed-cdn {
+  /* .rcmi-embed-cdn {
         height: 50vh;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-    }
+  .inner-section-container {
+    gap: 0rem;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: max-content !important;
+  }
 
-    .image-height {
-        height: max-content !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
+  /* mobile screen  */
 
-    .text-footer-label {
-        font-size: 15px;
-    }
+  .sdg-container-imapct-tab {
+    padding: 10px 1rem;
+  }
 
-    .experience-text-reallives {
-        font-size: 20px;
-    }
+  .student-testimonials-title {
+    font-size: 25px;
+  }
 
-    /* mobile screen  */
+  .first-tab-style {
+    padding: 0rem 1rem;
+  }
 
-    .sdg-container-imapct-tab {
-        padding: 10px 1rem;
-    }
+  .content-tab-container-imapct {
+    padding: 1rem 0rem;
+  }
 
-    .student-testimonials-title {
-        font-size: 25px;
-    }
+  .container-student-impact-data {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+  }
 
-    .first-tab-style {
-        padding: 0rem 1rem;
-    }
+  .wrapper-footer-tab-padding {
+    padding: 0rem 0rem;
+  }
 
-    .content-tab-container-imapct {
-        padding: 1rem 0rem;
-    }
+  .global-title-description-container {
+    padding: 10px 1rem;
+  }
 
-    .container-student-impact-data {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-    }
+  .our-global-impact-wrapper {
+    height: max-content;
+  }
 
-    .wrapper-footer-tab-padding {
-        padding: 0rem 0rem;
-    }
+  .our-card-section-wrapper {
+    padding: 2rem 1rem;
+  }
 
-    .global-title-description-container {
-        padding: 10px 1rem;
-    }
+  .bottom-card-imapct-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .our-global-impact-wrapper {
-        height: max-content;
-    }
+  .card-box-impact {
+    padding: 1rem 1rem;
+  }
 
-    .our-card-section-wrapper {
-        padding: 2rem 1rem;
-    }
+  .imapct-text-meddle {
+    font-size: 50px;
+  }
 
-    .bottom-card-imapct-section {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .university-text-title {
+    font-size: 17px;
+  }
 
-    .card-box-impact {
-        padding: 1rem 1rem;
-    }
+  .cards-title-imapct-text {
+    font-size: 17px;
+  }
 
-    .imapct-text-meddle {
-        font-size: 50px;
-    }
+  .participants-title-text {
+    font-size: 19px;
+  }
 
-    .university-text-title {
-        font-size: 17px;
-    }
+  .color-btn-font {
+    font-size: 14px;
+  }
 
-    .cards-title-imapct-text {
-        font-size: 17px;
-    }
+  .global-student-title {
+    font-size: 24px;
+  }
 
-    .participants-title-text {
-        font-size: 19px;
-    }
+  .first-title-global {
+    font-size: 22px;
+  }
 
-    .color-btn-font {
-        font-size: 14px;
-    }
-
-    .global-student-title {
-        font-size: 24px;
-    }
-
-    .first-title-global {
-        font-size: 22px;
-    }
-
-    .global-second-description {
-        font-size: 14px;
-    }
+  .global-second-description {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 800px) {
+  .description-water-background {
+    font-size: 23px;
+  }
 
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
 
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .inner-btn {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    /* menu mobile  */
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  /* menu mobile  */
 
-    /* menu mobile  */
+  .icon-menu-mobile {
+    display: block;
+  }
 
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* mobile screen  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
-    }
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  /* menu mobile  */
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-    }
+  /* mobile screen  */
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 1rem;
-        gap: 1rem;
-    }
+  .btn-larne-more {
+    padding: 1rem 6rem 2rem 1rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 1rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
-        gap: 1rem;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    /* .rcmi-embed-cdn {
+  .four-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container-benifit-school {
+    padding: 1rem 1rem 4rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  /* .rcmi-embed-cdn {
         height: 50vh;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-    }
+  .inner-section-container {
+    gap: 0rem;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: max-content !important;
+  }
 
-    .image-height {
-        height: max-content !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .text-footer-label {
-        font-size: 15px;
-    }
+  /* mobile screen  */
 
-    .experience-text-reallives {
-        font-size: 20px;
-    }
+  .sdg-container-imapct-tab {
+    padding: 10px 1rem;
+  }
 
-    /* mobile screen  */
+  .student-testimonials-title {
+    font-size: 24px;
+  }
 
-    .sdg-container-imapct-tab {
-        padding: 10px 1rem;
-    }
+  .first-tab-style {
+    padding: 0rem 1rem;
+  }
 
-    .student-testimonials-title {
-        font-size: 24px;
-    }
+  .content-tab-container-imapct {
+    padding: 1rem 0rem;
+  }
 
-    .first-tab-style {
-        padding: 0rem 1rem;
-    }
+  .container-student-impact-data {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+  }
 
-    .content-tab-container-imapct {
-        padding: 1rem 0rem;
-    }
+  .wrapper-footer-tab-padding {
+    padding: 0rem 0rem;
+  }
 
-    .container-student-impact-data {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-    }
+  .global-title-description-container {
+    padding: 10px 1rem;
+  }
 
-    .wrapper-footer-tab-padding {
-        padding: 0rem 0rem;
-    }
+  .our-global-impact-wrapper {
+    height: max-content;
+  }
 
-    .global-title-description-container {
-        padding: 10px 1rem;
-    }
+  .our-card-section-wrapper {
+    padding: 2rem 1rem;
+  }
 
-    .our-global-impact-wrapper {
-        height: max-content;
-    }
+  .bottom-card-imapct-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .our-card-section-wrapper {
-        padding: 2rem 1rem;
-    }
+  .card-box-impact {
+    padding: 1rem 1rem;
+  }
 
-    .bottom-card-imapct-section {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .imapct-text-meddle {
+    font-size: 50px;
+  }
 
-    .card-box-impact {
-        padding: 1rem 1rem;
-    }
+  .university-text-title {
+    font-size: 17px;
+  }
 
-    .imapct-text-meddle {
-        font-size: 50px;
-    }
+  .cards-title-imapct-text {
+    font-size: 17px;
+  }
 
-    .university-text-title {
-        font-size: 17px;
-    }
+  .participants-title-text {
+    font-size: 19px;
+  }
 
-    .cards-title-imapct-text {
-        font-size: 17px;
-    }
+  .color-btn-font {
+    font-size: 14px;
+  }
 
-    .participants-title-text {
-        font-size: 19px;
-    }
+  .global-student-title {
+    font-size: 16px;
+  }
 
-    .color-btn-font {
-        font-size: 14px;
-    }
+  .first-title-global {
+    font-size: 22px;
+  }
 
-    .global-student-title {
-        font-size: 16px;
-    }
-
-    .first-title-global {
-        font-size: 22px;
-    }
-
-    .global-second-description {
-        font-size: 14px;
-    }
+  .global-second-description {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 700px) {
+  .description-water-background {
+    font-size: 23px;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .mobile-hight-image {
+    height: 14vh !important;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .inner-btn {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
 
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    /* menu mobile  */
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  /* menu mobile  */
 
-    /* menu mobile  */
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    /* mobile screen  */
+  .dropdown-content {
+    right: -8%;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
-    }
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  /* menu mobile  */
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-    }
+  /* mobile screen  */
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 1rem;
-        gap: 1rem;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 2rem 1rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 1rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
-        gap: 1rem;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    /* .rcmi-embed-cdn {
+  .four-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 17px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 17px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-    }
+  .inner-section-container {
+    gap: 0rem;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: max-content !important;
+  }
 
-    .image-height {
-        height: max-content !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  /* mobile screen  */
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .text-data-content-1 > p {
+    width: 100%;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  .container-logo-box-impact > img {
+    width: 100%;
+    height: 100%;
+  }
 
+  .text-data-content-impact {
+    text-align: justify;
+  }
 
-    .text-footer-label {
-        font-size: 15px;
-    }
+  .wrapper-footer-tab-padding {
+    padding: 0rem 1rem;
+  }
 
-    .experience-text-reallives {
-        font-size: 20px;
-    }
+  .impact-left-data-box {
+    padding: 0px;
+  }
 
-    /* mobile screen  */
+  .wrapper-silder-container {
+    flex-direction: column;
+  }
 
-    .text-data-content-1>p {
-        width: 100%;
-    }
+  .section-two-container {
+    padding: 4rem 1rem;
+  }
 
-    .container-logo-box-impact>img {
-        width: 100%;
-        height: 100%;
-    }
+  .btn-top-slider {
+    font-size: 16px;
+  }
 
-    .text-data-content-impact {
-        text-align: justify;
-    }
+  .container-student-impact-data {
+    padding: 10px 1rem;
+  }
 
-    .wrapper-footer-tab-padding {
-        padding: 0rem 1rem;
-    }
+  .container-student-impact-data {
+    grid-template-columns: 1fr;
+  }
 
-    .impact-left-data-box {
-        padding: 0px;
-    }
-
-    .wrapper-silder-container {
-        flex-direction: column;
-    }
-
-    .section-two-container {
-        padding: 4rem 1rem;
-    }
-
-    .btn-top-slider {
-        font-size: 16px;
-    }
-
-    .container-student-impact-data {
-        padding: 10px 1rem;
-    }
-
-    .container-student-impact-data {
-        grid-template-columns: 1fr;
-    }
-
-    .content-tab-container-imapct {
-        padding: 1rem 1rem;
-    }
+  .content-tab-container-imapct {
+    padding: 1rem 1rem;
+  }
 }
 
 @media (max-width: 650px) {
+  .description-water-background {
+    font-size: 21px;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .inner-btn {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
 
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    /* menu mobile  */
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  /* menu mobile  */
 
-    /* menu mobile  */
+  .icon-menu-mobile {
+    display: block;
+  }
 
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* mobile screen  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 2rem 1rem;
-    }
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
+  /* menu mobile  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  /* mobile screen  */
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 2rem 1rem;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 1rem;
-        gap: 1rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 1rem;
+    gap: 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .four-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    /* 
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* 
     .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: max-content !important;
+  }
 
-    .image-height {
-        height: max-content !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .text-footer-label {
-        font-size: 15px;
-    }
+  /* mobile screen  */
 
-    .experience-text-reallives {
-        font-size: 20px;
-    }
+  .sdg-imapct > img {
+    width: 150px;
+    height: 130px;
+  }
 
-    /* mobile screen  */
+  .sdg-container-imapct-tab {
+    padding: 0px 0rem;
+  }
 
-    .sdg-imapct>img {
-        width: 150px;
-        height: 130px;
-    }
+  .grid-sdg-card-imapct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .sdg-container-imapct-tab {
-        padding: 0px 0rem;
-    }
+  .student-testimonials-title {
+    font-size: 22px;
+  }
 
-    .grid-sdg-card-imapct {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .student-testimonials-title {
-        font-size: 22px;
-    }
-
-    .first-tab-style {
-        padding: 0rem 1rem;
-    }
+  .first-tab-style {
+    padding: 0rem 1rem;
+  }
 }
 
 @media (max-width: 570px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    /* new media  */
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  /* new media  */
 
-    .description-university-text {
-        font-size: 16px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .title-university-name {
-        font-size: 18px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    /* new media  */
+  .description-university-text {
+    font-size: 16px;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .title-university-name {
+    font-size: 18px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    /* menu mobile  */
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  /* menu mobile  */
 
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .dropdown-content {
+    right: -8%;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    /* menu mobile  */
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    /* mobile screen  */
+  /* menu mobile  */
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 1rem;
-    }
+  /* mobile screen  */
 
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 1rem;
+  }
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 4rem 1rem;
-        gap: 1rem;
-    }
+  .container-benifit-school {
+    padding: 1rem 1rem 4rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
 
-    /* .rcmi-embed-cdn {
+  /* .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: max-content !important;
+  }
 
-    .image-height {
-        height: max-content !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  /* mobile screen  */
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .sdg-imapct > img {
+    width: 140px;
+    height: 140px;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  .sdg-container-imapct-tab {
+    padding: 0px 0rem;
+  }
 
+  .grid-sdg-card-imapct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .text-footer-label {
-        font-size: 15px;
-    }
-
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-    .sdg-imapct>img {
-        width: 140px;
-        height: 140px;
-    }
-
-    .sdg-container-imapct-tab {
-        padding: 0px 0rem;
-    }
-
-    .grid-sdg-card-imapct {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .student-testimonials-title {
-        font-size: 20px;
-    }
+  .student-testimonials-title {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 530px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 18px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    /* new media  */
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .description-university-text {
+    font-size: 16px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .title-university-name {
+    font-size: 18px;
+  }
 
-    }
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  /* new media  */
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    /* menu mobile  */
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
+  /* menu mobile  */
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* menu mobile  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    /* mobile screen  */
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 0rem;
-    }
+  /* menu mobile  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  /* mobile screen  */
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 1rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    /* .rcmi-embed-cdn {
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: 20rem !important;
+  }
 
-    .image-height {
-        height: 20rem !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  /* mobile screen  */
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
-
-    .footer-section-2 {
-        gap: 0rem;
-    }
-
-
-    .text-footer-label {
-        font-size: 15px;
-    }
-
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-
-
-    .sdg-imapct>img {
-        width: 130px;
-        height: 130px;
-    }
+  .sdg-imapct > img {
+    width: 130px;
+    height: 130px;
+  }
 }
 
 @media (max-width: 480px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 18px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    /* new media  */
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .description-university-text {
+    font-size: 16px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .title-university-name {
+    font-size: 18px;
+  }
 
-    }
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  /* new media  */
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    /* menu mobile  */
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
+  /* menu mobile  */
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* menu mobile  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    /* mobile screen  */
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 0rem;
-    }
+  /* menu mobile  */
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  /* mobile screen  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+  }
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 1rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    /* 
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* 
     .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 23px;
-    }
+  .reallives-change-text {
+    font-size: 23px;
+  }
 
+  .image-height {
+    height: 18rem !important;
+  }
 
-    .image-height {
-        height: 18rem !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .text-footer-label {
+    font-size: 17px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  /* mobile screen  */
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
-
-
-    .text-footer-label {
-        font-size: 17px;
-    }
-
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-
-    .sdg-imapct>img {
-        width: 120px;
-        height: 120px;
-    }
+  .sdg-imapct > img {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media (max-width: 450px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 18px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    /* new media  */
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .description-university-text {
+    font-size: 16px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .title-university-name {
+    font-size: 18px;
+  }
 
-    }
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  /* new media  */
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    /* menu mobile  */
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  /* menu mobile  */
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    /* menu mobile  */
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* mobile screen  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 0rem;
-    }
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
+  /* menu mobile  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  /* mobile screen  */
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-        gap: 1rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 1rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    /* 
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* 
     .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-    }
+  .inner-section-container {
+    gap: 0rem;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 19px;
-    }
+  .reallives-change-text {
+    font-size: 19px;
+  }
 
+  .image-height {
+    height: 18rem !important;
+  }
 
-    .image-height {
-        height: 18rem !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  /* mobile screen  */
 
-
-    .text-footer-label {
-        font-size: 15px;
-    }
-
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-
-
-    .sdg-imapct>img {
-        width: 120px;
-        height: 120px;
-    }
+  .sdg-imapct > img {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media (max-width: 440px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 18px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    /* new media  */
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .description-university-text {
+    font-size: 16px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .title-university-name {
+    font-size: 18px;
+  }
 
-    }
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  /* new media  */
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    /* menu mobile  */
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
+  /* menu mobile  */
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* menu mobile  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    /* mobile screen  */
+  /* menu mobile  */
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 0rem;
-    }
+  /* mobile screen  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-        gap: 1rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+    gap: 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 1rem 1rem;
-        gap: 1rem;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
 
-    /* 
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* 
     .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 19px;
-    }
+  .reallives-change-text {
+    font-size: 19px;
+  }
 
+  .image-height {
+    height: 18rem !important;
+  }
 
-    .image-height {
-        height: 18rem !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  /* mobile screen  */
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
-
-
-    .text-footer-label {
-        font-size: 15px;
-    }
-
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-
-
-    .sdg-imapct>img {
-        width: 100px;
-        height: 100px;
-    }
+  .sdg-imapct > img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 400px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 18px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    /* new media  */
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .description-university-text {
+    font-size: 16px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .title-university-name {
+    font-size: 18px;
+  }
 
-    }
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  /* new media  */
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    /* menu mobile  */
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
+  /* menu mobile  */
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .dropdown-content {
+    right: -8%;
+  }
 
-    /* menu mobile  */
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    /* mobile screen  */
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 0rem;
-    }
+  /* menu mobile  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+  /* mobile screen  */
 
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-        gap: 1rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 1rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    /* .rcmi-embed-cdn {
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 19px;
-    }
+  .reallives-change-text {
+    font-size: 19px;
+  }
 
+  .image-height {
+    height: 17rem !important;
+  }
 
-    .image-height {
-        height: 17rem !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  /* mobile screen  */
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
-
-    .benifit-cards-box {
-        gap: 0rem;
-    }
-
-    .footer-section-2 {
-        gap: 0rem;
-    }
-
-
-    .text-footer-label {
-        font-size: 15px;
-    }
-
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-
-
-    .sdg-imapct>img {
-        width: 100px;
-        height: 100px;
-    }
+  .sdg-imapct > img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 390px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 14px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 15px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 16px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 14px;
+  }
 
-    /* new media  */
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
+  .description-university-text {
+    font-size: 15px;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .title-university-name {
+    font-size: 16px;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .child-changemaker-container {
-        gap: 1rem;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
+  /* new media  */
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .child-changemaker-container {
+    gap: 1rem;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    /* menu mobile  */
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  /* menu mobile  */
 
-    .dropdown-content {
-        right: -8%;
-    }
+  .icon-menu-mobile {
+    display: block;
+  }
 
+  .dropdown-content {
+    right: -8%;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    /* menu mobile  */
+  /* menu mobile  */
 
-    /* mobile screen  */
+  /* mobile screen  */
 
-    .btn-larne-more {
-        padding: 1rem 6rem 1rem 0rem;
-    }
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 1rem 1rem;
-        gap: 1rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 1rem 1rem;
+    gap: 1rem;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 0rem 1rem;
-        gap: 1rem;
-    }
+  .container-benifit-school {
+    padding: 1rem 1rem 0rem 1rem;
+    gap: 1rem;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
 
-    /* .rcmi-embed-cdn {
+  /* .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 23px;
-        line-height: 38px;
-    }
+  .title-section-1 {
+    font-size: 23px;
+    line-height: 38px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 19px;
-    }
+  .reallives-change-text {
+    font-size: 19px;
+  }
 
+  .image-height {
+    height: 17rem !important;
+  }
 
-    .image-height {
-        height: 17rem !important;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .title-of-card {
+    font-size: 17px;
+  }
 
-    .title-of-card {
-        font-size: 17px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .footer-descritpion-text {
+    font-size: 15px;
+  }
 
-    .footer-descritpion-text {
-        font-size: 15px;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .footer-section-2 {
+    gap: 0rem;
+  }
 
-    .footer-section-2 {
-        gap: 0rem;
-    }
+  .text-footer-label {
+    font-size: 15px;
+  }
 
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .text-footer-label {
-        font-size: 15px;
-    }
+  /* mobile screen  */
 
-    .experience-text-reallives {
-        font-size: 20px;
-    }
-
-    /* mobile screen  */
-
-
-    .sdg-imapct>img {
-        width: 100px;
-        height: 100px;
-    }
+  .sdg-imapct > img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 375px) {
+  .features-text-card {
+    font-size: 20px;
+  }
 
-    /* new media  */
+  .features-description-text {
+    font-size: 15px;
+  }
 
-    .inner-btn {
-        font-size: 14px;
-    }
+  .cards-detail-box {
+    grid-template-rows: auto 1fr;
+  }
 
-    .description-smoll-words-title {
-        font-size: 20px;
-    }
+  .none-property {
+    display: none;
+  }
 
-    .label-footer-button-box {
-        padding: 0px;
-    }
+  .mobile-hight-image {
+    height: 20vh !important;
+  }
 
-    .footer-ankar-style {
-        font-size: 13px;
-    }
+  .card-index-features-container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .footer-section-1 {
-        gap: 1rem;
-    }
+  .benifits-container-inner {
+    position: relative;
+    padding: 0rem 0rem;
+  }
 
-    .description-university-text {
-        font-size: 15px;
-    }
+  /* new media  */
 
-    .title-university-name {
-        font-size: 16px;
-    }
+  .inner-btn {
+    font-size: 14px;
+  }
 
-    .content-data-text-box {
-        gap: 6px;
-    }
+  .description-smoll-words-title {
+    font-size: 20px;
+  }
 
-    .impact-section-container {
-        gap: 0rem;
-    }
+  .label-footer-button-box {
+    padding: 0px;
+  }
 
-    .inforamtion-card-container {
-        gap: 0rem;
-    }
+  .footer-ankar-style {
+    font-size: 13px;
+  }
 
+  .footer-section-1 {
+    gap: 1rem;
+  }
 
-    /* new media  */
+  .description-university-text {
+    font-size: 15px;
+  }
 
+  .title-university-name {
+    font-size: 16px;
+  }
 
-    .larne-more-btn {
-        font-size: 15px;
-    }
+  .content-data-text-box {
+    gap: 6px;
+  }
 
-    .contact-info {
-        padding: 1rem !important;
-    }
+  .impact-section-container {
+    gap: 0rem;
+  }
 
-    .contact-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0rem !important;
-    }
+  .inforamtion-card-container {
+    gap: 0rem;
+  }
 
-    .becomechanage-maker {
-        font-size: 16px;
-    }
+  /* new media  */
 
-    .data-container-rcmi-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 1rem;
-    }
+  .larne-more-btn {
+    font-size: 15px;
+  }
 
-    .how-to-works-rcmi-container {
-        padding: 1rem 1rem;
-        margin-bottom: 0rem;
-    }
+  .contact-info {
+    padding: 1rem !important;
+  }
 
-    .container-event-main {
-        grid-template-columns: 1fr;
-        padding: 1rem 0rem;
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0rem !important;
+  }
 
-    }
+  .becomechanage-maker {
+    font-size: 16px;
+  }
 
-    .point-cards-container {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .data-container-rcmi-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem;
+  }
 
-    .point-cards-container-2 {
-        grid-template-columns: 1fr;
-        padding: 0rem 0rem;
-    }
+  .how-to-works-rcmi-container {
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+  }
 
-    .top-child-changemaker {
-        width: 100%;
-        gap: 1rem;
-    }
+  .container-event-main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0rem;
+  }
 
-    .make-decision-skill-text {
-        font-size: 19px;
-        text-align: center;
-    }
+  .point-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
-    .first-title-how-to-work {
-        font-size: 20px;
-    }
+  .point-cards-container-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 0rem;
+  }
 
+  .top-child-changemaker {
+    width: 100%;
+    gap: 1rem;
+  }
 
-    .how-to-works-rcmi-container-inner {
-        gap: 1rem;
-    }
+  .make-decision-skill-text {
+    font-size: 19px;
+    text-align: center;
+  }
 
-    .title-game-event {
-        font-size: 17px;
-    }
+  .first-title-how-to-work {
+    font-size: 20px;
+  }
 
-    .title-tag-rcmi {
-        font-size: 17px;
-    }
+  .how-to-works-rcmi-container-inner {
+    gap: 1rem;
+  }
 
-    .changemaker-devlopement-text {
-        font-size: 16px;
-    }
+  .title-game-event {
+    font-size: 17px;
+  }
 
-    .changemaker-devlopment-text {
-        font-size: 17px;
-    }
+  .title-tag-rcmi {
+    font-size: 17px;
+  }
 
-    .text-changemaker-journey {
-        font-size: 22px;
-    }
+  .changemaker-devlopement-text {
+    font-size: 16px;
+  }
 
-    /* menu mobile  */
+  .changemaker-devlopment-text {
+    font-size: 17px;
+  }
 
-    .icon-menu-mobile {
-        display: block;
-    }
+  .text-changemaker-journey {
+    font-size: 22px;
+  }
 
-    .dropdown-content {
-        right: -8%;
-    }
+  /* menu mobile  */
 
+  .icon-menu-mobile {
+    display: block;
+  }
 
-    .right-side-bar.nav-links a,
-    .right-side-bar.nav-links .dropdown {
-        display: none;
-    }
+  .dropdown-content {
+    right: -8%;
+  }
 
-    .right-side-bar.active.nav-links a,
-    .right-side-bar.active .dropdown {
-        display: block;
-        padding: 10px 0;
-    }
+  .right-side-bar.nav-links a,
+  .right-side-bar.nav-links .dropdown {
+    display: none;
+  }
 
-    /* menu mobile  */
+  .right-side-bar.active.nav-links a,
+  .right-side-bar.active .dropdown {
+    display: block;
+    padding: 10px 0;
+  }
 
-    /* mobile screen  */
+  /* menu mobile  */
 
-    .btn-larne-more {
-        padding: 1rem 4rem 1rem 0rem;
-    }
+  /* mobile screen  */
 
-    .right-side-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+  .btn-larne-more {
+    padding: 1rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
-        position: absolute;
-        right: 2%;
-        top: 83%;
-        padding: 12px;
-    }
+  .right-side-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 
-    .section-first-container {
-        height: max-content;
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 1rem 1rem;
-        gap: 0rem;
-    }
+    position: absolute;
+    right: 2%;
+    top: 83%;
+    padding: 12px;
+  }
 
-    .card-info-container {
-        grid-template-columns: 1fr;
-        padding: 10px 0rem;
-        gap: 1rem;
-    }
+  .section-first-container {
+    height: max-content;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 0rem;
+  }
 
-    .section-second-container {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin-top: 0rem;
-    }
+  .card-info-container {
+    grid-template-columns: 1fr;
+    padding: 10px 0rem;
+    gap: 1rem;
+  }
 
-    .benifit-box-school-container {
-        grid-template-columns: 1fr;
-    }
+  .section-second-container {
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-top: 0rem;
+  }
 
-    .footer-container {
-        grid-template-columns: 1fr;
-        height: max-content;
-        padding: 1rem 1rem;
-        gap: 1rem;
-    }
+  .benifit-box-school-container {
+    grid-template-columns: 1fr;
+  }
 
-    .four-grid-container {
-        grid-template-columns: 1fr;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 1rem 1rem;
+    gap: 1rem;
+  }
 
-    .container-benifit-school {
-        padding: 1rem 1rem 1rem 1rem;
-        gap: 1rem;
-    }
+  .four-grid-container {
+    grid-template-columns: 1fr;
+  }
 
-    .changes-maker-section-index {
-        padding: 1rem 1rem 1rem 1rem;
-        display: none;
-    }
+  .container-benifit-school {
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+  }
 
-    /* .rcmi-embed-cdn {
+  .changes-maker-section-index {
+    padding: 1rem 1rem 1rem 1rem;
+    display: none;
+  }
+
+  /* .rcmi-embed-cdn {
         height: max-content;
     } */
 
-    .card-info-box {
-        grid-template-rows: 1fr;
-        gap: 1rem;
-    }
+  .card-info-box {
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
-    .navigation-bar {
-        padding: 1rem 1rem;
-    }
+  .navigation-bar {
+    padding: 1rem 1rem;
+  }
 
-    .title-section-1 {
-        font-size: 20px;
-        line-height: 35px;
-    }
+  .title-section-1 {
+    font-size: 20px;
+    line-height: 35px;
+  }
 
-    .become-change-btn {
-        font-size: 14px;
-    }
+  .become-change-btn {
+    font-size: 14px;
+  }
 
-    .how-this-works-btn {
-        font-size: 14px;
-    }
+  .how-this-works-btn {
+    font-size: 14px;
+  }
 
-    .inner-section-container {
-        gap: 0rem;
-        order: 2;
-    }
+  .inner-section-container {
+    gap: 0rem;
+    order: 2;
+  }
 
-    .button-changes-container {
-        margin-top: 1rem;
-    }
+  .button-changes-container {
+    margin-top: 1rem;
+  }
 
-    .reallives-change-text {
-        font-size: 16px;
-    }
+  .reallives-change-text {
+    font-size: 16px;
+  }
 
-    .image-height {
-        height: 18rem !important;
-    }
+  .image-height {
+    height: 18rem !important;
+  }
 
-    .icon-features-section-container {
-        gap: 1rem;
-    }
+  .icon-features-section-container {
+    gap: 1rem;
+  }
 
-    .description-features-bottom {
-        font-size: 15px;
-    }
+  .description-features-bottom {
+    font-size: 15px;
+  }
 
-    .title-of-card {
-        font-size: 14px;
-    }
+  .title-of-card {
+    font-size: 14px;
+  }
 
-    .icon-card {
-        width: 30px;
-        height: 30px;
-    }
+  .icon-card {
+    width: 30px;
+    height: 30px;
+  }
 
-    .header-title-side-text {
-        font-size: 15px;
-    }
+  .header-title-side-text {
+    font-size: 15px;
+  }
 
-    .bottom-data-benifit-description {
-        font-size: 15px;
-    }
+  .bottom-data-benifit-description {
+    font-size: 15px;
+  }
 
-    .benifit-box-school-container {
-        gap: 1rem;
-    }
+  .benifit-box-school-container {
+    gap: 1rem;
+  }
 
-    .benifit-title-text {
-        font-size: 18px;
-        margin-bottom: 0rem;
-    }
+  .benifit-title-text {
+    font-size: 18px;
+    margin-bottom: 0rem;
+  }
 
-    .footer-descritpion-text {
-        font-size: 13px;
-    }
+  .footer-descritpion-text {
+    font-size: 13px;
+  }
 
-    .benifit-cards-box {
-        gap: 0rem;
-    }
+  .benifit-cards-box {
+    gap: 0rem;
+  }
 
-    .footer-section-2 {
-        gap: 10px;
-    }
+  .footer-section-2 {
+    gap: 10px;
+  }
 
+  .text-footer-label {
+    font-size: 14px;
+  }
 
-    .text-footer-label {
-        font-size: 14px;
-    }
+  .experience-text-reallives {
+    font-size: 20px;
+  }
 
-    .experience-text-reallives {
-        font-size: 20px;
-    }
+  /* mobile screen  */
 
-    /* mobile screen  */
+  .sdg-imapct > img {
+    width: 100px;
+    height: 100px;
+  }
 
-
-    .sdg-imapct>img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .text-data-content-1>p {
-        width: 100%;
-        font-size: 15px;
-    }
+  .text-data-content-1 > p {
+    width: 100%;
+    font-size: 15px;
+  }
 }
 
 /* impact section css   */
