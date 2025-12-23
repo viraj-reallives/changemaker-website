@@ -1903,6 +1903,35 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1024px) {
+  .hight-mobile-slider {
+    height: 45vh;
+  }
+
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+    height: min-content;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .inner-section-container {
     gap: 1rem;
   }
@@ -1956,6 +1985,35 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 991px) {
+  .hight-mobile-slider {
+    height: 45vh;
+  }
+
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+    height: min-content;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .description-water-background {
     font-size: 19px;
   }
@@ -2272,6 +2330,35 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 800px) {
+  .hight-mobile-slider {
+    height: 45vh;
+  }
+
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+    height: min-content;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .description-university-text {
     font-size: 13px;
   }
@@ -2646,6 +2733,35 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 700px) {
+  .hight-mobile-slider {
+    height: 42vh;
+  }
+
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+    height: min-content;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .description-water-background {
     font-size: 21px;
   }
@@ -2992,6 +3108,35 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 650px) {
+  .hight-mobile-slider {
+    height: 30vh;
+  }
+
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+    height: min-content;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .description-water-background {
     font-size: 21px;
   }
@@ -3317,6 +3462,34 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 570px) {
+  .hight-mobile-slider {
+    height: 30vh;
+  }
+
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .features-text-card {
     font-size: 20px;
   }
@@ -3672,6 +3845,34 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 530px) {
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+    height: 63vh;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+  }
+
   .description-water-background {
     font-size: 19px;
   }
@@ -4018,6 +4219,33 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 480px) {
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+  }
+
   .description-water-background {
     font-size: 18px;
   }
@@ -4369,6 +4597,33 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 450px) {
+  .container-main-individual {
+    padding-top: 2rem;
+  }
+
+  .impact-text-slide {
+    font-size: 50px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .bottom-impact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .individual-slide-inner {
+    background-color: #f3f3f3;
+  }
+  .impact-description-slide {
+    font-size: 24px;
+  }
+
+  .top-slider-imapct-container {
+    grid-template-columns: 1fr;
+  }
+
   .description-water-background {
     font-size: 19px;
   }
