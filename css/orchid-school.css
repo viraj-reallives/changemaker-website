@@ -389,6 +389,10 @@
   padding: 1rem;
 }
 
+.national-education-image>img{
+    width: 100%;
+    height: 100%;
+}
 
 
 @media(max-width:1440px){
@@ -700,11 +704,11 @@
             height: 107px;
         }
 
-    .national-education-image>img {
+        .national-education-image>img {
             width: 100%;
         }
     
-    .devlopement-goal-box {
+       .devlopement-goal-box {
             padding: 0rem 8rem;
         }
     
@@ -866,7 +870,7 @@
      width: 100%;
     }
 
-    .devlopement-goal-box {
+      .devlopement-goal-box {
             padding: 0rem 8rem;
         }
     
@@ -1027,14 +1031,10 @@
     .national-education-image>img {
             width: 100%;
         }
-
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
  
-    .devlopement-goal-box{
-      padding: 0rem 8rem;
-    }
+     .devlopement-goal-box{
+       padding: 0rem 8rem;
+     }
 
 
     .changemaker-dashboard-title-d {
@@ -1043,6 +1043,7 @@
     
         .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -1193,16 +1194,13 @@
             width: 100%;
         }
 
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
-
     .changemaker-dashboard-title-d {
             padding: 0rem 1rem;
         }
     
         .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -1354,16 +1352,13 @@
      width: 100%;
     }
 
-    .wrapper-all-data-cards {
-     padding: 0rem 1rem;
-    }
-
     .changemaker-dashboard-title-d {
      padding: 0rem 1rem;
     }
     
         .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -1515,16 +1510,14 @@
             width: 100%;
         }
 
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
-
     .changemaker-dashboard-title-d {
         padding: 0rem 1rem;
+        
     }
 
     .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -1676,12 +1669,10 @@
             width: 100%;
         }
 
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
 
      .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -1834,12 +1825,9 @@
             width: 100%;
         }
 
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
-
-    .wrapper-all-data-cards {
+        .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -1992,12 +1980,10 @@
             width: 100%;
         }
 
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
-
-    .wrapper-all-data-cards {
+    
+       .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -2145,16 +2131,13 @@
      padding: 0rem 2rem;
     }
 
-    .national-education-image>img {
-    width: 100%;
-    }
+     .national-education-image>img {
+      width: 100%;
+      }
 
-    .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
-
-    .wrapper-all-data-cards {
+      .wrapper-all-data-cards {
             grid-template-columns: 1fr;
+            padding: 1rem 1rem;
         }
     
         .left-side-content-inner-top {
@@ -2306,12 +2289,11 @@
             width: 100%;
         }
 
-     .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
+   
 
      .wrapper-all-data-cards {
         grid-template-columns: 1fr;
+        padding: 1rem 1rem;
      }
 
     .left-side-content-inner-top {
@@ -2464,12 +2446,9 @@
      width: 100%;
     }
 
-    .wrapper-all-data-cards{
-        padding: 0rem 1rem;
-    }
-
   .wrapper-all-data-cards {
     grid-template-columns: 1fr;
+    padding: 1rem 1rem;
   }
   .left-side-content-inner-top {
    grid-template-columns: 1fr;
