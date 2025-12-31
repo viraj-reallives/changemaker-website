@@ -223,7 +223,7 @@
 }
 
 .devlopement-goal-box {
-  padding: 1rem;
+  padding: 1rem 8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,6 +284,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem 2rem;
 }
 
 .notional-education-text {
@@ -695,6 +696,9 @@
 
 
 @media(max-width:991px){
+    .image-student-changemaker>img {
+            height: 107px;
+        }
 
     .national-education-image>img {
             width: 100%;
@@ -854,6 +858,10 @@
 
 @media(max-width:800px){
 
+    .image-student-changemaker>img {
+            height: 107px;
+        }
+
      .national-education-image>img{
      width: 100%;
     }
@@ -1011,6 +1019,10 @@
 }
 
 @media(max-width:700px){
+
+    .image-student-changemaker>img {
+            height: 107px;
+        }
 
     .national-education-image>img {
             width: 100%;
@@ -1173,6 +1185,9 @@
 }
 
 @media(max-width:650px){
+    .image-student-changemaker>img {
+            height: 107px;
+        }
 
     .national-education-image>img {
             width: 100%;
@@ -1331,17 +1346,21 @@
 
 @media(max-width:570px){
 
+    .devlopement-goal-box {
+    padding: 0rem 6rem;
+    }
+
     .national-education-image>img {
-            width: 100%;
-        }
+     width: 100%;
+    }
 
     .wrapper-all-data-cards {
-            padding: 0rem 1rem;
-        }
+     padding: 0rem 1rem;
+    }
 
     .changemaker-dashboard-title-d {
-            padding: 0rem 1rem;
-        }
+     padding: 0rem 1rem;
+    }
     
         .wrapper-all-data-cards {
             grid-template-columns: 1fr;
@@ -1487,6 +1506,10 @@
 }
 
 @media(max-width:530px){
+
+    .devlopement-goal-box {
+     padding: 0rem 3rem;
+    }
 
     .national-education-image>img {
             width: 100%;
@@ -1645,6 +1668,10 @@
 
 @media(max-width:480px){
 
+     .devlopement-goal-box {
+     padding: 0rem 2rem;
+     }
+
     .national-education-image>img {
             width: 100%;
         }
@@ -1798,6 +1825,10 @@
 }
 
 @media(max-width:450px){
+
+    .devlopement-goal-box {
+     padding: 0rem 2rem;
+    }
 
     .national-education-image>img {
             width: 100%;
@@ -1953,6 +1984,10 @@
 
 @media(max-width:440px){
 
+    .devlopement-goal-box {
+     padding: 0rem 2rem;
+    }
+
     .national-education-image>img {
             width: 100%;
         }
@@ -2106,9 +2141,13 @@
 
 @media(max-width:400px){
 
+    .devlopement-goal-box {
+     padding: 0rem 2rem;
+    }
+
     .national-education-image>img {
-            width: 100%;
-        }
+    width: 100%;
+    }
 
     .wrapper-all-data-cards {
             padding: 0rem 1rem;
@@ -2258,17 +2297,22 @@
 }
 
 @media(max-width:390px){
+
+    .devlopement-goal-box {
+     padding: 0rem 2rem;
+    }
+
     .national-education-image>img {
             width: 100%;
         }
 
-    .wrapper-all-data-cards {
+     .wrapper-all-data-cards {
             padding: 0rem 1rem;
         }
 
-.wrapper-all-data-cards {
+     .wrapper-all-data-cards {
         grid-template-columns: 1fr;
-    }
+     }
 
     .left-side-content-inner-top {
         grid-template-columns: 1fr;
@@ -2411,6 +2455,10 @@
 }
 
 @media (max-width: 375px) {
+
+    .devlopement-goal-box {
+        padding: 0rem 2rem;
+    }
 
     .national-education-image>img{
      width: 100%;
