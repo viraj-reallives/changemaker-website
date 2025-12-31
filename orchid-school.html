@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="image/rcmi-logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/orchid-school.css" />
+    <meta name="theme-color" content="#ffaa33" />
+    <title>Certified Institutes - RealLives ChangeMaker Index</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* OVERRIDE for orchid-school.html */
+      /* Black border bottom for active tabs */
+      .navigation-text-style.active {
+        color: #222222 !important;
+        font-weight: 500;
+        position: relative;
+        background-color: transparent !important;
+      }
+
+      .navigation-text-style.active::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #222222;
+        border-radius: 2px;
+      }
+
+      /* Certified Institutes should be active */
+      a[href="orchid-school.html"] {
+        position: relative;
+      }
+
+      a[href="orchid-school.html"].active::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #222222;
+        border-radius: 2px;
+      }
+
+      /* Hide all tab content except Certified tab */
+      .tab-pane {
+        display: none !important;
+      }
+
+      #Certified {
+        display: block !important;
+      }
+
+      /* Make sure other links don't have border */
+      a[href="index.html"],
+      a[href="index.html#impact"],
+      a[href="index.html#about"] {
+        background-color: transparent !important;
+        color: inherit !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="change-maker-container">
+      <nav class="navigation-bar">
+        <a href="index.html" class="text-decoration-none">
+          <div class="left-side-bar" id="logo">
+            <div class="logo-change">
+              <img class="image-fit-cover" src="image/logo.svg" alt="" />
+            </div>
+            <span class="border-right-index">
+              <p class="changemaker-text">ChangeMaker Index</p>
+            </span>
+          </div>
+        </a>
+
+        <div class="icon-menu-mobile" id="mobileMenuBtn">
+          <span class="material-symbols-outlined" id="menuIcon"> menu </span>
+        </div>
+
+        <div class="right-side-bar nav-links">
+          <div class="dropdown">
+            <button
+              id="dropdownButton"
+              class="dropbtn navigation-text-style"
+              data-target="best-suited"
+            >
+              Best Suited For
+              <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+            </button>
+            <div class="dropdown-content">
+              <span class="span-flex-style">
+                <a
+                  class="navigation-text-style dropdown-border dropdown-item"
+                  data-target="institutions"
+                  href="javascript:void(0)"
+                  >For Institutions</a
+                >
+                <a
+                  class="navigation-text-style dropdown-border dropdown-item"
+                  data-target="employers"
+                  href="javascript:void(0)"
+                  >For Employers</a
+                >
+                <a
+                  class="navigation-text-style dropdown-item"
+                  data-target="parents"
+                  href="javascript:void(0)"
+                  >For Parents</a
+                >
+              </span>
+            </div>
+          </div>
+
+          <!-- Certified Institutes - ACTIVE with black border -->
+          <a href="orchid-school.html" class="navigation-text-style active"
+            >Certified Institutes</a
+          >
+
+          <!-- Other links pointing to index.html with specific tabs -->
+          <a
+            href="javascript:void(0)"
+            class="navigation-text-style"
+            data-target="impact"
+            >Our Impact</a
+          >
+          <a
+            href="javascript:void(0)"
+            class="navigation-text-style"
+            data-target="about"
+            >How RCMI Works?</a
+          >
+        </div>
+      </nav>
+
+      <!-- Only Certified Institutes content should show -->
+
+      <div id="tab-content">
+        <!-- Hide all other tabs -->
+        <div class="tab-pane" id="best-suited" style="display: none"></div>
+        <div class="tab-pane" id="institutions" style="display: none"></div>
+        <div class="tab-pane" id="employers" style="display: none"></div>
+        <div class="tab-pane" id="parents" style="display: none"></div>
+        <div class="tab-pane" id="about" style="display: none"></div>
+        <div class="tab-pane" id="impact" style="display: none"></div>
+        <div
+          class="tab-pane contact-page"
+          id="contact"
+          style="display: none"
+        ></div>
+
+        <!-- Only show Certified Institutes -->
+
+        <div class="tab-pane certified-institutes active" id="Certified">
+          <div class="wrapper-certifide-container">
+            <div class="rallives-foundation-tab-box">
+              <div class="inner-content-tab">
+                <div class="logo-foundation-box">
+                  <img src="image/Changemaker-Foundation-logo.svg" alt="" />
+                </div>
+
+                <h1 class="title-of-foundation">
+                  RealLives Foundation is proud to certify <br />
+                  The Orchid School Pune as a ChangeMaker School
+                </h1>
+
+                <div class="foundation-description-box">
+                  <p class="foundation-description-text">
+                    After the successful completion of the Changemaker Program
+                    at The Orchid School, Pune, RealLives is proud to certify
+                    the school as an official Changemaker School. This year, the
+                    program engaged 75 students, resulting in 10 unique social
+                    business pitches and movements, along with 75 individual
+                    Changemaker Reports showcasing thoughtful, impact-driven
+                    ideas.
+                  </p>
+                  <p class="foundation-description-text">
+                    This achievement reflects the school's commitment to
+                    nurturing leadership, empathy, and social responsibility in
+                    young minds.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Your orchid-school specific content here -->
+
+            <div class="dashboard-content-box">
+              <div class="changemaker-dashboard-title-d">
+                <h2 class="certifide-institutes-t-dashboard">
+                  Certified Institute Dashboard
+                </h2>
+                <p class="certifide-institutes-description">
+                  This is where your certified institute content goes.
+                </p>
+              </div>
+
+              <div class="wrapper-all-data-cards">
+                <div class="left-side-content-i-dashboard">
+                  <div class="left-side-content-inner-top">
+                    <div class="top-cards-dashboard">
+                      <p class="title-cards-dashboard-in">
+                        Overall ChangeMaker Score
+                      </p>
+                      <p class="title-cards-description-in">
+                        A composite score reflecting student empathy and action
+                        orientation.
+                      </p>
+                      <div class="number-box-container">
+                        <p class="number-title-font">
+                          81<span class="second-number-title">/100</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="top-cards-dashboard">
+                      <p class="title-cards-dashboard-in">
+                        Number of Certified Students
+                      </p>
+                      <p class="title-cards-description-in">
+                        Students who completed the ChangeMaker Workshop and
+                        showed applied learning.
+                      </p>
+                      <div class="number-box-container">
+                        <p class="number-title-font">
+                          72<span class="second-number-title">students</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="left-side-content-inner">
+                    <div class="title-bottom-left-container">
+                      <p class="sdg-title-first">
+                        SDG’s addressed through the program
+                      </p>
+                      <p class="sdg-description-title">
+                        3 SDG’s impacted through student-led projects and
+                        simulations
+                      </p>
+                    </div>
+
+                    <div class="sdg-image-left-bottom-container">
+                      <div class="sdg-img-box">
+                        <img src="image/E-WEB-Goal-01.svg" alt="" />
+                      </div>
+
+                      <div class="sdg-img-box">
+                        <img src="image/E-WEB-Goal-02.svg" alt="" />
+                      </div>
+
+                      <div class="sdg-img-box">
+                        <img src="image/E-WEB-Goal-04.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="devlopement-goal-box">
+                      <img src="image/Sustinable-goal-img.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="right-side-content-i-dashboard">
+                  <div class="right-top-content-i">
+                    <div class="image-student-changemaker">
+                      <img src="image/changemaker_students 1.svg" alt="" />
+                    </div>
+
+                    <div class="student-description-changemaker">
+                      <p class="orchid-text-title">
+                        The Orchid School Pune is a
+                      </p>
+                      <p class="orchid-text-bottom">
+                        RealLives certified ChangeMaker School
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="right-bottom-content-i">
+                    <div class="national-education-image">
+                      <img src="image/National-education.svg" alt="" />
+                    </div>
+
+                    <p class="notional-education-text">
+                      The Orchid School, Pune meets NEP 2020 <br />
+                      experiential and competency-based learning goals through
+                      RealLives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="workshop-still-container">
+              <div class="button-container-workshop-still">
+                <button class="workshop-still-btn">Workshop Stills</button>
+              </div>
+
+              <div class="container-card-colume">
+                <div class="card-data-add">
+                  <img
+                    class="image-fit"
+                    src="images/second-workshop.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-data-add">
+                  <img
+                    class="image-fit"
+                    src="images/second-workshop.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-data-add">
+                  <img
+                    class="image-fit"
+                    src="images/second-workshop.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-data-add">
+                  <img
+                    class="image-fit"
+                    src="images/second-workshop.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="student-impact-container">
+              <img
+                class="image-fit"
+                src="image/Studnet-impact.svg.svg"
+                alt=""
+              />
+
+              <div class="cards-student-impact">
+                <div class="button-container-workshop-still">
+                  <button class="workshop-still-btn">Student Impact</button>
+                </div>
+
+                <div class="student-impact-cards-container">
+                  <div class="inner-data-impact">
+                    <div class="inner-data-description">
+                      <p>
+                        I never thought about poverty beyond statistics. Playing
+                        a life struggling with SDG 1 made me realize the daily
+                        decisions people face. Our team's solution for
+                        accessible microfinance actually makes sense now because
+                        we understood the problem deeply.
+                      </p>
+                    </div>
+
+                    <div class="grade-student-detail">
+                      <p>— Grade 11 student</p>
+                    </div>
+                  </div>
+
+                  <div class="inner-data-impact">
+                    <div class="inner-data-description">
+                      <p>
+                        I never thought about poverty beyond statistics. Playing
+                        a life struggling with SDG 1 made me realize the daily
+                        decisions people face. Our team's solution for
+                        accessible microfinance actually makes sense now because
+                        we understood the problem deeply.
+                      </p>
+                    </div>
+
+                    <div class="grade-student-detail">
+                      <p>— Grade 11 student</p>
+                    </div>
+                  </div>
+
+                  <div class="inner-data-impact">
+                    <div class="inner-data-description">
+                      <p>
+                        I never thought about poverty beyond statistics. Playing
+                        a life struggling with SDG 1 made me realize the daily
+                        decisions people face. Our team's solution for
+                        accessible microfinance actually makes sense now because
+                        we understood the problem deeply.
+                      </p>
+                    </div>
+
+                    <div class="grade-student-detail">
+                      <p>— Grade 11 student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-container">
+        <div class="footer-section-1">
+          <div class="left-side-bar">
+            <div class="logo-change">
+              <img class="image-fit-cover" src="image/logo.svg" alt="" />
+            </div>
+            <span class="border-right-index">
+              <p class="changemaker-text">ChangeMaker Index</p>
+            </span>
+          </div>
+          <div class="footer-descritpion-text">
+            RCMI empowers students worldwide to build empathy, ethical thinking,
+            and social responsibility through immersive life simulations.
+          </div>
+        </div>
+        <div class="footer-section-2">
+          <div class="label-footer-button-box">
+            <p class="text-footer-label">Who we cater</p>
+            <span class="footer-child-container">
+              <a
+                class="footer-ankar-style"
+                href="javascript:void(0)"
+                data-target="institutions"
+                >For Institutions</a
+              >
+              <a
+                class="footer-ankar-style"
+                href="javascript:void(0)"
+                data-target="parents"
+                >For Parents</a
+              >
+              <a
+                class="footer-ankar-style"
+                href="javascript:void(0)"
+                data-target="employers"
+                >For Employers</a
+              >
+            </span>
+          </div>
+          <div class="label-footer-button-box">
+            <p class="text-footer-label">Get to Know</p>
+            <span class="footer-child-container">
+              <a
+                class="footer-ankar-style"
+                href="javascript:void(0)"
+                data-target="about"
+                >About RCMI</a
+              >
+            </span>
+          </div>
+          <div class="label-footer-button-box">
+            <p class="text-footer-label">Support</p>
+            <span class="footer-child-container">
+              <a
+                class="footer-ankar-style"
+                href="javascript:void(0)"
+                data-target="contact"
+                >Contact Us</a
+              >
+            </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScript for orchid-school.html ONLY -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("orchid-school.html loaded");
+
+        // 1. Set Certified Institutes as active
+        const allNavLinks = document.querySelectorAll(".navigation-text-style");
+        allNavLinks.forEach((link) => {
+          link.classList.remove("active");
+        });
+
+        const certifiedLink = document.querySelector(
+          'a[href="orchid-school.html"]'
+        );
+        if (certifiedLink) {
+          certifiedLink.classList.add("active");
+          certifiedLink.style.backgroundColor = "transparent";
+          certifiedLink.style.color = "#222222";
+          certifiedLink.style.fontWeight = "500";
+        }
+
+        // 2. Make "Best Suited For" button normal
+        const bestSuitedBtn = document.querySelector(
+          'button[data-target="best-suited"]'
+        );
+        if (bestSuitedBtn) {
+          bestSuitedBtn.style.backgroundColor = "transparent";
+          bestSuitedBtn.style.color = "#333";
+          bestSuitedBtn.classList.remove("active");
+        }
+
+        // 3. Mobile menu toggle
+        const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+        const menuIcon = document.getElementById("menuIcon");
+        const navLinksContainer = document.querySelector(".right-side-bar");
+
+        if (mobileMenuBtn) {
+          mobileMenuBtn.addEventListener("click", () => {
+            navLinksContainer.classList.toggle("active");
+            menuIcon.textContent = navLinksContainer.classList.contains(
+              "active"
+            )
+              ? "close"
+              : "menu";
+          });
+        }
+
+        // 4. FIXED: Handle navigation to index.html properly WITHOUT hash in URL
+        function navigateToIndexWithTab(tabId) {
+          // Store which tab should be active on index.html
+          localStorage.setItem("activeTabOnIndex", tabId);
+          console.log("Navigating to index.html with tab:", tabId);
+
+          // Navigate to index.html WITHOUT hash in URL
+          window.location.href = "index.html";
+        }
+
+        // Handle nav links
+        document
+          .querySelectorAll(".navigation-text-style[data-target]")
+          .forEach((link) => {
+            link.addEventListener("click", function (e) {
+              e.preventDefault();
+              const tabId = this.getAttribute("data-target");
+              navigateToIndexWithTab(tabId);
+            });
+          });
+
+        // Handle footer links
+        document
+          .querySelectorAll(".footer-ankar-style[data-target]")
+          .forEach((link) => {
+            link.addEventListener("click", function (e) {
+              e.preventDefault();
+              const tabId = this.getAttribute("data-target");
+              navigateToIndexWithTab(tabId);
+            });
+          });
+
+        // Handle dropdown links
+        document
+          .querySelectorAll(".dropdown-item[data-target]")
+          .forEach((link) => {
+            link.addEventListener("click", function (e) {
+              e.preventDefault();
+              const tabId = this.getAttribute("data-target");
+              navigateToIndexWithTab(tabId);
+            });
+          });
+
+        // 5. Show only Certified Institutes content
+        document.querySelectorAll(".tab-pane").forEach((pane) => {
+          pane.style.display = "none";
+        });
+
+        const certifiedPane = document.getElementById("Certified");
+        if (certifiedPane) {
+          certifiedPane.style.display = "block";
+        }
+
+        // 6. Handle logo click (go to index.html default)
+        document
+          .querySelector('a[href="index.html"]')
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            // Clear any stored tab
+            localStorage.removeItem("activeTabOnIndex");
+            window.location.href = "index.html";
+          });
+      });
+    </script>
+  </body>
+</html>

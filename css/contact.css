@@ -289,10 +289,9 @@ body {
     font-size: 1rem !important;
     line-height: 1.5;
     border-radius: 6px;
-    background-color: #FFBF6780;
+    background-color: #ffc06785;
     gap: 10px;
     font-weight: 500;
-    color: #00000080 !important;
 }
 
 .send-color {
