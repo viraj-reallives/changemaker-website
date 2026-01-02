@@ -149,19 +149,20 @@ body::-webkit-scrollbar {
 .become-change-btn {
   background-color: #ffc067;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #111111;
   padding: 10px 10px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
+  height: 100%;
 }
 
 .how-this-works-btn {
   border: 2px solid #ff9503;
   padding: 10px 10px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #111111;
   background-color: transparent;
   border-radius: 6px;
@@ -315,11 +316,15 @@ body::-webkit-scrollbar {
   padding: 13px 15px;
   cursor: pointer;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #111111;
   border-radius: 6px;
   border: 1px solid #c1c1c1;
   background-color: white;
+}
+
+.hight-100-only{
+  height: 100%;
 }
 
 .container-benifit-school {
