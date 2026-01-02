@@ -103,7 +103,7 @@ body::-webkit-scrollbar {
 
 .section-first-container {
   font-size: 24px;
-  height: 53vh;
+  /* height: 53vh; */
   width: 100%;
   padding: 6rem 6rem 2rem 6rem;
   display: grid;
@@ -177,7 +177,7 @@ body::-webkit-scrollbar {
   grid-template-rows: auto 1fr;
   gap: 2rem;
   padding: 2rem 6rem 3rem 6rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 .reallives-change-text {
