@@ -283,7 +283,7 @@
 
 .orchid-text-bottom {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 17px;
   color: #000000;
 }
 
@@ -456,6 +456,10 @@
 
 @media(max-width:1280px){
 
+    .image-student-changemaker>img {
+            height: 115px;
+        }
+
     .foundation-description-text {
         font-size: 22px;
         line-height: 36px;
@@ -543,6 +547,10 @@
 
 @media(max-width:1180px){
 
+    .image-student-changemaker>img {
+            height: 100px;
+        }
+
     .right-top-content-i {
             height: 32vh;
         }
@@ -629,6 +637,14 @@
 
 @media(max-width:1024px){
 
+    .image-student-changemaker>img {
+            height: 100px;
+    }
+
+    .orchid-text-title {
+        font-size: 16px;
+    }
+
     .right-top-content-i{
         height: 32vh;
     }
@@ -714,6 +730,10 @@
 
 
 @media(max-width:991px){
+
+    .logo-foundation-box>img {
+            height: 90%;
+        }
 
     .new-bottom-container{
         grid-template-columns: 1fr;
@@ -881,6 +901,10 @@
 
 @media(max-width:800px){
 
+    .logo-foundation-box>img {
+            height: 80%;
+        }
+
     .new-bottom-container {
             grid-template-columns: 1fr;
         }
@@ -1046,13 +1070,18 @@
 }
 
 @media(max-width:700px){
+    
+
+    .logo-foundation-box>img {
+            height:90%;
+        }
 
     .new-bottom-container {
             grid-template-columns: 1fr;
         }
 
     .image-student-changemaker>img {
-            height: 107px;
+            height: 118px;
         }
 
     .national-education-image>img {
@@ -1212,14 +1241,21 @@
         }
 }
 
+
 @media(max-width:650px){
+
+    
+
+    .logo-foundation-box>img {
+            height: 80%;
+        }
 
     .new-bottom-container {
             grid-template-columns: 1fr;
         }
 
     .image-student-changemaker>img {
-            height: 107px;
+            height: 125px;
         }
 
     .national-education-image>img {
@@ -1375,6 +1411,14 @@
 }
 
 @media(max-width:570px){
+
+    .image-student-changemaker>img {
+            height: 130px;
+        }
+
+    .logo-foundation-box>img {
+            height: 80%;
+        }
 
     .new-bottom-container {
             grid-template-columns: 1fr;
@@ -1537,6 +1581,14 @@
 }
 
 @media(max-width:530px){
+
+    .image-student-changemaker>img {
+            height: 120px;
+        }
+
+    .logo-foundation-box>img {
+            height: 80%;
+        }
 
     .new-bottom-container {
             grid-template-columns: 1fr;
@@ -1701,6 +1753,14 @@
 
 @media(max-width:480px){
 
+    .image-student-changemaker>img {
+            height: 120px;
+        }
+
+    .logo-foundation-box>img {
+            height: 80%;
+        }
+
     .new-bottom-container {
             grid-template-columns: 1fr;
         }
@@ -1861,6 +1921,14 @@
 
 @media(max-width:450px){
 
+    .image-student-changemaker>img {
+            height: 120px;
+        }
+
+    .logo-foundation-box>img {
+            height: 80%;
+        }
+
     .new-bottom-container {
             grid-template-columns: 1fr;
         }
@@ -2019,6 +2087,14 @@
 }
 
 @media(max-width:440px){
+
+    .image-student-changemaker>img {
+            height: 115px;
+        }
+
+    .logo-foundation-box>img {
+            height: 80%;
+        }
 
     .new-bottom-container {
             grid-template-columns: 1fr;
@@ -2179,6 +2255,14 @@
 
 @media(max-width:400px){
 
+    .image-student-changemaker>img {
+            height: 107px;
+        }
+
+    .logo-foundation-box>img{
+        height: 100%;
+    }
+
     .new-bottom-container {
             grid-template-columns: 1fr;
         }
@@ -2336,6 +2420,13 @@
 }
 
 @media(max-width:390px){
+    .image-student-changemaker>img {
+            height: 107px;
+        }
+
+    .logo-foundation-box>img {
+        height: 95%;
+    }
 
     .new-bottom-container {
             grid-template-columns: 1fr;
@@ -2497,6 +2588,13 @@
 }
 
 @media (max-width: 375px) {
+    .image-student-changemaker>img {
+            height: 107px;
+        }
+
+    .logo-foundation-box>img{
+        height: 100%;
+    }
 
     .new-bottom-container{
         grid-template-columns: 1fr;

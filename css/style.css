@@ -438,9 +438,11 @@ body::-webkit-scrollbar {
   transition: background-color 0.3s ease;
 }
 
+
 .arrow {
   display: inline-block;
   transition: transform 0.3s ease;
+  display: none;
 }
 
 .dropdown-content {
