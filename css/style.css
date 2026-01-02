@@ -172,7 +172,7 @@ body::-webkit-scrollbar {
 .section-second-container {
   width: 100%;
   /* background: linear-gradient(180deg, #FFFFFF 30.29%, #FFE6A1 100%); */
-  background-color: #fff8f0;
+  background-color: #fcfcfc;
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 2rem;
