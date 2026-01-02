@@ -162,7 +162,7 @@
   background-color: #feeacd;
   display: grid;
   grid-template-columns: 20% 1fr;
-  height: 31.6vh;
+  height: 28.6vh;
 }
 
 .right-bottom-content-i {
@@ -177,7 +177,7 @@
 
 .title-cards-dashboard-in {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 25px;
 }
 
@@ -242,7 +242,7 @@
 }
 
 .sdg-img-box {
-  width: 100px;
+  width: 20%;
 }
 .sdg-img-box > img {
   width: 100%;
@@ -284,7 +284,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 2rem;
+  padding: 2rem 5rem;
 }
 
 .notional-education-text {
