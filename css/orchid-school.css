@@ -331,7 +331,7 @@
 .container-card-colume {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 2rem;
   padding: 0rem 10rem;
 }
@@ -339,6 +339,7 @@
 .card-data-add {
   overflow: hidden;
   border-radius: 6px;
+  height: 43vh;
 }
 
 .student-impact-container {
