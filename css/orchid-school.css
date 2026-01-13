@@ -9,7 +9,6 @@
 
 .certified-institutes {
   width: 100vw;
-  /* background-color: lightblue; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -40,7 +39,6 @@
 .inner-content-tab {
   width: 70%;
   height: 100%;
-  /* padding: 5rem 7rem; */
   padding-top: 0rem;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -48,18 +46,16 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* display: grid;
-  grid-template-rows: 25% 18%; */
   position: absolute;
 }
 
 .logo-foundation-box {
-    width: 100%;
-    height: 30%;
+    width: 75%;
+    height: 25%;
    display: flex;
    align-items: center;
    justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     padding: 1rem;
 }
 
@@ -78,11 +74,11 @@
 
 .title-of-foundation {
 font-weight:500;
-font-size: 32px;
+font-size: 28px;
 color: #ffffff;
 text-align: center;
- width: 100%;
-background: rgba(0, 0, 0, 0.6);
+ width: 75%;
+background: rgba(0, 0, 0, 0.5);
 padding: 1rem;
 }
 
@@ -275,7 +271,6 @@ padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 20rem; */
 }
 
 .image-student-changemaker > img {
@@ -436,7 +431,7 @@ padding: 1rem;
 }
 
 .changemaker-certificate{
-    padding: 0rem 11rem;
+    padding: 1rem 11rem;
     height: 100%;
 }
 
@@ -453,8 +448,17 @@ padding: 1rem;
     text-align: center;
 }
 
+.image-student-changemaker>img {
+    height: 75px;
+}
+
 
 @media(max-width:1440px){
+
+    .image-student-changemaker>img {
+            height: 75px;
+        }
+
     .container-card-colume {
             padding: 0rem 2rem;
         }
@@ -482,13 +486,25 @@ padding: 1rem;
 
 @media(max-width:1368px){
 
+    .logo-foundation-box{
+        width: 100%;
+    }
+
+        .title-of-foundation{
+            width: 100%;
+        }
+
     .container-card-colume{
         padding: 0rem 2rem;
     }
 
     .student-impact-container {
-        height: 55vh;
+        height: 48vh;
     }
+
+        .foundation-description-box {
+            padding: 0rem 3rem;
+        }
 
     .dashboard-content-box{
     padding: 1rem 5rem;
@@ -509,8 +525,20 @@ padding: 1rem;
 
 @media(max-width:1280px){
 
+    .logo-foundation-box{
+        width: 100%;
+    }
+
+        .title-of-foundation{
+        width: 100%;
+        }
+
+    .foundation-description-box{
+        padding: 0rem 1rem;
+    }
+
     .image-student-changemaker>img {
-            height: 115px;
+            height: 70px;
         }
 
     .foundation-description-text {
@@ -553,7 +581,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 500px;
+            height:430px;
         }
     
         .student-impact-cards-container {
@@ -596,8 +624,20 @@ padding: 1rem;
 
 @media(max-width:1180px){
 
+    .foundation-description-box {
+            padding: 0rem 2rem;
+        }
+    
+        .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+
     .image-student-changemaker>img {
-            height: 100px;
+            height: 60px;
         }
 
     .right-top-content-i {
@@ -638,7 +678,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 500px;
+            height: 450px;
         }
     
         .student-impact-cards-container {
@@ -681,8 +721,19 @@ padding: 1rem;
 
 @media(max-width:1024px){
 
+    .foundation-description-box {
+        padding: 0rem 2rem;
+    }
+        .logo-foundation-box{
+            width: 100%;
+        }
+
+                .title-of-foundation{
+                    width: 100%;
+                }
+
     .image-student-changemaker>img {
-            height: 100px;
+            height: 60px;
     }
 
     .orchid-text-title {
@@ -698,7 +749,7 @@ padding: 1rem;
     }
 
     .workshop-still-btn{
-        font-size: 16px;
+        font-size: 23px;
     }
 
     .notional-education-text{
@@ -770,6 +821,21 @@ padding: 1rem;
 
 @media(max-width:991px){
 
+    .changemaker-certificate{
+        padding: 1rem 3rem;
+    }
+
+    .foundation-description-box {
+        padding: 0rem 0rem;
+    }
+
+        .logo-foundation-box{
+            width: 100%;
+        }
+                .title-of-foundation{
+                    width: 100%;
+                }
+
     .logo-foundation-box>img {
             height: 90%;
         }
@@ -779,7 +845,7 @@ padding: 1rem;
     }
 
     .image-student-changemaker>img {
-            height: 107px;
+            height: 60px;
         }
 
         .national-education-image>img {
@@ -826,7 +892,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 560px;
+            height: 530px;
         }
 
     
@@ -941,7 +1007,7 @@ padding: 1rem;
         }
 
     .image-student-changemaker>img {
-            height: 107px;
+            height: 67px;
         }
 
      .national-education-image>img{
@@ -966,15 +1032,13 @@ padding: 1rem;
         }
     
         .student-impact-cards-container {
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns:1fr;
             padding: 0rem 0rem;
         }
     
         .dashboard-content-box {
             padding: 1rem 0rem;
         }
-    
-     
     
         .container-card-colume {
             grid-template-columns: repeat(2, 1fr);
@@ -988,9 +1052,12 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 560px;
+            height: 770px;
         }
     
+        .changemaker-certificate {
+            padding: 0rem 3rem;
+        }
     
         .sdg-image-left-bottom-container {
             gap: 2rem;
@@ -1079,7 +1146,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 22px;
         }
     
         .inner-data-description {
@@ -1093,6 +1160,35 @@ padding: 1rem;
 }
 
 @media(max-width:700px){
+
+    .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
     
 
     .logo-foundation-box>img {
@@ -1104,7 +1200,7 @@ padding: 1rem;
         }
 
     .image-student-changemaker>img {
-            height: 118px;
+            height: 67px;
         }
 
     .national-education-image>img {
@@ -1130,7 +1226,7 @@ padding: 1rem;
         }
     
         .student-impact-cards-container {
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns:1fr;
             padding: 0rem 0rem;
         }
     
@@ -1151,7 +1247,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 560px;
+            height: 850px;
         }
     
         .sdg-image-left-bottom-container {
@@ -1241,7 +1337,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 23px;
         }
     
         .inner-data-description {
@@ -1257,9 +1353,37 @@ padding: 1rem;
 
 @media(max-width:650px){
 
+       .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
     
 
-    .logo-foundation-box>img {
+      .logo-foundation-box>img {
             height: 80%;
         }
 
@@ -1268,7 +1392,7 @@ padding: 1rem;
         }
 
     .image-student-changemaker>img {
-            height: 125px;
+            height: 65px;
         }
 
     .national-education-image>img {
@@ -1310,7 +1434,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height: 850px;
         }
     
         .sdg-image-left-bottom-container {
@@ -1400,7 +1524,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 22px;
         }
     
         .inner-data-description {
@@ -1415,8 +1539,37 @@ padding: 1rem;
 
 @media(max-width:570px){
 
+    .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
     .image-student-changemaker>img {
-            height: 130px;
+            height: 65px;
         }
 
     .logo-foundation-box>img {
@@ -1470,7 +1623,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height: 860px;
         }
 
         .sdg-image-left-bottom-container {
@@ -1560,7 +1713,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 22px;
         }
     
         .inner-data-description {
@@ -1575,8 +1728,37 @@ padding: 1rem;
 
 @media(max-width:530px){
 
+    .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
     .image-student-changemaker>img {
-            height: 120px;
+            height: 65px;
         }
 
     .logo-foundation-box>img {
@@ -1631,7 +1813,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height: 960px;
         }
 
     
@@ -1722,7 +1904,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 23px;
         }
     
         .inner-data-description {
@@ -1737,9 +1919,38 @@ padding: 1rem;
 
 @media(max-width:480px){
 
-    .image-student-changemaker>img {
-            height: 120px;
+    .logo-foundation-box {
+            width: 100%;
         }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
+    .image-student-changemaker>img {
+            height: 65px;
+    }
 
     .logo-foundation-box>img {
             height: 80%;
@@ -1789,7 +2000,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height: 960px;
         }
     
         .sdg-image-left-bottom-container {
@@ -1879,7 +2090,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 23px;
         }
     
         .inner-data-description {
@@ -1895,8 +2106,37 @@ padding: 1rem;
 
 @media(max-width:450px){
 
+      .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
     .image-student-changemaker>img {
-            height: 120px;
+            height: 65px;
         }
 
     .logo-foundation-box>img {
@@ -1946,7 +2186,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height:950px;
         }
     
         .sdg-image-left-bottom-container {
@@ -2036,7 +2276,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 23px;
         }
     
         .inner-data-description {
@@ -2052,8 +2292,37 @@ padding: 1rem;
 
 @media(max-width:440px){
 
+    .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
     .image-student-changemaker>img {
-            height: 115px;
+            height: 63px;
         }
 
     .logo-foundation-box>img {
@@ -2105,7 +2374,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height: 1020px;
         }
 
     
@@ -2196,7 +2465,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 22px;
         }
     
         .inner-data-description {
@@ -2211,8 +2480,37 @@ padding: 1rem;
 
 @media(max-width:400px){
 
+    .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
     .image-student-changemaker>img {
-            height: 107px;
+            height: 60px;
         }
 
     .logo-foundation-box>img{
@@ -2263,7 +2561,7 @@ padding: 1rem;
         }
     
         .student-impact-container {
-            height: 1100px;
+            height: 1020px;
         }
     
         
@@ -2355,7 +2653,7 @@ padding: 1rem;
         }
     
         .workshop-still-btn {
-            font-size: 15px;
+            font-size: 21px;
         }
     
         .inner-data-description {
@@ -2369,8 +2667,38 @@ padding: 1rem;
 }
 
 @media(max-width:390px){
+
+    .logo-foundation-box {
+            width: 100%;
+        }
+    
+        .title-of-foundation {
+            width: 100%;
+        }
+    
+        .inner-content-tab {
+            width: 100%;
+            padding: 0rem 0rem;
+        }
+    
+        .foundation-description-box {
+            padding: 0rem 0rem;
+        }
+    
+        .changemaker-certificate {
+            padding: 0rem 1rem;
+        }
+    
+        .changemaker-certificate-container {
+            padding: 1rem;
+        }
+    
+        .changemaker-text-font {
+            font-size: 21px;
+        }
+
     .image-student-changemaker>img {
-            height: 107px;
+            height: 60px;
         }
 
     .logo-foundation-box>img {
@@ -2423,7 +2751,7 @@ padding: 1rem;
     }
 
     .student-impact-container {
-        height: 1100px;
+        height: 1016px;
     }
 
     .sdg-image-left-bottom-container {
@@ -2528,9 +2856,41 @@ padding: 1rem;
 }
 
 @media (max-width: 375px) {
+
+    .logo-foundation-box {
+        width: 100%;
+    }
+
+    .title-of-foundation{
+     width: 100%;
+    }
+
+    .inner-content-tab {
+     width: 100%;
+     padding: 0rem 0rem;
+    }
+
+    .foundation-description-box {
+        padding: 0rem 0rem;
+    }
+
+    .changemaker-certificate{
+        padding: 0rem 1rem;
+    }
+
+    .changemaker-certificate-container{
+        padding: 1rem;
+    }
+
+    .changemaker-text-font {
+        font-size: 21px;
+    }
+
+    /* mobile */
+
     .image-student-changemaker>img {
-            height: 107px;
-        }
+     height: 60px;
+    }
 
     .logo-foundation-box>img{
         height: 100%;
