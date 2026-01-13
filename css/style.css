@@ -6319,10 +6319,6 @@ body::-webkit-scrollbar {
     display: none;
   }
 
-  /* .rcmi-embed-cdn {
-        height: max-content;
-    } */
-
   .card-info-box {
     grid-template-rows: 1fr;
     gap: 1rem;
