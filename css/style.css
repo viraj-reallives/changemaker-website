@@ -1558,6 +1558,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1440px) {
+  
   .card-info-container {
     gap: 2rem;
   }
@@ -1576,6 +1577,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1368px) {
+
   .inner-section-container {
     gap: 1rem;
   }
@@ -1633,6 +1635,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1280px) {
+
   .inner-section-container {
     gap: 1rem;
   }
@@ -1714,6 +1717,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1180px) {
+
   .inner-section-container {
     gap: 1rem;
   }
@@ -1874,6 +1878,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1024px) {
+
   .hight-mobile-slider {
     height: 45vh;
   }
@@ -1961,6 +1966,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 991px) {
+
   .hight-mobile-slider {
     height: 45vh;
   }
@@ -2304,6 +2310,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 800px) {
+
   .hight-mobile-slider {
     height: 45vh;
   }
