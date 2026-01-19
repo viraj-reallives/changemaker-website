@@ -27,7 +27,7 @@
 
 .rallives-foundation-tab-box {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: rgba(0, 0, 0, 0.5); */
   padding: 1rem;
   position: absolute;
   right: 1%;
@@ -415,7 +414,7 @@
 .rallives-foundation-tab-box > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .quotes-container {
@@ -493,8 +492,9 @@
 @media (max-width: 1368px) {
 
   .logo-foundation-box {
-      width: 16%;
-      right: 0;
+      width: 25%;
+      bottom: 12%;
+      right: 0%;
     }
   
   .title-of-foundation {
@@ -532,9 +532,10 @@
 @media (max-width: 1280px) {
 
   .logo-foundation-box {
-    width: 13%;
-    right: 0;
-  }
+      width: 25%;
+      bottom: 12%;
+      right: 0%;
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -551,10 +552,6 @@
   .foundation-description-text {
     font-size: 22px;
     line-height: 36px;
-  }
-
-  .rallives-foundation-tab-box {
-    height: 100vh;
   }
 
   .workshop-still-btn {
@@ -630,10 +627,9 @@
 @media (max-width: 1180px) {
 
   .logo-foundation-box {
-      width: 100%;
+    width: 19%;
       bottom: 12%;
-      left: 50%;
-      transform: translateX(-50%);
+      right: 0%;
     }
 
   .foundation-description-box {
@@ -650,10 +646,6 @@
 
   .right-top-content-i {
     height: 32vh;
-  }
-
-  .rallives-foundation-tab-box {
-    height: 100vh;
   }
 
   .workshop-still-btn {
@@ -729,11 +721,10 @@
 @media (max-width: 1024px) {
   
   .logo-foundation-box {
-      width: 100%;
-      bottom: 12%;
-      left: 50%;
-      transform: translateX(-50%);
+      width: 16%;
+      right: 0;
     }
+  
 
   .foundation-description-box {
     padding: 0rem 2rem;
@@ -753,10 +744,6 @@
 
   .right-top-content-i {
     height: 32vh;
-  }
-
-  .rallives-foundation-tab-box {
-    height: 100vh;
   }
 
   .workshop-still-btn {
@@ -1118,7 +1105,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+     .rallives-foundation-tab-box>img {
+       object-fit: cover;
+     }
 
   .national-education-image {
     padding: 2rem 11rem;
@@ -1305,7 +1297,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+     .rallives-foundation-tab-box>img {
+       object-fit: cover;
+     }
 
   .national-education-image {
     padding: 2rem 11rem;
@@ -1488,7 +1485,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+     .rallives-foundation-tab-box>img {
+       object-fit: cover;
+     }
 
   .national-education-image {
     padding: 2rem 3rem;
@@ -1675,7 +1677,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+  .rallives-foundation-tab-box>img {
+    object-fit: cover;
+    }
 
   .national-education-image {
     padding: 2rem 3rem;
@@ -1862,6 +1869,11 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
+  }
+
+  .rallives-foundation-tab-box>img {
+   object-fit: cover;
   }
 
   .national-education-image {
@@ -2045,7 +2057,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+     .rallives-foundation-tab-box>img {
+       object-fit: cover;
+     }
 
   .national-education-image {
     padding: 2rem 3rem;
@@ -2228,6 +2245,11 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
+  }
+
+  .rallives-foundation-tab-box>img {
+   object-fit: cover;
   }
 
   .national-education-image {
@@ -2410,7 +2432,13 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+  
+  .rallives-foundation-tab-box>img {
+   object-fit: cover;
+  }
+
 
   .national-education-image {
     padding: 2rem 3rem;
@@ -2593,7 +2621,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+     .rallives-foundation-tab-box>img {
+       object-fit: cover;
+     }
 
   .national-education-image {
     padding: 2rem 3rem;
@@ -2778,7 +2811,11 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+     .rallives-foundation-tab-box>img {
+       object-fit: cover;
+     }
 
   .national-education-image {
     padding: 2rem 3rem;
@@ -2964,7 +3001,12 @@
 
   .rallives-foundation-tab-box {
     padding-bottom: 0rem;
+    height: 100vh;
   }
+
+    .rallives-foundation-tab-box>img {
+      object-fit: cover;
+    }
 
   .national-education-image {
     padding: 2rem 3rem;
