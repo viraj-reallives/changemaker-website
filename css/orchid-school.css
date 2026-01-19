@@ -469,7 +469,7 @@
   }
 
   .student-impact-container {
-    height: 44vh;
+    height: 40vh;
   }
 
   .dashboard-content-box {
@@ -528,6 +528,8 @@
     padding: 0rem 0rem;
   }
 }
+
+
 
 @media (max-width: 1280px) {
 
