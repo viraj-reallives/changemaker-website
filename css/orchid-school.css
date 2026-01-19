@@ -48,13 +48,16 @@
 }
 
 .logo-foundation-box {
-  width: 75%;
-  height: 25%;
+  width: 19%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   padding: 1rem;
+  position: absolute;
+  right: 1%;
+  bottom: 10%;
 }
 
 .logo-foundation-box > img {
@@ -450,6 +453,13 @@
   height: 75px;
 }
 
+
+@media(max-width:1668px){
+    .student-impact-container {
+        height: 50vh;
+      }
+}
+
 @media (max-width: 1440px) {
   .image-student-changemaker > img {
     height: 75px;
@@ -460,7 +470,7 @@
   }
 
   .student-impact-container {
-    height: 55vh;
+    height: 44vh;
   }
 
   .dashboard-content-box {
@@ -481,10 +491,12 @@
 }
 
 @media (max-width: 1368px) {
-  .logo-foundation-box {
-    width: 100%;
-  }
 
+  .logo-foundation-box {
+      width: 16%;
+      right: 0;
+    }
+  
   .title-of-foundation {
     width: 100%;
   }
@@ -494,7 +506,7 @@
   }
 
   .student-impact-container {
-    height: 48vh;
+    height: 43vh;
   }
 
   .foundation-description-box {
@@ -518,8 +530,10 @@
 }
 
 @media (max-width: 1280px) {
+
   .logo-foundation-box {
-    width: 100%;
+    width: 13%;
+    right: 0;
   }
 
   .title-of-foundation {
@@ -572,7 +586,7 @@
   }
 
   .student-impact-container {
-    height: 430px;
+    height: 410px;
   }
 
   .student-impact-cards-container {
@@ -614,12 +628,16 @@
 }
 
 @media (max-width: 1180px) {
-  .foundation-description-box {
-    padding: 0rem 2rem;
-  }
 
   .logo-foundation-box {
-    width: 100%;
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+  .foundation-description-box {
+    padding: 0rem 2rem;
   }
 
   .title-of-foundation {
@@ -709,11 +727,16 @@
 }
 
 @media (max-width: 1024px) {
+  
+  .logo-foundation-box {
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
   .foundation-description-box {
     padding: 0rem 2rem;
-  }
-  .logo-foundation-box {
-    width: 100%;
   }
 
   .title-of-foundation {
@@ -765,7 +788,7 @@
   }
 
   .student-impact-container {
-    height: 500px;
+    height: 450px;
   }
 
   .student-impact-cards-container {
@@ -806,6 +829,14 @@
 }
 
 @media (max-width: 991px) {
+
+  .logo-foundation-box {
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
   .changemaker-certificate {
     padding: 1rem 3rem;
   }
@@ -814,15 +845,8 @@
     padding: 0rem 0rem;
   }
 
-  .logo-foundation-box {
-    width: 100%;
-  }
   .title-of-foundation {
     width: 100%;
-  }
-
-  .logo-foundation-box > img {
-    height: 90%;
   }
 
   .new-bottom-container {
@@ -874,7 +898,7 @@
   }
 
   .student-impact-container {
-    height: 530px;
+    height: 484px;
   }
 
   .sdg-image-left-bottom-container {
@@ -978,9 +1002,13 @@
 }
 
 @media (max-width: 800px) {
-  .logo-foundation-box > img {
-    height: 80%;
-  }
+
+  .logo-foundation-box {
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .new-bottom-container {
     grid-template-columns: 1fr;
@@ -1031,7 +1059,7 @@
   }
 
   .student-impact-container {
-    height: 770px;
+    height:715px;
   }
 
   .changemaker-certificate {
@@ -1139,10 +1167,14 @@
 }
 
 @media (max-width: 700px) {
-  .logo-foundation-box {
-    width: 100%;
-  }
 
+  .logo-foundation-box {
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+ 
   .title-of-foundation {
     width: 100%;
   }
@@ -1166,10 +1198,6 @@
 
   .changemaker-text-font {
     font-size: 21px;
-  }
-
-  .logo-foundation-box > img {
-    height: 90%;
   }
 
   .new-bottom-container {
@@ -1222,7 +1250,7 @@
   }
 
   .student-impact-container {
-    height: 850px;
+    height: 756px;
   }
 
   .sdg-image-left-bottom-container {
@@ -1326,9 +1354,13 @@
 }
 
 @media (max-width: 650px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -1353,10 +1385,6 @@
 
   .changemaker-text-font {
     font-size: 21px;
-  }
-
-  .logo-foundation-box > img {
-    height: 80%;
   }
 
   .new-bottom-container {
@@ -1405,7 +1433,7 @@
   }
 
   .student-impact-container {
-    height: 850px;
+    height: 785px;
   }
 
   .sdg-image-left-bottom-container {
@@ -1509,9 +1537,13 @@
 }
 
 @media (max-width: 570px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -1540,10 +1572,6 @@
 
   .image-student-changemaker > img {
     height: 65px;
-  }
-
-  .logo-foundation-box > img {
-    height: 80%;
   }
 
   .new-bottom-container {
@@ -1592,7 +1620,7 @@
   }
 
   .student-impact-container {
-    height: 860px;
+    height: 827px;
   }
 
   .sdg-image-left-bottom-container {
@@ -1696,9 +1724,13 @@
 }
 
 @media (max-width: 530px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -1727,10 +1759,6 @@
 
   .image-student-changemaker > img {
     height: 65px;
-  }
-
-  .logo-foundation-box > img {
-    height: 80%;
   }
 
   .new-bottom-container {
@@ -1779,7 +1807,7 @@
   }
 
   .student-impact-container {
-    height: 960px;
+    height: 858px;
   }
 
   .sdg-image-left-bottom-container {
@@ -1883,9 +1911,13 @@
 }
 
 @media (max-width: 480px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -1914,10 +1946,6 @@
 
   .image-student-changemaker > img {
     height: 65px;
-  }
-
-  .logo-foundation-box > img {
-    height: 75%;
   }
 
   .new-bottom-container {
@@ -1962,7 +1990,7 @@
   }
 
   .student-impact-container {
-    height: 960px;
+    height: 890px;
   }
 
   .sdg-image-left-bottom-container {
@@ -2066,9 +2094,13 @@
 }
 
 @media (max-width: 450px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -2097,10 +2129,6 @@
 
   .image-student-changemaker > img {
     height: 65px;
-  }
-
-  .logo-foundation-box > img {
-    height: 75%;
   }
 
   .new-bottom-container {
@@ -2145,7 +2173,7 @@
   }
 
   .student-impact-container {
-    height: 950px;
+    height: 890px;
   }
 
   .sdg-image-left-bottom-container {
@@ -2249,9 +2277,13 @@
 }
 
 @media (max-width: 440px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -2281,11 +2313,6 @@
   .image-student-changemaker > img {
     height: 63px;
   }
-
-  .logo-foundation-box > img {
-    height: 70%;
-  }
-
   .new-bottom-container {
     grid-template-columns: 1fr;
   }
@@ -2328,7 +2355,7 @@
   }
 
   .student-impact-container {
-    height: 1020px;
+    height: 940px;
   }
 
   .sdg-image-left-bottom-container {
@@ -2432,9 +2459,13 @@
 }
 
 @media (max-width: 400px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
   .title-of-foundation {
     width: 100%;
@@ -2463,10 +2494,6 @@
 
   .image-student-changemaker > img {
     height: 60px;
-  }
-
-  .logo-foundation-box > img {
-    height: 70%;
   }
 
   .new-bottom-container {
@@ -2511,7 +2538,7 @@
   }
 
   .student-impact-container {
-    height: 1020px;
+    height: 930px;
   }
 
   .sdg-image-left-bottom-container {
@@ -2615,9 +2642,14 @@
 }
 
 @media (max-width: 390px) {
+
   .logo-foundation-box {
-    width: 100%;
-  }
+      width: 100%;
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
 
   .title-of-foundation {
     width: 100%;
@@ -2648,9 +2680,6 @@
     height: 60px;
   }
 
-  .logo-foundation-box > img {
-    height: 70%;
-  }
 
   .new-bottom-container {
     grid-template-columns: 1fr;
@@ -2694,7 +2723,7 @@
   }
 
   .student-impact-container {
-    height: 1016px;
+    height: 920px;
   }
 
   .sdg-image-left-bottom-container {
@@ -2798,8 +2827,12 @@
 }
 
 @media (max-width: 375px) {
-  .logo-foundation-box {
+
+  .logo-foundation-box{
     width: 100%;
+    bottom:12%;
+    left: 50%;
+   transform: translateX(-50%);
   }
 
   .title-of-foundation {
@@ -2833,9 +2866,7 @@
     height: 60px;
   }
 
-  .logo-foundation-box > img {
-    height: 70%;
-  }
+
 
   .new-bottom-container {
     grid-template-columns: 1fr;
@@ -2878,7 +2909,7 @@
   }
 
   .student-impact-container {
-    height: 1100px;
+   height: 960px;
   }
 
   .sdg-image-left-bottom-container {
