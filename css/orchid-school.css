@@ -455,11 +455,12 @@
 
 @media(max-width:1668px){
     .student-impact-container {
-        height: 50vh;
-      }
+      height: 50vh;
+    }
 }
 
 @media (max-width: 1440px) {
+  
   .image-student-changemaker > img {
     height: 75px;
   }
@@ -528,8 +529,6 @@
     padding: 0rem 0rem;
   }
 }
-
-
 
 @media (max-width: 1280px) {
 
