@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -2716,7 +2716,14 @@
                   method="POST"
                   target="hidden_iframe"
                   id="gform"
-                  onsubmit="if(validateCaptcha()) { submitted=true; return true; } else { return false; }"
+                  onsubmit="
+                    if (validateCaptcha()) {
+                      submitted = true;
+                      return true;
+                    } else {
+                      return false;
+                    }
+                  "
                 >
                   <div class="form-group" style="margin-top: 1rem">
                     <label for="firstName">First Name</label>
@@ -3126,14 +3133,14 @@
         }
 
         const beginJourneyBtn = document.querySelector(
-          ".becomechanage-maker-style"
+          ".becomechanage-maker-style",
         );
         if (beginJourneyBtn) {
           beginJourneyBtn.onclick = function (e) {
             e.preventDefault();
             window.open(
               "https://reallivesworld.com/reallives-website-main/license.html",
-              "_blank"
+              "_blank",
             );
           };
         }
